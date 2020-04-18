@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 0f0abd54aaa924b4a961b5f9f1b8e91e
+guid: 21c4df7a3bfed49a5ad3411ae8c57521
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2955286255927101427
-    second: Well_0
+      213: 923822758063113563
+    second: Ground 3_0
   - first:
-      213: -6242212967855461409
-    second: Well_1
+      213: 914194857119389410
+    second: Ground 3_1
   - first:
-      213: 1802229783603986084
-    second: Well_2
+      213: 7292824545723419402
+    second: Ground 3_2
   - first:
-      213: 5104867767190148593
-    second: Well_3
+      213: -845894354489624071
+    second: Ground 3_3
   - first:
-      213: -4902918032390329564
-    second: Well_4
+      213: -8098004570707950381
+    second: Ground 3_4
   - first:
-      213: 1789688825529669219
-    second: Well_5
+      213: 5850864032334437162
+    second: Ground 3_5
   - first:
-      213: 8284476468130643932
-    second: Well_6
+      213: 906351898543944809
+    second: Ground 3_6
   - first:
-      213: -4158063618180061749
-    second: Well_7
+      213: 1764993175759202863
+    second: Ground 3_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 80
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Well_0
+      name: Ground 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 75
-        width: 86
-        height: 90
+        x: 33
+        y: 33
+        width: 160
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f701262139430920800000000000000
-      internalID: 2955286255927101427
+      spriteID: b5506c167e312dc00800000000000000
+      internalID: 923822758063113563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_1
+      name: Ground 3_1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 79
-        width: 74
-        height: 107
+        x: 234
+        y: 10
+        width: 226
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdb63aed0643f59a0800000000000000
-      internalID: -6242212967855461409
+      spriteID: 2e61712016fdfac00800000000000000
+      internalID: 914194857119389410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_2
+      name: Ground 3_2
       rect:
         serializedVersion: 2
-        x: 204
-        y: 82
-        width: 66
-        height: 110
+        x: 501
+        y: 33
+        width: 160
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ae3857807ec20910800000000000000
-      internalID: 1802229783603986084
+      spriteID: a0b08190941553560800000000000000
+      internalID: 7292824545723419402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_3
+      name: Ground 3_3
       rect:
         serializedVersion: 2
-        x: 302
-        y: 79
-        width: 72
-        height: 105
+        x: 702
+        y: 10
+        width: 226
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f5d5b0003228d640800000000000000
-      internalID: 5104867767190148593
+      spriteID: 9f9332bf097c244f0800000000000000
+      internalID: -845894354489624071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_4
+      name: Ground 3_4
       rect:
         serializedVersion: 2
-        x: 386
-        y: 73
-        width: 86
-        height: 89
+        x: 969
+        y: 33
+        width: 160
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b648cb60655fbb0800000000000000
-      internalID: -4902918032390329564
+      spriteID: 3d4867d7fbb1e9f80800000000000000
+      internalID: -8098004570707950381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_5
+      name: Ground 3_5
       rect:
         serializedVersion: 2
-        x: 491
-        y: 67
-        width: 74
-        height: 106
+        x: 1170
+        y: 10
+        width: 226
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3669e20318046d810800000000000000
-      internalID: 1789688825529669219
+      spriteID: a2b576496d1723150800000000000000
+      internalID: 5850864032334437162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_6
+      name: Ground 3_6
       rect:
         serializedVersion: 2
-        x: 586
-        y: 66
-        width: 66
-        height: 115
+        x: 1437
+        y: 33
+        width: 160
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdf7209647f58f270800000000000000
-      internalID: 8284476468130643932
+      spriteID: 964763aef32049c00800000000000000
+      internalID: 906351898543944809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Well_7
+      name: Ground 3_7
       rect:
         serializedVersion: 2
-        x: 674
-        y: 69
-        width: 72
-        height: 106
+        x: 1638
+        y: 10
+        width: 226
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,21 +272,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc5e6ec6b279b46c0800000000000000
-      internalID: -4158063618180061749
+      spriteID: f2aad1821f38e7810800000000000000
+      internalID: 1764993175759202863
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: 0, y: 96}
-      - {x: -271.529, y: 67.88225}
-      - {x: -384, y: -0.000004196293}
-      - {x: -271.529, y: -67.88225}
-      - {x: 0.000033570344, y: -96}
-      - {x: 271.52905, y: -67.88224}
-      - {x: 384, y: 0.0000011447885}
-      - {x: 271.52905, y: 67.88224}
+    outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
