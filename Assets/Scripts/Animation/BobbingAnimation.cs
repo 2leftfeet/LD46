@@ -11,6 +11,7 @@ public class BobbingAnimation : MonoBehaviour
     [SerializeField] float rotationFrequency = 1.0f;
     [SerializeField] float rotationMagnitude = 1.0f; 
 
+    float bobbingFrequencyOffset;
     Vector3 bobbingOffset;
     Vector3 oldBobbingOffset;
 
@@ -23,6 +24,7 @@ public class BobbingAnimation : MonoBehaviour
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        bobbingFrequencyOffset = Random.Range(0, 2*Mathf.PI);
     }
 
     void Update()
@@ -31,7 +33,7 @@ public class BobbingAnimation : MonoBehaviour
         {
             hasReset = false;
 
-            bobbingOffset = Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * bobbingFrequency)) * bobbingMagnitude;
+            bobbingOffset = Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * bobbingFrequency + bobbingFrequencyOffset)) * bobbingMagnitude;
             transform.position += bobbingOffset - oldBobbingOffset;
             oldBobbingOffset = bobbingOffset;
 
