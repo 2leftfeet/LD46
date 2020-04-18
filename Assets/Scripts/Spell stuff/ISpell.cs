@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ISpell
 {
-    void Cast();
+    void Cast(Caster caster);
 }
