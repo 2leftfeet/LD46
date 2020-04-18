@@ -8,9 +8,9 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator coroutine;
     [Range(2, 10)]
-    public float maxWaitInterval;
+    public float maxWaitInterval = 2f;
     [Range(1, 5)]
-    public float maxSpawnRange;
+    public float maxSpawnRange = 1f;
     
     // Start is called before the first frame update
     void Start()
