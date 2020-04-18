@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class PossessedVillagers : MonoBehaviour
 {
-
-    public List<VillagerInput> possessedVillagers;
+    public List<VillagerAI> possessedVillagers;
 }
