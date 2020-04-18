@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 1133922065}
   - component: {fileID: 249268867}
   - component: {fileID: 2857544420225083512}
+  - component: {fileID: 1548478295}
   m_Layer: 8
   m_Name: Villager
   m_TagString: Untagged
@@ -240,6 +241,7 @@ MonoBehaviour:
     m_Bits: 256
   localAvoidanceSearchRange: 0.4
   localAvoidanceFactor: 5
+  possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
 --- !u!114 &3832061037062249288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,3 +324,17 @@ MonoBehaviour:
   maxSaturation: 0.65
   minLightness: 0.55
   maxLightness: 0.75
+--- !u!114 &1548478295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832061037062249303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c820e26f2cbcfd646831f0fc8b837fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sacrificeParticles: {fileID: 5216522842956752040, guid: ee799843382cdfa48969d83818118181,
+    type: 3}

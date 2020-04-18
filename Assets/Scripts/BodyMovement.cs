@@ -37,5 +37,10 @@ public class BodyMovement : MonoBehaviour
         body.velocity = velocity;
     }
 
+    public void ChangeSpeed(float value)
+    {
+        maxSpeed = value;
+    }
+
     
 }

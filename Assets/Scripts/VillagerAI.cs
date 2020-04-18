@@ -10,6 +10,7 @@ public class VillagerAI : MonoBehaviour, IInput
     [SerializeField] LayerMask charactersMask = default;
     [SerializeField] float localAvoidanceSearchRange = 2.0f;
     [SerializeField] float localAvoidanceFactor = 0.3f;
+    [SerializeField] Color possesedSkinColor = default;
     Vector3 startPosition;
     Transform possessTarget;
 
@@ -89,6 +90,9 @@ public class VillagerAI : MonoBehaviour, IInput
         useLocalAvoidance = true;
         isMoving = true;
         waitTimer = 0.0f;
+
+        GetComponent<Renderer>().material.SetColor("_SkinChanged", possesedSkinColor);
+        GetComponent<BodyMovement>().ChangeSpeed(2.0f);
     }
 
     Vector3 ChooseNewTargetPosition()
