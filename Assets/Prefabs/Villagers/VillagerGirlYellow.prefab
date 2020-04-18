@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 5203832153459595258}
   - component: {fileID: 867722238}
   - component: {fileID: 867722231}
+  - component: {fileID: 227279736}
   m_Layer: 8
   m_Name: VillagerGirlYellow
   m_TagString: Untagged
@@ -57,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b02327bf9713efa4d993d524cded14aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -230,3 +231,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eb90cb90aa15634e841486a612850f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &227279736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203832153459595203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a190459172037d4785e8061decac9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSaturation: 0.35
+  maxSaturation: 0.65
+  minLightness: 0.55
+  maxLightness: 0.75
