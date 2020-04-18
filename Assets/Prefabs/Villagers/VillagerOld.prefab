@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5496120184151600504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.21, y: -3.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6757887703669898166}
@@ -239,6 +239,7 @@ MonoBehaviour:
     m_Bits: 256
   localAvoidanceSearchRange: 0.4
   localAvoidanceFactor: 5
+  possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
 --- !u!114 &6757887703669898167
 MonoBehaviour:
   m_ObjectHideFlags: 0

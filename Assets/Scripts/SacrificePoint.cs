@@ -36,6 +36,7 @@ public class SacrificePoint : MonoBehaviour
     void Sacrifice(VillagerAI target)
     {
         possessedVillagers.possessedVillagers.Remove(target);
+        target.GetComponent<SacrificeParticles>().SpawnSacrificeParticles();
         Destroy(target.gameObject);
 
         OnSacrifice?.Invoke();
