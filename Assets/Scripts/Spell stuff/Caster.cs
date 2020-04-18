@@ -6,44 +6,51 @@ public class Caster : MonoBehaviour
 {
     [SerializeField] private GameObject linePrefab = default;
     [SerializeField] private GameObject rangePrefab = default;
+    [HideInInspector] public bool isTargeting = false;
 
     [Header("Single influence")]
     public KeyCode singleKey;
-    [SerializeField] private float range = default;
     [Header("Cancelling cast")]
     public KeyCode cancelKey;
 
     private LineRenderer lineInstance;
     private GameObject rangeInstance;
 
+    private float currentRange = 0f;
+
     private void Update()
     {
         UpdateLine();
     }
 
-    public void CreateRange()
+    public void StartCast(float range)
     {
+        isTargeting = true;
+        CursorManager.instance.SetCursorState("CAST");
+
+        // Range renderer.
         rangeInstance = Instantiate(rangePrefab, Vector3.zero, Quaternion.identity, transform);
         float effectiveRange = range*2;
         rangeInstance.transform.localScale = new Vector3(effectiveRange, effectiveRange, 0);
-    }
 
-    public void DestroyRange()
-    {
-        Destroy(rangeInstance);
-        rangeInstance = null;
-    }
+        currentRange = range;
 
-    public void CreateLine()
-    {
+        // Line renderer.
         GameObject go = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
         lineInstance = go.GetComponent<LineRenderer>();
     }
 
-    public void DestroyLine()
+    public void EndCast()
     {
+        isTargeting = false;
+
+        Destroy(rangeInstance);
+        rangeInstance = null;
+
         Destroy(lineInstance.gameObject);
         lineInstance = null;
+
+        CursorManager.instance.SetCursorState("DEFAULT");
     }
 
     private void UpdateLine()
@@ -53,7 +60,7 @@ public class Caster : MonoBehaviour
             Vector2 casterPos = transform.position;
             Vector2 targetPos = CursorManager.instance.GetWorldSpacePosition();
 
-            if(IsDistanceValid(casterPos, targetPos))
+            if(IsDistanceValid(casterPos, targetPos, currentRange))
             {
                 lineInstance.SetPosition(0, casterPos);
                 lineInstance.SetPosition(1, targetPos);
@@ -66,8 +73,9 @@ public class Caster : MonoBehaviour
         }
     }
 
-    public bool IsDistanceValid(Vector2 casterPos, Vector2 targetPos)
+    public bool IsDistanceValid(Vector2 casterPos, Vector2 targetPos, float range)
     {
+        //range *= 2;
         return ((casterPos - targetPos).sqrMagnitude) < range*range ? true : false;
     }
     

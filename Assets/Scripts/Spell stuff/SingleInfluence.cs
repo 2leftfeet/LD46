@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SingleInfluence : MonoBehaviour
 {
-    private bool isTargeting = false;
+    [SerializeField] private float range = default;
 
     private Caster thisCaster;
     private KeyCode singleKey;
@@ -27,43 +27,28 @@ public class SingleInfluence : MonoBehaviour
     private void Target()
     {
         // Enter targeting state
-        if(Input.GetKeyDown(singleKey) && !isTargeting)
-        {
-            isTargeting = true;
-            CursorManager.instance.SetCursorState("CAST");
-
-            thisCaster.CreateLine();
-            thisCaster.CreateRange();
-        }
+        if(Input.GetKeyDown(singleKey) && !thisCaster.isTargeting)
+            thisCaster.StartCast(range);
 
         // Exit targeting state
-        else if(Input.GetKeyDown(cancelKey) && isTargeting)
-        {
-            isTargeting = false;
-            CursorManager.instance.SetCursorState("DEFAULT");
+        else if(Input.GetKeyDown(cancelKey) && thisCaster.isTargeting)
+            thisCaster.EndCast();
 
-            thisCaster.DestroyLine();
-            thisCaster.DestroyRange();
-        }
     }
 
     // Will have to check for more shit once it's an actual spell
     private void Cast()
     {
-        if(isTargeting && Input.GetKeyDown(KeyCode.Mouse0))
+        if(thisCaster.isTargeting && Input.GetKeyDown(KeyCode.Mouse0))
         {
             Vector2 casterPos = transform.position;
             Vector2 targetPos = CursorManager.instance.GetWorldSpacePosition();
-            if(thisCaster.IsDistanceValid(casterPos, targetPos))
-            {
-                isTargeting = false;
-                CursorManager.instance.SetCursorState("DEFAULT");
 
-                thisCaster.DestroyLine();
-                thisCaster.DestroyRange();
+            if(thisCaster.IsDistanceValid(casterPos, targetPos, range))
+            {
+                thisCaster.EndCast();
                 Influence();
             }
-            
         }
     }
 
