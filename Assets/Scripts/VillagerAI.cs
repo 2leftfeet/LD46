@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VillagerInput : MonoBehaviour, IInput
+public class VillagerAI : MonoBehaviour, IInput
 {
     [SerializeField] float wanderRadius = 2.0f;
     [SerializeField] float minWaitTime = 1.0f;

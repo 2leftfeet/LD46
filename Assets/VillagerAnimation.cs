@@ -6,13 +6,13 @@ public class VillagerAnimation : MonoBehaviour
 {
     Animator animator;
     Camera camera;
-    VillagerInput input;
+    VillagerAI input;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         camera = Camera.main;
-        input = GetComponent<VillagerInput>();
+        input = GetComponent<VillagerAI>();
     }
 
     void Update()
