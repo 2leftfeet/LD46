@@ -8,17 +8,15 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator coroutine;
     [Range(2, 10)]
-    public float waitInterval;
+    public float maxWaitInterval = 2f;
     [Range(1, 5)]
-    public float circleRange;
-    private CircleCollider2D collider;
+    public float maxSpawnRange = 1f;
     
     // Start is called before the first frame update
     void Start()
     {
         coroutine = Spawn();
         StartCoroutine(coroutine);
-        collider = gameObject.GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
@@ -31,12 +29,14 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            float rnd = Random.Range(2f,waitInterval);
+            float rnd = Random.Range(2f,maxWaitInterval);
             yield return new WaitForSeconds(rnd);
-            float rndX = Random.Range(-circleRange, circleRange);
-            float rndY = Random.Range(-circleRange, circleRange);
+            float rndX = Random.Range(-maxSpawnRange, maxSpawnRange);
+            float rndY = Random.Range(-maxSpawnRange, maxSpawnRange);
             Vector2 newPosition = new Vector2(gameObject.transform.position.x+rndX, gameObject.transform.position.y+rndY);
-            if(!Physics2D.OverlapCircle(newPosition, collider.radius)){
+            RaycastHit2D hit = Physics2D.Raycast(newPosition, Vector3.zero);
+            Debug.Log(hit);
+            if(!hit){
                 Instantiate(villagers[Random.Range(0,villagers.Count)], newPosition, Quaternion.identity);
             }
         }
