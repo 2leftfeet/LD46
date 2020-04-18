@@ -18,6 +18,7 @@ public class BobbingAnimation : MonoBehaviour
     float rotationOldOffset;
 
     Rigidbody2D body;
+    bool hasReset = false;
 
     void Awake()
     {
@@ -28,6 +29,8 @@ public class BobbingAnimation : MonoBehaviour
     {
         if(body.velocity.magnitude >= 0.01f)
         {
+            hasReset = false;
+
             bobbingOffset = Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * bobbingFrequency)) * bobbingMagnitude;
             transform.position += bobbingOffset - oldBobbingOffset;
             oldBobbingOffset = bobbingOffset;
@@ -35,6 +38,15 @@ public class BobbingAnimation : MonoBehaviour
             rotationOffset = Mathf.Sin(Time.time * rotationFrequency) * rotationMagnitude;
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z + rotationOffset - rotationOldOffset);
             rotationOldOffset = rotationOffset;
+        }
+        else
+        {
+            if(!hasReset)
+            {
+                transform.position -= oldBobbingOffset;
+                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - rotationOldOffset);
+                hasReset = true;
+            }
         }
     }
 }
