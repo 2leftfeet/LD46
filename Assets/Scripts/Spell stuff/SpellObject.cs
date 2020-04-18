@@ -15,7 +15,7 @@ public class SpellObject : ScriptableObject
     public SpellType type;
     ISpell spellLogic;
 
-    void OnEnable()
+    void CreateSpellLogic()
     {
         switch(type)
         {
@@ -27,8 +27,9 @@ public class SpellObject : ScriptableObject
         }
     }
 
-    public void Cast()
+    public void Cast(Caster caster)
     {
-        spellLogic.Cast();
+        if(spellLogic == null) CreateSpellLogic();
+        spellLogic.Cast(caster);
     }
 }

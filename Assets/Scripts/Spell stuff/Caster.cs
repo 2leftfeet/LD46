@@ -111,7 +111,7 @@ public class Caster : MonoBehaviour
 
             if(IsDistanceValid(transform.position, targetPos, activeSpell.range))
             {
-                activeSpell.Cast();
+                activeSpell.Cast(this);
                 EndCast();
             }
         }
