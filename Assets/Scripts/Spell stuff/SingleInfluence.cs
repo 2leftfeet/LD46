@@ -14,14 +14,31 @@ public class SingleInfluence : ISpell
         if(hit.collider != null)
         {
             var villager = hit.collider.GetComponent<VillagerAI>();
+            Debug.Log("yabba");
             if(villager)
             {
-                villager.Possess(caster.transform);
-
-                var possessedVillagers = caster.GetComponent<PossessedVillagers>().possessedVillagers;
-                if(!possessedVillagers.Contains(villager))
-                    possessedVillagers.Add(villager);
+                Possess(caster, villager);
+                Debug.Log("yabba");
             }
+            else
+            {
+                villager = hit.collider.GetComponentInParent<VillagerAI>();
+                Debug.Log("yabba");
+                if(villager)
+                    Possess(caster, villager);
+            }
+
+
+            
         }
+    }
+
+    void Possess(Caster caster, VillagerAI villager)
+    {
+        villager.Possess(caster.transform);
+
+        var possessedVillagers = caster.GetComponent<PossessedVillagers>().possessedVillagers;
+        if(!possessedVillagers.Contains(villager))
+            possessedVillagers.Add(villager);
     }
 }
