@@ -18,9 +18,9 @@ public class CursorManager : MonoBehaviour
 
     private RectTransform cursorRect;
     private Image cursorImage;
-
     private Vector2 defaultPivot;
     private Vector2 castPivot;
+    private Camera mainCamera;
 
     private void Awake()
     {
@@ -31,6 +31,8 @@ public class CursorManager : MonoBehaviour
 
         defaultPivot = new Vector2(0.12f, 0.88f);
         castPivot = new Vector2(0.5f, 0.5f);
+
+        mainCamera = Camera.main;
     }
 
     void Update()
@@ -44,6 +46,11 @@ public class CursorManager : MonoBehaviour
         Cursor.visible = false;
         Vector3 mousePos = Input.mousePosition;
         cursorRect.position = mousePos;
+    }
+
+    public Vector3 GetWorldSpacePosition()
+    {
+        return mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, mainCamera.transform.position.z));
     }
 
     public void SetCursorState(string which)
