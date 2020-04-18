@@ -10,7 +10,6 @@ public class SacrificePoint : MonoBehaviour
 
     public float radius = 1.5f;
     public KeyCode sacrificeButton;
-    public TMPro.TMP_Text sacrificeText;
 
     /// <summary>
     /// Could be used for key indication
@@ -25,23 +24,14 @@ public class SacrificePoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
-
         var collider = Physics2D.OverlapCircle(transform.position, radius, LayerMask.GetMask("Sacrifice"));
         var list = possessedVillagers.possessedVillagers;
         if (collider && list.Count > 0)
-        {       
-            sacrificeText.gameObject.SetActive(true);   
+        {          
             if (Input.GetKeyDown(sacrificeButton)){
                 list[0].GoSacrificeSelf(this, collider.transform);
                 list.RemoveAt(0);
             }
-        }
-        else
-        {
-            sacrificeText.gameObject.SetActive(false);
         }
     }
 
