@@ -17,6 +17,7 @@ public class SingleInfluence : ISpell
             if(villager)
             {
                 villager.Possess(caster.transform);
+                caster.GetComponent<PossessedVillagers>().possessedVillagers.Add(villager);
             }
         }
     }
