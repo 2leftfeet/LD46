@@ -37,7 +37,7 @@ public class Spawner : MonoBehaviour
             float rndY = Random.Range(-circleRange, circleRange);
             Vector2 newPosition = new Vector2(gameObject.transform.position.x+rndX, gameObject.transform.position.y+rndY);
             if(!Physics2D.OverlapCircle(newPosition, collider.radius)){
-                Instantiate(villagers[Random.Range(0,villagers.Count-1)], newPosition, Quaternion.identity);
+                Instantiate(villagers[Random.Range(0,villagers.Count)], newPosition, Quaternion.identity);
             }
         }
     }
