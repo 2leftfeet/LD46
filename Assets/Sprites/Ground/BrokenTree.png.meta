@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: e661aa1198b8441e793f4dea6877cd5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2463436561106746172
+    second: BrokenTree_0
+  - first:
+      213: 2091075570157278172
+    second: BrokenTree_1
+  - first:
+      213: -3819933287691888077
+    second: BrokenTree_2
+  - first:
+      213: -7659301091864278722
+    second: BrokenTree_3
+  - first:
+      213: 4794594201931582180
+    second: BrokenTree_4
+  - first:
+      213: 690855374466920621
+    second: BrokenTree_5
+  - first:
+      213: 7502511932530242684
+    second: BrokenTree_6
+  - first:
+      213: 6144329040278608681
+    second: BrokenTree_7
+  - first:
+      213: -1282920901793156284
+    second: BrokenTree_8
+  - first:
+      213: -5703048636739005134
+    second: BrokenTree_9
+  - first:
+      213: -8909802808354276629
+    second: BrokenTree_10
+  - first:
+      213: 3812578131159277963
+    second: BrokenTree_11
+  - first:
+      213: -346138201463067958
+    second: BrokenTree_12
+  - first:
+      213: -30204831218193445
+    second: BrokenTree_13
+  - first:
+      213: -874012570664319900
+    second: BrokenTree_14
+  - first:
+      213: -5733559043043295078
+    second: BrokenTree_15
+  - first:
+      213: 5431354875277982158
+    second: BrokenTree_16
+  - first:
+      213: 7946000095965702935
+    second: BrokenTree_17
+  - first:
+      213: -7771702469959974640
+    second: BrokenTree_18
+  - first:
+      213: 6798358982782198010
+    second: BrokenTree_19
+  - first:
+      213: -4801658451604523686
+    second: BrokenTree_20
+  - first:
+      213: 3820593896532239666
+    second: BrokenTree_21
+  - first:
+      213: 958161888004611964
+    second: BrokenTree_22
+  - first:
+      213: -7148246478164084489
+    second: BrokenTree_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrokenTree_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 116
+        width: 56
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c580ef7d10ddd0800000000000000
+      internalID: -2463436561106746172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 114
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3d8bde62ef40d10800000000000000
+      internalID: 2091075570157278172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 113
+        width: 57
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5f69e9eedcfac0800000000000000
+      internalID: -3819933287691888077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 111
+        width: 51
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e390ba7dc32b4b590800000000000000
+      internalID: -7659301091864278722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 108
+        width: 51
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea87481602d98240800000000000000
+      internalID: 4794594201931582180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 107
+        width: 54
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da035428d49669900800000000000000
+      internalID: 690855374466920621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 107
+        width: 54
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7438954ad64e1860800000000000000
+      internalID: 7502511932530242684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 105
+        width: 58
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5ce445ba054550800000000000000
+      internalID: 6144329040278608681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 104
+        width: 63
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f1bdac36223ee0800000000000000
+      internalID: -1282920901793156284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 105
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235556e1b73bad0b0800000000000000
+      internalID: -5703048636739005134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_10
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 104
+        width: 59
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaf34d4d850a5480800000000000000
+      internalID: -8909802808354276629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_11
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 104
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81eb224c9ff8e430800000000000000
+      internalID: 3812578131159277963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_12
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 105
+        width: 56
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae992c325423bf0800000000000000
+      internalID: -346138201463067958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_13
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 104
+        width: 58
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb2db4bdd0b49ff0800000000000000
+      internalID: -30204831218193445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_14
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 104
+        width: 57
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c35c9232eed3f0800000000000000
+      internalID: -874012570664319900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_15
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 107
+        width: 51
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a900da49d6e4e60b0800000000000000
+      internalID: -5733559043043295078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_16
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 108
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b7068b7c006b40800000000000000
+      internalID: 5431354875277982158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_17
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 110
+        width: 54
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6141dcfcd54e60800000000000000
+      internalID: 7946000095965702935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_18
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 113
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0118202a7cd552490800000000000000
+      internalID: -7771702469959974640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_19
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 114
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0a150c97f985e50800000000000000
+      internalID: 6798358982782198010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_20
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 114
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a553c5b14151d5db0800000000000000
+      internalID: -4801658451604523686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_21
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 115
+        width: 64
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23564d118e9750530800000000000000
+      internalID: 3820593896532239666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_22
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 114
+        width: 59
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f15db19231c4d00800000000000000
+      internalID: 958161888004611964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenTree_23
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 115
+        width: 59
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8b71e73b35ccc90800000000000000
+      internalID: -7148246478164084489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
