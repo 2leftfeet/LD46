@@ -13,7 +13,7 @@ public class SingleInfluence : ISpell
 
         if(hit.collider != null)
         {
-            var villager = hit.collider.GetComponent<VillagerInput>();
+            var villager = hit.collider.GetComponent<VillagerAI>();
             if(villager)
             {
                 villager.Possess(caster.transform);
