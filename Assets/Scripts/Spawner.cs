@@ -5,12 +5,11 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public List<GameObject> villagers;
+    public List<GameObject> spawnPoints;
 
     private IEnumerator coroutine;
-    [Range(2, 10)]
+    [Range(2, 20)]
     public float maxWaitInterval = 2f;
-    [Range(1, 5)]
-    public float maxSpawnRange = 1f;
     
     // Start is called before the first frame update
     void Start()
@@ -31,14 +30,7 @@ public class Spawner : MonoBehaviour
         {
             float rnd = Random.Range(2f,maxWaitInterval);
             yield return new WaitForSeconds(rnd);
-            float rndX = Random.Range(-maxSpawnRange, maxSpawnRange);
-            float rndY = Random.Range(-maxSpawnRange, maxSpawnRange);
-            Vector2 newPosition = new Vector2(gameObject.transform.position.x+rndX, gameObject.transform.position.y+rndY);
-            RaycastHit2D hit = Physics2D.Raycast(newPosition, Vector3.zero);
-            Debug.Log(hit);
-            if(!hit){
-                Instantiate(villagers[Random.Range(0,villagers.Count)], newPosition, Quaternion.identity);
-            }
+            Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity);
         }
     }
 }
