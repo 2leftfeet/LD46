@@ -15,7 +15,7 @@ public class SacrificeParticles : MonoBehaviour
 
     public void SpawnSacrificeParticles()
     {
-        var spawnedParticles = Instantiate(sacrificeParticles, transform.position, Quaternion.identity);
+        var spawnedParticles = Instantiate(sacrificeParticles, new Vector3(transform.position.x, transform.position.y, 0.0f), Quaternion.identity);
 
         var shape = spawnedParticles.shape;
         shape.sprite = spriteRenderer.sprite;
