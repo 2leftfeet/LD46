@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e0ef8338f5f41493c8bc4806a6cf6f69
+guid: c91856bdc99924c569cceaad96f63eb4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7229086047103362753
-    second: House 1_0
+      213: 4296731722166109183
+    second: Tree 2_0
   - first:
-      213: -5777733540882574922
-    second: House 1_1
+      213: -7824996517750232305
+    second: Tree 2_1
   - first:
-      213: 4447092816808490526
-    second: House 1_2
+      213: -7094955903364065649
+    second: Tree 2_2
   - first:
-      213: -3080706102740316418
-    second: House 1_3
+      213: 3492619108135920078
+    second: Tree 2_3
   - first:
-      213: -3850580566505507837
-    second: House 1_4
+      213: -2366102960324966709
+    second: Tree 2_4
   - first:
-      213: -1407951702176138050
-    second: House 1_5
+      213: -6818796316097742132
+    second: Tree 2_5
   - first:
-      213: 6281309636036841941
-    second: House 1_6
+      213: 1348881584539023942
+    second: Tree 2_6
   - first:
-      213: -7183706724706868612
-    second: House 1_7
+      213: -3137223151006545248
+    second: Tree 2_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: House 1_1
+      name: Tree 2_0
       rect:
         serializedVersion: 2
-        x: 516
-        y: 122
-        width: 351
-        height: 278
+        x: 12
+        y: 114
+        width: 60
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b195d0d4fd51dfa0800000000000000
-      internalID: -5777733540882574922
+      spriteID: ff30dda7cbe01ab30800000000000000
+      internalID: 4296731722166109183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: House 1_3
+      name: Tree 2_1
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 119
-        width: 351
-        height: 278
+        x: 92
+        y: 111
+        width: 84
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe09c03f122f35d0800000000000000
-      internalID: -3080706102740316418
+      spriteID: f0b24de2027086390800000000000000
+      internalID: -7824996517750232305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: House 1_4
+      name: Tree 2_2
       rect:
         serializedVersion: 2
-        x: 2033
-        y: 141
-        width: 256
-        height: 277
+        x: 196
+        y: 111
+        width: 60
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 304ba62406dff8ac0800000000000000
-      internalID: -3850580566505507837
+      spriteID: f869ce25237a98d90800000000000000
+      internalID: -7094955903364065649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: House 1_5
+      name: Tree 2_3
       rect:
         serializedVersion: 2
-        x: 2476
-        y: 122
-        width: 351
-        height: 278
+        x: 276
+        y: 109
+        width: 84
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +188,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc72e2f263f57ce0800000000000000
-      internalID: -1407951702176138050
+      spriteID: ec1ee2cf296487030800000000000000
+      internalID: 3492619108135920078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 111
+        width: 60
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc684dbc4e9e92fd0800000000000000
+      internalID: -2366102960324966709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 111
+        width: 84
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca7047c0e4ce51a0800000000000000
+      internalID: -6818796316097742132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 114
+        width: 60
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ab38a87a038b210800000000000000
+      internalID: 1348881584539023942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 2_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 113
+        width: 84
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa8f177a285674d0800000000000000
+      internalID: -3137223151006545248
       vertices: []
       indices: 
       edges: []
