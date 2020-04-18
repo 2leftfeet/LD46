@@ -213,7 +213,7 @@ RectTransform:
   m_Children:
   - {fileID: 1629434693}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -367,7 +367,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1629434692
 GameObject:
@@ -485,13 +485,13 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &2018406978541658702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ Animator:
   m_GameObject: {fileID: 2018406978541658710}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9e8fb77b1f5741e4482438321b9bc979, type: 2}
+  m_Controller: {fileID: 9100000, guid: d9020c0b51b039d469ef357f70dc15f0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -566,7 +566,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2788568348960109317, guid: 9980c722a91466445b41f532b29e5872,
+  m_Sprite: {fileID: 2788568348960109317, guid: 516583f0716da48789e4f2276581738d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -604,7 +604,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2018406978541658710
 GameObject:
@@ -693,14 +693,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4, y: 0.92}
+    oldSize: {x: 0.67, y: 1.06}
     newSize: {x: 0.4, y: 0.92}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.92}
+  m_Size: {x: 0.67, y: 1.06}
   m_EdgeRadius: 0
 --- !u!1001 &3832061037046840444
 PrefabInstance:
@@ -747,7 +747,7 @@ PrefabInstance:
     - target: {fileID: 3832061037062249298, guid: 6465db756ab8c7f4b9bcd087dfc5e3a0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3832061037062249298, guid: 6465db756ab8c7f4b9bcd087dfc5e3a0,
         type: 3}
@@ -821,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 5203832153459595259, guid: fe9c93633578b3d41a2705789e34492d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5203832153459595259, guid: fe9c93633578b3d41a2705789e34492d,
         type: 3}
@@ -850,12 +850,12 @@ PrefabInstance:
     - target: {fileID: 6757887703669898166, guid: 75e464ecc2f7fb346b4a402ddaec52b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.82
+      value: 1.46
       objectReference: {fileID: 0}
     - target: {fileID: 6757887703669898166, guid: 75e464ecc2f7fb346b4a402ddaec52b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.15
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 6757887703669898166, guid: 75e464ecc2f7fb346b4a402ddaec52b3,
         type: 3}
@@ -885,7 +885,7 @@ PrefabInstance:
     - target: {fileID: 6757887703669898166, guid: 75e464ecc2f7fb346b4a402ddaec52b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6757887703669898166, guid: 75e464ecc2f7fb346b4a402ddaec52b3,
         type: 3}
@@ -959,7 +959,7 @@ PrefabInstance:
     - target: {fileID: 7860915549931734255, guid: 2aa7a83e9e347d24cb957a0d9fe8e5ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7860915549931734255, guid: 2aa7a83e9e347d24cb957a0d9fe8e5ca,
         type: 3}

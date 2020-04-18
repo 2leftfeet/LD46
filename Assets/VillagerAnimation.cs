@@ -17,8 +17,9 @@ public class VillagerAnimation : MonoBehaviour
 
     void Update()
     {
-        animator.SetFloat("inputX", input.targetPos.x);
-        animator.SetFloat("inputY", input.targetPos.y);
+        Vector2 lookDir = input.targetPos - transform.position;
+        animator.SetFloat("inputX", lookDir.x);
+        animator.SetFloat("inputY", lookDir.y);
     }
 
 }
