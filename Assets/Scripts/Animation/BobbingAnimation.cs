@@ -44,7 +44,7 @@ public class BobbingAnimation : MonoBehaviour
             if(!hasReset)
             {
                 transform.position -= oldBobbingOffset;
-                transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - rotationOldOffset);
+                transform.rotation = Quaternion.identity;
                 hasReset = true;
             }
         }
