@@ -48,6 +48,7 @@ public class BobbingAnimation : MonoBehaviour
                 transform.position -= oldBobbingOffset;
                 transform.rotation = Quaternion.identity;
                 hasReset = true;
+                oldBobbingOffset = Vector3.zero;
             }
         }
     }

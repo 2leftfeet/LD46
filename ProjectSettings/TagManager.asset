@@ -16,7 +16,7 @@ TagManager:
   - Characters
   - Sacrifice
   - RaycastTarget
-  - 
+  - ParticleKiller
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI Layer
+    uniqueID: 1728449175
     locked: 0
