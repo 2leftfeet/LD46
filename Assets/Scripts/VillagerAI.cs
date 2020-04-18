@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VillagerAI : MonoBehaviour, IInput
+public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 {
     public enum State {Idle, Moving, Possessed, F}
     [SerializeField]
@@ -128,5 +128,15 @@ public class VillagerAI : MonoBehaviour, IInput
     void SacrificeSelf()
     {
         targetSacrificePoint.Sacrifice(this);
+    }
+
+    public Transform GetTarget()
+    {
+        return transTarget;
+    }
+
+    public Vector3 GetPoint()
+    {
+        return targetPos;
     }
 }
