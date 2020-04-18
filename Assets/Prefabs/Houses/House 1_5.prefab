@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a9a638ab0527e8144b13c20c1bb74596, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -131,8 +131,8 @@ MonoBehaviour:
   - {fileID: 7860915549931734167, guid: 2aa7a83e9e347d24cb957a0d9fe8e5ca, type: 3}
   - {fileID: 5203832153459595203, guid: fe9c93633578b3d41a2705789e34492d, type: 3}
   - {fileID: 6757887703669898174, guid: 75e464ecc2f7fb346b4a402ddaec52b3, type: 3}
-  waitInterval: 3.72
-  circleRange: 4.7
+  maxWaitInterval: 2
+  maxSpawnRange: 1
 --- !u!114 &652375791358158794
 MonoBehaviour:
   m_ObjectHideFlags: 0
