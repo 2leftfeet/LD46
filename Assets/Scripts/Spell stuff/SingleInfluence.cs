@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class SingleInfluence : MonoBehaviour
 {
-    private bool isTargeting = false;
+    [SerializeField] private float range = default;
 
+    private Caster thisCaster;
     private KeyCode singleKey;
     private KeyCode cancelKey;
 
     private void Awake()
     {
-        var caster = transform.GetComponent<Caster>();
-        singleKey = caster.singleKey;
-        cancelKey = caster.cancelKey;
+        thisCaster = transform.GetComponent<Caster>();
+        singleKey = thisCaster.singleKey;
+        cancelKey = thisCaster.cancelKey;
     }
 
     // Update is called once per frame
@@ -25,27 +26,29 @@ public class SingleInfluence : MonoBehaviour
 
     private void Target()
     {
-        if(Input.GetKeyDown(singleKey) && !isTargeting)
-        {
-            isTargeting = true;
-            CursorManager.instance.SetCursorState("CAST");
-        }
-        else if(Input.GetKeyDown(cancelKey) && isTargeting)
-        {
-            isTargeting = false;
-            CursorManager.instance.SetCursorState("DEFAULT");
-        }
+        // Enter targeting state
+        if(Input.GetKeyDown(singleKey) && !thisCaster.isTargeting)
+            thisCaster.StartCast(range);
+
+        // Exit targeting state
+        else if(Input.GetKeyDown(cancelKey) && thisCaster.isTargeting)
+            thisCaster.EndCast();
+
     }
 
     // Will have to check for more shit once it's an actual spell
     private void Cast()
     {
-        if(isTargeting && Input.GetKeyDown(KeyCode.Mouse0))
+        if(thisCaster.isTargeting && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            isTargeting = false;
-            CursorManager.instance.SetCursorState("DEFAULT");
+            Vector2 casterPos = transform.position;
+            Vector2 targetPos = CursorManager.instance.GetWorldSpacePosition();
 
-            Influence();
+            if(thisCaster.IsDistanceValid(casterPos, targetPos, range))
+            {
+                thisCaster.EndCast();
+                Influence();
+            }
         }
     }
 
