@@ -8,11 +8,12 @@ public class Caster : MonoBehaviour
     [SerializeField] private GameObject rangePrefab = default;
     [HideInInspector] public bool isTargeting = false;
 
-    [Header("Single influence")]
-    public KeyCode singleKey;
+    public List<SpellObject> spells;
+
     [Header("Cancelling cast")]
     public KeyCode cancelKey;
 
+    SpellObject activeSpell = null;
     private LineRenderer lineInstance;
     private GameObject rangeInstance;
 
@@ -20,6 +21,31 @@ public class Caster : MonoBehaviour
 
     private void Update()
     {
+        foreach(var spell in spells)
+        {
+            if(Input.GetKeyDown(spell.castKey))
+            {
+                if(activeSpell != spell)
+                {
+                    EndCast();
+                    StartCast(spell.range);
+                    activeSpell = spell;
+                    break;
+                }
+            }
+        }
+
+        if(Input.GetKey(cancelKey))
+        {
+            EndCast();
+        }
+
+
+        if(activeSpell)
+        { 
+            CheckForCast();
+        }
+
         UpdateLine();
     }
 
@@ -29,7 +55,7 @@ public class Caster : MonoBehaviour
         CursorManager.instance.SetCursorState("CAST");
 
         // Range renderer.
-        rangeInstance = Instantiate(rangePrefab, Vector3.zero, Quaternion.identity, transform);
+        rangeInstance = Instantiate(rangePrefab, transform.position, Quaternion.identity, transform);
         float effectiveRange = range*2;
         rangeInstance.transform.localScale = new Vector3(effectiveRange, effectiveRange, 0);
 
@@ -42,15 +68,19 @@ public class Caster : MonoBehaviour
 
     public void EndCast()
     {
-        isTargeting = false;
+        if(activeSpell)
+        {
+            activeSpell = null;
+            isTargeting = false;
 
-        Destroy(rangeInstance);
-        rangeInstance = null;
+            Destroy(rangeInstance);
+            rangeInstance = null;
 
-        Destroy(lineInstance.gameObject);
-        lineInstance = null;
+            Destroy(lineInstance.gameObject);
+            lineInstance = null;
 
-        CursorManager.instance.SetCursorState("DEFAULT");
+            CursorManager.instance.SetCursorState("DEFAULT");
+        }
     }
 
     private void UpdateLine()
@@ -69,6 +99,20 @@ public class Caster : MonoBehaviour
             {
                 lineInstance.SetPosition(0, casterPos);
                 lineInstance.SetPosition(1, casterPos);
+            }
+        }
+    }
+
+    void CheckForCast()
+    {
+        if(isTargeting && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Vector2 targetPos = CursorManager.instance.GetWorldSpacePosition();
+
+            if(IsDistanceValid(transform.position, targetPos, activeSpell.range))
+            {
+                activeSpell.Cast(this);
+                EndCast();
             }
         }
     }
