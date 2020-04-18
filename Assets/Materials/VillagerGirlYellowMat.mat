@@ -74,8 +74,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Accent1Base: {r: 1, g: 0.6039216, b: 0.6039216, a: 1}
-    - _Accent1Changed: {r: 1, g: 0.6039216, b: 0.6039216, a: 1}
+    - _Accent1Base: {r: 0.39607847, g: 0.20000002, b: 0.20392159, a: 1}
+    - _Accent1Changed: {r: 0.39607847, g: 0.20000002, b: 0.20392159, a: 1}
     - _Accent2Base: {r: 0.6039216, g: 0.40000004, b: 0.39607847, a: 1}
     - _Accent2Changed: {r: 0.6039216, g: 0.40000004, b: 0.39607847, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
