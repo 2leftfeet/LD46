@@ -3419,11 +3419,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-<<<<<<< HEAD
   orthographic size: 3
-=======
-  orthographic size: 12.49
->>>>>>> liutauras
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
