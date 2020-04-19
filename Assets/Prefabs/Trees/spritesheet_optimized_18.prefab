@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8135064532744581757
+--- !u!1 &299234932065344775
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 479776268189024903}
-  - component: {fileID: 673405810012040456}
-  - component: {fileID: 7860547535722030217}
-  - component: {fileID: 8971989730487636074}
-  - component: {fileID: 1247737958057888064}
+  - component: {fileID: 299234932065344774}
+  - component: {fileID: 299234932065344827}
+  - component: {fileID: 299234932065344824}
+  - component: {fileID: 299234932065344825}
   m_Layer: 0
-  m_Name: House 2_0
+  m_Name: spritesheet_optimized_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &479776268189024903
+--- !u!4 &299234932065344774
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135064532744581757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.58, y: -2.07, z: 0}
+  m_GameObject: {fileID: 299234932065344775}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.1653175, y: 1.1722784, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &673405810012040456
+--- !u!212 &299234932065344827
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135064532744581757}
+  m_GameObject: {fileID: 299234932065344775}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -52,7 +51,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a9a638ab0527e8144b13c20c1bb74596, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73,77 +72,43 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7130627388057041330, guid: f2055ba4a917d499698432ab41b4430f,
+  m_Sprite: {fileID: 4907716427772355529, guid: f3380d0d44a9c467688e8dd934c7933b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.33, y: 2.77}
+  m_Size: {x: 0.99, y: 0.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &7860547535722030217
-PolygonCollider2D:
+--- !u!58 &299234932065344824
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135064532744581757}
+  m_GameObject: {fileID: 299234932065344775}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.33, y: 2.77}
-    newSize: {x: 3.33, y: 2.77}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 1.6791506, y: -1.3764484}
-      - {x: 1.6458286, y: 0.31853068}
-      - {x: -0.81226325, y: 0.3263508}
-      - {x: -0.8135445, y: -1.3551674}
---- !u!114 &8971989730487636074
+  m_Offset: {x: 0.07739475, y: -0.1037792}
+  serializedVersion: 2
+  m_Radius: 0.2635363
+--- !u!114 &299234932065344825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135064532744581757}
+  m_GameObject: {fileID: 299234932065344775}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a18d7182939a9a45924c972f4730ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1247737958057888064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135064532744581757}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c4f70efa1de43038ed243ab1ecc246, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  villagers:
-  - {fileID: 3832061037062249303, guid: 6465db756ab8c7f4b9bcd087dfc5e3a0, type: 3}
-  - {fileID: 7860915549931734167, guid: 2aa7a83e9e347d24cb957a0d9fe8e5ca, type: 3}
-  - {fileID: 5203832153459595203, guid: fe9c93633578b3d41a2705789e34492d, type: 3}
-  - {fileID: 6757887703669898174, guid: 75e464ecc2f7fb346b4a402ddaec52b3, type: 3}
-  spawnPoints: []
-  avgWaitTime: 2
-  maxUnpossesedVillagerCount: 8
-  spawnedVillagers: []
