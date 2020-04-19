@@ -80,7 +80,7 @@ MonoBehaviour:
     spawnsSimilarNear: 0
     colliderOffset: {x: 0.1, y: -0.25}
     colliderSize: {x: 1.5, y: 0.75}
-    defaultMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    defaultMat: {fileID: 2100000, guid: 2a4e5853b63967543badf4c7fde4ed5e, type: 2}
   - sprites:
     - {fileID: -7022719554879919918, guid: bf38246eae26b405280bbf9c8b1ad73d, type: 3}
     - {fileID: -2599155584138510129, guid: bf38246eae26b405280bbf9c8b1ad73d, type: 3}
