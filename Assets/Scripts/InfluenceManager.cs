@@ -68,4 +68,9 @@ public class InfluenceManager : MonoBehaviour
         return currentInfluence;
     }
 
+    public float GetMaxInfluence()
+    {
+        return maxInfluence;
+    }
+
 }
