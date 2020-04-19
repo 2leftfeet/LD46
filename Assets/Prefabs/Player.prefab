@@ -219,6 +219,7 @@ MonoBehaviour:
   isTargeting: 0
   spells:
   - {fileID: 11400000, guid: 31cbc5f53a7de9f44885bc3307724192, type: 2}
+  - {fileID: 11400000, guid: 9a446a657e2067c449e0198b542d8d10, type: 2}
   cancelKey: 304
 --- !u!61 &6384701978311527377
 BoxCollider2D:
@@ -271,7 +272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cae589423ad4c824ca0b734758fa1463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2.5
+  radius: 1.5
+  influencePerSacrifice: 5
   sacrificeButton: 102
 --- !u!114 &7085595995749507888
 MonoBehaviour:

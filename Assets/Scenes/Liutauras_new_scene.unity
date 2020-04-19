@@ -1607,25 +1607,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1133922072, guid: fa6146288756a6c4c87df8cfb0f47b27, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133922072, guid: fa6146288756a6c4c87df8cfb0f47b27, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 3832061037062249294, guid: fa6146288756a6c4c87df8cfb0f47b27,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 0fe85363d6889504a90d222e043d7f43, type: 2}
-    - target: {fileID: 3832061037062249297, guid: fa6146288756a6c4c87df8cfb0f47b27,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5768526593383483670, guid: 79651c8395a7440509aa339f5c561539,
-        type: 3}
     - target: {fileID: 3832061037062249298, guid: fa6146288756a6c4c87df8cfb0f47b27,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1685,11 +1666,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyAI
-      objectReference: {fileID: 0}
-    - target: {fileID: 3832061037062249303, guid: fa6146288756a6c4c87df8cfb0f47b27,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa6146288756a6c4c87df8cfb0f47b27, type: 3}
@@ -2329,14 +2305,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1120702693, guid: 0ea375a656aacc24bb6c5eab7e4c9be5, type: 3}
-      propertyPath: sacrificeText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1120702693, guid: 0ea375a656aacc24bb6c5eab7e4c9be5, type: 3}
-      propertyPath: radius
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6384701978311527384, guid: 0ea375a656aacc24bb6c5eab7e4c9be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2392,17 +2360,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6384701978311527388, guid: 0ea375a656aacc24bb6c5eab7e4c9be5,
-        type: 3}
-      propertyPath: spells.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6384701978311527388, guid: 0ea375a656aacc24bb6c5eab7e4c9be5,
-        type: 3}
-      propertyPath: spells.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 9a446a657e2067c449e0198b542d8d10,
-        type: 2}
     - target: {fileID: 6384701978311527389, guid: 0ea375a656aacc24bb6c5eab7e4c9be5,
         type: 3}
       propertyPath: m_Name

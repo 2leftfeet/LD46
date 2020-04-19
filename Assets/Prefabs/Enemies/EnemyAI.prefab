@@ -74,7 +74,6 @@ GameObject:
   - component: {fileID: 3832061037062249288}
   - component: {fileID: 1133922072}
   - component: {fileID: 1133922065}
-  - component: {fileID: 249268867}
   - component: {fileID: 2857544420225083512}
   - component: {fileID: 1147471606}
   - component: {fileID: 1483026738}
@@ -140,7 +139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2788568348960109317, guid: 9980c722a91466445b41f532b29e5872,
+  m_Sprite: {fileID: -5768526593383483670, guid: 79651c8395a7440509aa339f5c561539,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -197,7 +196,7 @@ Animator:
   m_GameObject: {fileID: 3832061037062249303}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9e8fb77b1f5741e4482438321b9bc979, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0fe85363d6889504a90d222e043d7f43, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -251,7 +250,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4, y: 0.92}
+    oldSize: {x: 0.48, y: 0.98}
     newSize: {x: 0.4, y: 0.92}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -272,22 +271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00989b5369f92684a925f9f8bfab06cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &249268867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3832061037062249303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a190459172037d4785e8061decac9ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minSaturation: 0.35
-  maxSaturation: 0.65
-  minLightness: 0.55
-  maxLightness: 0.75
 --- !u!114 &2857544420225083512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +283,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a190459172037d4785e8061decac9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skinMinHSV: {x: 0, y: 30, z: 30}
+  skinMaxHSV: {x: 30, y: 60, z: 90}
   minSaturation: 0.35
   maxSaturation: 0.65
   minLightness: 0.55
