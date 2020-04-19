@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
 /// Enemy AI that pseudorandomly moves closer to player
 /// </summary>
-public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
+public class EnemyAI : MonoBehaviour, IInput, IHasTarget
 {
     public enum State {Idle, Moving, Attacking}
     [SerializeField]
@@ -19,12 +20,7 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
     [SerializeField] float maxWaitTime = 10.0f;
 
     [Header("Combat Stats")]
-    [SerializeField] float health = 5.0f;
-    [SerializeField] float hitCooldownReset = 2.0f;
     [SerializeField] float hitRange = 1.0f;
-    [SerializeField] float damage = 1.0f;
-    float hitCooldown = 0;
-
 
     [SerializeField]
     Transform playerTarget;
@@ -36,6 +32,8 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
 
     bool useLocalAvoidance = false;
     float waitTimer;
+
+    public event Action OnAttack;
 
     void Awake()
     {
@@ -64,27 +62,21 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
             case State.Attacking:
                 if (!attackTarget)
                     state = State.Idle;
-
-                MoveToTarget();
-                TargetPosition = attackTarget.position;
-                float distance = Vector2.Distance(transform.position, attackTarget.position);
-                if (distance > loseTargetRadius)
+                else
                 {
-                    state = State.Idle;
+                    MoveToTarget();
+                    TargetPosition = attackTarget.position;
+                    float distance = Vector2.Distance(transform.position, attackTarget.position);
+                    if (distance > loseTargetRadius)
+                    {
+                        state = State.Idle;
+                    }
+                    else if(distance < hitRange)
+                    {
+                        OnAttack();
+                    }
                 }
-                else if(distance < hitRange && hitCooldown <= 0f)
-                {
-
-                    hitCooldown = hitCooldownReset;
-                    attackTarget.GetComponent<IDestroyable>().Damage(damage);
-
-                    // For that bump back
-                    Vector2 lookDir = (TargetPosition - transform.position).normalized * -4.5f;
-
-                    GetComponent<Rigidbody2D>().velocity = lookDir;
-                }
-
-                hitCooldown = hitCooldown - Time.deltaTime;
+                
                 break;
         }
     }
@@ -121,7 +113,7 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
         {
             Debug.Log("shiiit");
             state = State.Idle;
-            waitTimer = Random.Range(minWaitTime, maxWaitTime);
+            waitTimer = UnityEngine.Random.Range(minWaitTime, maxWaitTime);
         }
 
         direction.Normalize();
@@ -131,14 +123,14 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
 
     void GoRandomPosition()
     {
-        Vector3 lerpPos = Vector3.Lerp(transform.position, playerTarget.position, 0.15f);
-        TargetPosition = lerpPos + (Vector3)Random.insideUnitCircle * wanderRadius;
+        Vector3 lerpPos = Vector3.Lerp(transform.position, transform.position, 0.15f);
+        TargetPosition = lerpPos + (Vector3)UnityEngine.Random.insideUnitCircle * wanderRadius;
         state = State.Moving;
     }
 
     public Transform GetTarget()
     {
-        return playerTarget;
+        return attackTarget;
     }
 
     public Vector3 GetPoint()
@@ -149,12 +141,5 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget, IDestroyable
             return TargetPosition;
         else
             return Vector3.down;
-    }
-
-    public void Damage(float value)
-    {
-        health = health - value;
-        if(health <= 0)
-            Destroy(this.gameObject);
     }
 }

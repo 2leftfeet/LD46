@@ -6,4 +6,6 @@ public interface IHasTarget
 {
     Vector3 GetPoint();
     Transform GetTarget();
+
+    event System.Action OnAttack;
 }

@@ -77,6 +77,8 @@ GameObject:
   - component: {fileID: 867722231}
   - component: {fileID: 227279736}
   - component: {fileID: 2031013119}
+  - component: {fileID: 387079292759669212}
+  - component: {fileID: 2971762904750718824}
   m_Layer: 8
   m_Name: VillagerGirlYellow
   m_TagString: Untagged
@@ -241,7 +243,7 @@ MonoBehaviour:
     m_Bits: 256
   enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4096
   enemySearchRadius: 3
   attackRange: 0.5
   localAvoidanceSearchRange: 0.4
@@ -328,3 +330,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sacrificeParticles: {fileID: 5216522842956752040, guid: 37eef269190ceb04dab15893996755dd,
     type: 3}
+--- !u!114 &387079292759669212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203832153459595203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e47951f2121761488f004760d523c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  knockbackForce: 4
+  cooldown: 1.5
+--- !u!114 &2971762904750718824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203832153459595203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07857891436f9a4abcbf591ea62b16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  flashTime: 0.1
