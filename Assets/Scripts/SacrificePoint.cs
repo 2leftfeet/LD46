@@ -9,6 +9,7 @@ public class SacrificePoint : MonoBehaviour
     private PossessedVillagers possessedVillagers;
 
     public float radius = 1.5f;
+    public float influencePerSacrifice = 3.0f;
     public KeyCode sacrificeButton;
 
     /// <summary>
@@ -39,6 +40,8 @@ public class SacrificePoint : MonoBehaviour
     {
         target.GetComponent<SacrificeParticles>().SpawnSacrificeParticles();
         Destroy(target.gameObject);
+
+        InfluenceManager.Instance.AddInfluence(influencePerSacrifice);
 
         OnSacrifice?.Invoke();
     }
