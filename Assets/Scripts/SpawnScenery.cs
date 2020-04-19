@@ -11,6 +11,7 @@ public class SpriteWeight{
     public bool spawnsSimilarNear;
     public Vector2 colliderOffset;
     public Vector2 colliderSize;
+    public Material defaultMat;
 }
 
 [ExecuteInEditMode]
@@ -56,6 +57,7 @@ public class SpawnScenery : MonoBehaviour
             var newProp = new GameObject();
             var spriteRenderer = newProp.AddComponent<SpriteRenderer>();
             spriteRenderer.sprite = toSpawn;
+            spriteRenderer.material = spriteWeights[index].defaultMat;
             if(spriteWeights[index].alwaysRenderBelow)
             {
                 spriteRenderer.sortingOrder = -1;
