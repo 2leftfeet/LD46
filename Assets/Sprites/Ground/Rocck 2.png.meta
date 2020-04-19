@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: a8125b004890e4531a7c82aef28ee23c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6318390150619562482
+    second: Rocck 2_0
+  - first:
+      213: -1765824717480149160
+    second: Rocck 2_1
+  - first:
+      213: -7538559636702602404
+    second: Rocck 2_2
+  - first:
+      213: -2669610225585810309
+    second: Rocck 2_3
+  - first:
+      213: -7763227344899052548
+    second: Rocck 2_4
+  - first:
+      213: 2287987792577781693
+    second: Rocck 2_5
+  - first:
+      213: 3267810152052796186
+    second: Rocck 2_6
+  - first:
+      213: -4222775507489051897
+    second: Rocck 2_7
+  - first:
+      213: -157187035542025508
+    second: Rocck 2_8
+  - first:
+      213: -2350643068549144359
+    second: Rocck 2_9
+  - first:
+      213: -3258692020925034321
+    second: Rocck 2_10
+  - first:
+      213: -8754556277671497616
+    second: Rocck 2_11
+  - first:
+      213: -9034149395673073016
+    second: Rocck 2_12
+  - first:
+      213: 7866659773812729809
+    second: Rocck 2_13
+  - first:
+      213: 1122827117871870153
+    second: Rocck 2_14
+  - first:
+      213: 3784444934468941896
+    second: Rocck 2_15
+  - first:
+      213: -2747052928918714907
+    second: Rocck 2_16
+  - first:
+      213: 3480317149617635682
+    second: Rocck 2_17
+  - first:
+      213: -6102060334507239396
+    second: Rocck 2_18
+  - first:
+      213: 3845814335398588569
+    second: Rocck 2_19
+  - first:
+      213: -8257891019267704900
+    second: Rocck 2_20
+  - first:
+      213: 8079718902182396460
+    second: Rocck 2_21
+  - first:
+      213: 8232296216594521135
+    second: Rocck 2_22
+  - first:
+      213: -1881064974781274627
+    second: Rocck 2_23
+  - first:
+      213: 4139954085265943192
+    second: Rocck 2_24
+  - first:
+      213: -1617739372951721644
+    second: Rocck 2_25
+  - first:
+      213: 4484854547382848807
+    second: Rocck 2_26
+  - first:
+      213: 8270066539234737636
+    second: Rocck 2_27
+  - first:
+      213: -9176364554560377621
+    second: Rocck 2_28
+  - first:
+      213: -8337876487907444391
+    second: Rocck 2_29
+  - first:
+      213: -5659347438607220180
+    second: Rocck 2_30
+  - first:
+      213: 6144595538562312652
+    second: Rocck 2_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rocck 2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e7eff52a19058a0800000000000000
+      internalID: -6318390150619562482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 160
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fbdf276c78e77e0800000000000000
+      internalID: -1765824717480149160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 160
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5e3093f7a16790800000000000000
+      internalID: -7538559636702602404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 160
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74153fd4a3a3fad0800000000000000
+      internalID: -2669610225585810309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 161
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb61b47cd9734490800000000000000
+      internalID: -7763227344899052548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 161
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf570b66c090cf10800000000000000
+      internalID: 2287987792577781693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 129
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba58a0508995d20800000000000000
+      internalID: 3267810152052796186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 131
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b25e59c00b565c0800000000000000
+      internalID: -4222775507489051897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 130
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda8837593f81ddf0800000000000000
+      internalID: -157187035542025508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 130
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0e4695596d06fd0800000000000000
+      internalID: -2350643068549144359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 130
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa01d5c4fdcc6c2d0800000000000000
+      internalID: -3258692020925034321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0707937f271918680800000000000000
+      internalID: -8754556277671497616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 98
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ab8175df040a280800000000000000
+      internalID: -9034149395673073016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 98
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d766fa826dfb2d60800000000000000
+      internalID: 7866659773812729809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 98
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0bde09055159f00800000000000000
+      internalID: 1122827117871870153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483c07fd9c058430800000000000000
+      internalID: 3784444934468941896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 97
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58a986ae180e9d0800000000000000
+      internalID: -2747052928918714907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c8a012029c4030800000000000000
+      internalID: 3480317149617635682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 65
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d1b3b470215ba0800000000000000
+      internalID: -6102060334507239396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 65
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990b98513c31f5530800000000000000
+      internalID: 3845814335398588569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7f8a2ced3166d80800000000000000
+      internalID: -8257891019267704900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 66
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c224799888de02070800000000000000
+      internalID: 8079718902182396460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 67
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c98ebdacdfe3270800000000000000
+      internalID: 8232296216594521135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5abba2f5d15e5e0800000000000000
+      internalID: -1881064974781274627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 35
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a24be5e42147930800000000000000
+      internalID: 4139954085265943192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 35
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ac088c92ac89e0800000000000000
+      internalID: -1617739372951721644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 34
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dcc06f2776d3e30800000000000000
+      internalID: 4484854547382848807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 34
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed3ee363bd25c270800000000000000
+      internalID: 8270066539234737636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec61fb5e0107a080800000000000000
+      internalID: -9176364554560377621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959f13d9289e94c80800000000000000
+      internalID: -8337876487907444391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22cc453d75f571b0800000000000000
+      internalID: -5659347438607220180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocck 2_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e47c361df54550800000000000000
+      internalID: 6144595538562312652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

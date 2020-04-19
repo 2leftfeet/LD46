@@ -1,79 +1,103 @@
 fileFormatVersion: 2
-guid: e661aa1198b8441e793f4dea6877cd5e
+guid: 62b28a6a5086b4acca8cf822c29df300
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2463436561106746172
-    second: BrokenTree_0
+      213: 4296193443984631328
+    second: Bush_0
   - first:
-      213: 2091075570157278172
-    second: BrokenTree_1
+      213: -2770932246066905560
+    second: Bush_1
   - first:
-      213: -3819933287691888077
-    second: BrokenTree_2
+      213: -8304077115233230222
+    second: Bush_2
   - first:
-      213: -7659301091864278722
-    second: BrokenTree_3
+      213: -8663683955189347131
+    second: Bush_3
   - first:
-      213: 4794594201931582180
-    second: BrokenTree_4
+      213: 8806556967682631439
+    second: Bush_4
   - first:
-      213: 690855374466920621
-    second: BrokenTree_5
+      213: -128224018499578198
+    second: Bush_5
   - first:
-      213: 7502511932530242684
-    second: BrokenTree_6
+      213: -6592894847292831164
+    second: Bush_6
   - first:
-      213: 6144329040278608681
-    second: BrokenTree_7
+      213: -5560952714569976523
+    second: Bush_7
   - first:
-      213: -1282920901793156284
-    second: BrokenTree_8
+      213: -3059043393212727673
+    second: Bush_8
   - first:
-      213: -5703048636739005134
-    second: BrokenTree_9
+      213: -4030060161196363777
+    second: Bush_9
   - first:
-      213: -8909802808354276629
-    second: BrokenTree_10
+      213: -1319362557057053838
+    second: Bush_10
   - first:
-      213: 3812578131159277963
-    second: BrokenTree_11
+      213: -752204895765698589
+    second: Bush_11
   - first:
-      213: -346138201463067958
-    second: BrokenTree_12
+      213: 765601927131512949
+    second: Bush_12
   - first:
-      213: -30204831218193445
-    second: BrokenTree_13
+      213: -6537794838370415218
+    second: Bush_13
   - first:
-      213: -874012570664319900
-    second: BrokenTree_14
+      213: 1959484262110174510
+    second: Bush_14
   - first:
-      213: -5733559043043295078
-    second: BrokenTree_15
+      213: 3834715587431984081
+    second: Bush_15
   - first:
-      213: 5431354875277982158
-    second: BrokenTree_16
+      213: 9195377205761361555
+    second: Bush_16
   - first:
-      213: 7946000095965702935
-    second: BrokenTree_17
+      213: -7933063816233435266
+    second: Bush_17
   - first:
-      213: -7771702469959974640
-    second: BrokenTree_18
+      213: -889960457759243319
+    second: Bush_18
   - first:
-      213: 6798358982782198010
-    second: BrokenTree_19
+      213: 3500719040804890184
+    second: Bush_19
   - first:
-      213: -4801658451604523686
-    second: BrokenTree_20
+      213: -5475844548191541413
+    second: Bush_20
   - first:
-      213: 3820593896532239666
-    second: BrokenTree_21
+      213: -188862396739039094
+    second: Bush_21
   - first:
-      213: 958161888004611964
-    second: BrokenTree_22
+      213: -4257315802630729741
+    second: Bush_22
   - first:
-      213: -7148246478164084489
-    second: BrokenTree_23
+      213: -5915337918624839303
+    second: Bush_23
+  - first:
+      213: 688018899951720957
+    second: Bush_24
+  - first:
+      213: 2388313829062532414
+    second: Bush_25
+  - first:
+      213: -7669333864757351048
+    second: Bush_26
+  - first:
+      213: 149001249906669023
+    second: Bush_27
+  - first:
+      213: 872039427565985949
+    second: Bush_28
+  - first:
+      213: -1276910125325914059
+    second: Bush_29
+  - first:
+      213: 1217954372101381808
+    second: Bush_30
+  - first:
+      213: -3633005894753579035
+    second: Bush_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -159,13 +183,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BrokenTree_0
+      name: Bush_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 116
-        width: 56
-        height: 123
+        x: 2
+        y: 1029
+        width: 293
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4c580ef7d10ddd0800000000000000
-      internalID: -2463436561106746172
+      spriteID: 026e013dc252f9b30800000000000000
+      internalID: 4296193443984631328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_1
+      name: Bush_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 114
-        width: 58
-        height: 128
+        x: 297
+        y: 1026
+        width: 299
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3d8bde62ef40d10800000000000000
-      internalID: 2091075570157278172
+      spriteID: 82eb180adcbab89d0800000000000000
+      internalID: -2770932246066905560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_2
+      name: Bush_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 113
-        width: 57
-        height: 131
+        x: 598
+        y: 1027
+        width: 298
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33a5f69e9eedcfac0800000000000000
-      internalID: -3819933287691888077
+      spriteID: 272a21f4cddf1cc80800000000000000
+      internalID: -8304077115233230222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_3
+      name: Bush_3
       rect:
         serializedVersion: 2
-        x: 263
-        y: 111
-        width: 51
-        height: 135
+        x: 898
+        y: 1024
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e390ba7dc32b4b590800000000000000
-      internalID: -7659301091864278722
+      spriteID: 5cc00bc485964c780800000000000000
+      internalID: -8663683955189347131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_4
+      name: Bush_4
       rect:
         serializedVersion: 2
-        x: 343
-        y: 108
-        width: 51
-        height: 137
+        x: 1200
+        y: 1023
+        width: 300
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea87481602d98240800000000000000
-      internalID: 4794594201931582180
+      spriteID: f07e6f827ec273a70800000000000000
+      internalID: 8806556967682631439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_5
+      name: Bush_5
       rect:
         serializedVersion: 2
-        x: 422
-        y: 107
-        width: 54
-        height: 137
+        x: 1502
+        y: 1024
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da035428d49669900800000000000000
-      internalID: 690855374466920621
+      spriteID: aa6d8ad3fe4783ef0800000000000000
+      internalID: -128224018499578198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_6
+      name: Bush_6
       rect:
         serializedVersion: 2
-        x: 503
-        y: 107
-        width: 54
-        height: 133
+        x: 2
+        y: 821
+        width: 298
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7438954ad64e1860800000000000000
-      internalID: 7502511932530242684
+      spriteID: 44a8b9921155184a0800000000000000
+      internalID: -6592894847292831164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_7
+      name: Bush_7
       rect:
         serializedVersion: 2
-        x: 583
-        y: 105
-        width: 58
-        height: 132
+        x: 302
+        y: 821
+        width: 299
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b5ce445ba054550800000000000000
-      internalID: 6144329040278608681
+      spriteID: 535ff4328f683d2b0800000000000000
+      internalID: -5560952714569976523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_8
+      name: Bush_8
       rect:
         serializedVersion: 2
-        x: 664
-        y: 104
-        width: 63
-        height: 128
+        x: 603
+        y: 824
+        width: 293
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +365,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443f1bdac36223ee0800000000000000
-      internalID: -1282920901793156284
+      spriteID: 78ebc0bcd381c85d0800000000000000
+      internalID: -3059043393212727673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_9
+      name: Bush_9
       rect:
         serializedVersion: 2
-        x: 748
-        y: 105
-        width: 64
-        height: 121
+        x: 898
+        y: 821
+        width: 299
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +386,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235556e1b73bad0b0800000000000000
-      internalID: -5703048636739005134
+      spriteID: fffef64b2a95218c0800000000000000
+      internalID: -4030060161196363777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_10
+      name: Bush_10
       rect:
         serializedVersion: 2
-        x: 834
-        y: 104
-        width: 59
-        height: 118
+        x: 1199
+        y: 822
+        width: 298
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beaf34d4d850a5480800000000000000
-      internalID: -8909802808354276629
+      spriteID: 27bc9a0aebea0bde0800000000000000
+      internalID: -1319362557057053838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_11
+      name: Bush_11
       rect:
         serializedVersion: 2
-        x: 913
-        y: 104
-        width: 59
-        height: 121
+        x: 1499
+        y: 819
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b81eb224c9ff8e430800000000000000
-      internalID: 3812578131159277963
+      spriteID: 3e76395f1a1af85f0800000000000000
+      internalID: -752204895765698589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_12
+      name: Bush_12
       rect:
         serializedVersion: 2
-        x: 993
-        y: 105
-        width: 56
-        height: 123
+        x: 2
+        y: 614
+        width: 300
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +449,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acae992c325423bf0800000000000000
-      internalID: -346138201463067958
+      spriteID: 570470a75e6ff9a00800000000000000
+      internalID: 765601927131512949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_13
+      name: Bush_13
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 104
-        width: 58
-        height: 125
+        x: 304
+        y: 615
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +470,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb2db4bdd0b49ff0800000000000000
-      internalID: -30204831218193445
+      spriteID: e8d8c84bb361545a0800000000000000
+      internalID: -6537794838370415218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_14
+      name: Bush_14
       rect:
         serializedVersion: 2
-        x: 1153
-        y: 104
-        width: 57
-        height: 125
+        x: 606
+        y: 617
+        width: 298
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +491,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 464c35c9232eed3f0800000000000000
-      internalID: -874012570664319900
+      spriteID: e2d9b0afd8c713b10800000000000000
+      internalID: 1959484262110174510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_15
+      name: Bush_15
       rect:
         serializedVersion: 2
-        x: 1236
-        y: 107
-        width: 51
-        height: 121
+        x: 906
+        y: 615
+        width: 299
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +512,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a900da49d6e4e60b0800000000000000
-      internalID: -5733559043043295078
+      spriteID: 1db69837285a73530800000000000000
+      internalID: 3834715587431984081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_16
+      name: Bush_16
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 108
-        width: 51
-        height: 117
+        x: 1207
+        y: 618
+        width: 293
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +533,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9b7068b7c006b40800000000000000
-      internalID: 5431354875277982158
+      spriteID: 396412579da8c9f70800000000000000
+      internalID: 9195377205761361555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_17
+      name: Bush_17
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 110
-        width: 54
-        height: 114
+        x: 1502
+        y: 616
+        width: 299
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +554,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71b6141dcfcd54e60800000000000000
-      internalID: 7946000095965702935
+      spriteID: e7fb6e48d7818e190800000000000000
+      internalID: -7933063816233435266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_18
+      name: Bush_18
       rect:
         serializedVersion: 2
-        x: 1485
-        y: 113
-        width: 54
-        height: 113
+        x: 2
+        y: 412
+        width: 298
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0118202a7cd552490800000000000000
-      internalID: -7771702469959974640
+      spriteID: 9c3cd1bcda936a3f0800000000000000
+      internalID: -889960457759243319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_19
+      name: Bush_19
       rect:
         serializedVersion: 2
-        x: 1565
-        y: 114
-        width: 58
-        height: 113
+        x: 302
+        y: 410
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +596,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0a150c97f985e50800000000000000
-      internalID: 6798358982782198010
+      spriteID: 8462f958b6d059030800000000000000
+      internalID: 3500719040804890184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_20
+      name: Bush_20
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 114
-        width: 63
-        height: 113
+        x: 604
+        y: 409
+        width: 300
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +617,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a553c5b14151d5db0800000000000000
-      internalID: -4801658451604523686
+      spriteID: b57a8cb4564e104b0800000000000000
+      internalID: -5475844548191541413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_21
+      name: Bush_21
       rect:
         serializedVersion: 2
-        x: 1722
-        y: 115
-        width: 64
-        height: 111
+        x: 906
+        y: 410
+        width: 300
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +638,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23564d118e9750530800000000000000
-      internalID: 3820593896532239666
+      spriteID: a80d0fa96a6016df0800000000000000
+      internalID: -188862396739039094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_22
+      name: Bush_22
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 114
-        width: 59
-        height: 117
+        x: 1208
+        y: 412
+        width: 298
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +659,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7f15db19231c4d00800000000000000
-      internalID: 958161888004611964
+      spriteID: 3ffc98f65d9fae4c0800000000000000
+      internalID: -4257315802630729741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrokenTree_23
+      name: Bush_23
       rect:
         serializedVersion: 2
-        x: 1890
-        y: 115
-        width: 59
-        height: 120
+        x: 1508
+        y: 412
+        width: 299
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,8 +680,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f8b71e73b35ccc90800000000000000
-      internalID: -7148246478164084489
+      spriteID: 979c7f9f08f78eda0800000000000000
+      internalID: -5915337918624839303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 210
+        width: 293
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df990625b855c8900800000000000000
+      internalID: 688018899951720957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 207
+        width: 299
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ddc6116cef42120800000000000000
+      internalID: 2388313829062532414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 208
+        width: 298
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87da34fdb7d019590800000000000000
+      internalID: -7669333864757351048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_27
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 205
+        width: 300
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5b6cbe8db511200800000000000000
+      internalID: 149001249906669023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 204
+        width: 300
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90a4363d3b1a1c00800000000000000
+      internalID: 872039427565985949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_29
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 205
+        width: 300
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53079d1a101874ee0800000000000000
+      internalID: -1276910125325914059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 298
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be9cb56c0b07e010800000000000000
+      internalID: 1217954372101381808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 299
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef00502368f49dc0800000000000000
+      internalID: -3633005894753579035
       vertices: []
       indices: 
       edges: []
