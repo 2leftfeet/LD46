@@ -133,7 +133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6094077608360878596}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64c4f70efa1de43038ed243ab1ecc246, type: 3}
   m_Name: 
@@ -143,5 +143,7 @@ MonoBehaviour:
   - {fileID: 7860915549931734167, guid: 2aa7a83e9e347d24cb957a0d9fe8e5ca, type: 3}
   - {fileID: 5203832153459595203, guid: fe9c93633578b3d41a2705789e34492d, type: 3}
   - {fileID: 6757887703669898174, guid: 75e464ecc2f7fb346b4a402ddaec52b3, type: 3}
-  maxWaitInterval: 2
-  maxSpawnRange: 1
+  spawnPoints: []
+  avgWaitTime: 2
+  maxUnpossesedVillagerCount: 10
+  spawnedVillagers: []

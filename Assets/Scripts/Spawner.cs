@@ -8,9 +8,13 @@ public class Spawner : MonoBehaviour
     public List<GameObject> spawnPoints;
 
     private IEnumerator coroutine;
-    [Range(2, 20)]
-    public float maxWaitInterval = 2f;
-    
+    [Range(1, 30)]
+    public float avgWaitTime = 2f;
+
+    [Range(1,30)]
+    public int maxUnpossesedVillagerCount = 8;
+    [HideInInspector]
+    public List<GameObject> spawnedVillagers;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +30,19 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator Spawn()
     {
+        float median = (avgWaitTime/4);
         while (true)
         {
-            float rnd = Random.Range(2f,maxWaitInterval);
-            yield return new WaitForSeconds(rnd);
-            Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity);
+            float waitTime = avgWaitTime + Random.Range(-median, median);
+            yield return new WaitForSeconds(waitTime);
+            for(int i=0; i < spawnedVillagers.Count;i++){
+                if(spawnedVillagers[i].GetComponent<VillagerAI>().IsPossessed){
+                    spawnedVillagers.RemoveAt(i);
+                }
+            }
+            if(spawnedVillagers.Count < maxUnpossesedVillagerCount){
+                spawnedVillagers.Add(Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity));
+            }
         }
     }
 }
