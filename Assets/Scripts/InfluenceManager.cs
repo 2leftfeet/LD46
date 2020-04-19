@@ -9,10 +9,10 @@ public class InfluenceManager : MonoBehaviour
     public static InfluenceManager Instance { get { return _instance; } }
     public event Action InfluenceEmpty = delegate{};
 
-    [SerializeField] float maxInfluence = 50.0f;
+    public float maxInfluence = 50.0f;
     [SerializeField] float influenceDecaySpeed = 0.1f;
 
-    float currentInfluence;
+    public float currentInfluence;
 
     private void Awake()
     {
@@ -22,6 +22,8 @@ public class InfluenceManager : MonoBehaviour
         } else {
             _instance = this;
         }
+
+        currentInfluence = maxInfluence;
     }
 
     void Update()

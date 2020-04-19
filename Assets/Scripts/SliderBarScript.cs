@@ -10,6 +10,7 @@ public class SliderBarScript : MonoBehaviour
 
     [SerializeField] Gradient gradient;
     [SerializeField] Image fill;
+    [SerializeField] InfluenceManager influenceSlider;
 
     [SerializeField] bool isDecreasing = false;
 
@@ -25,9 +26,13 @@ public class SliderBarScript : MonoBehaviour
         slider.value = value;
     }
 
+    private void Start() {
+        SetMaxValue((int)influenceSlider.maxInfluence);
+    }
+
     private void Update() 
     {
-        if (isDecreasing) slider.value -= timerMultiplayer * Time.deltaTime;
+        slider.value = influenceSlider.currentInfluence;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 
