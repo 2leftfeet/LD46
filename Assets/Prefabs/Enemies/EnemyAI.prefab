@@ -77,7 +77,9 @@ GameObject:
   - component: {fileID: 249268867}
   - component: {fileID: 2857544420225083512}
   - component: {fileID: 1147471606}
-  m_Layer: 8
+  - component: {fileID: 1483026738}
+  - component: {fileID: 1483026751}
+  m_Layer: 12
   m_Name: EnemyAI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,12 +318,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   wanderRadius: 5
-  detectionRadius: 6
-  loseTargetRadius: 9
+  detectionRadius: 3
+  loseTargetRadius: 3
   minWaitTime: 5
   maxWaitTime: 15
-  health: 5
-  hitCooldownReset: 2
   hitRange: 1
-  damage: 1
   playerTarget: {fileID: 0}
+--- !u!114 &1483026738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832061037062249303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e47951f2121761488f004760d523c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  knockbackForce: 4
+  cooldown: 1.5
+--- !u!114 &1483026751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832061037062249303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07857891436f9a4abcbf591ea62b16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  flashTime: 0.1

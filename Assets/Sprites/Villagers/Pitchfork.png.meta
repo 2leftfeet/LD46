@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 79651c8395a7440509aa339f5c561539
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5018815486135964675
+    second: Pitchfork_0
+  - first:
+      213: 5491871376860512887
+    second: Pitchfork_1
+  - first:
+      213: 434608365408354217
+    second: Pitchfork_2
+  - first:
+      213: -1122865744204275948
+    second: Pitchfork_3
+  - first:
+      213: -5768526593383483670
+    second: Pitchfork_4
+  - first:
+      213: -1781936004019990266
+    second: Pitchfork_5
+  - first:
+      213: 2808847074784677180
+    second: Pitchfork_6
+  - first:
+      213: 7510660396978280986
+    second: Pitchfork_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +109,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pitchfork_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 90
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041d54081a66a540800000000000000
+      internalID: 5018815486135964675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 88
+        width: 55
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77208e98beb073c40800000000000000
+      internalID: 5491871376860512887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 88
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aff394710a080600800000000000000
+      internalID: 434608365408354217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 81
+        width: 37
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fdf3a0e87ca60f0800000000000000
+      internalID: -1122865744204275948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 83
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6bbf350a312ffa0800000000000000
+      internalID: -5768526593383483670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 87
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601d8eb35aa4547e0800000000000000
+      internalID: -1781936004019990266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 86
+        width: 42
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d8fe858870bf620800000000000000
+      internalID: 2808847074784677180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pitchfork_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 85
+        width: 37
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a1c7e76d93b3860800000000000000
+      internalID: 7510660396978280986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

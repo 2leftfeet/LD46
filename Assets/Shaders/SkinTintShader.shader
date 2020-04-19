@@ -9,6 +9,7 @@
         _Accent1Changed ("Accent 1 Changed", Color) = (1,1,1,1)
         _Accent2Base ("Accent 2 Base", Color) = (1,1,1,1)
         _Accent2Changed ("Accent 2 Changed", Color) = (1,1,1,1)
+		[MaterialToggle] FullWhite ("Is Full white", Float) = 0
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 	}
 
@@ -75,6 +76,7 @@
 			sampler2D _MainTex;
 			sampler2D _AlphaTex;
 			float _AlphaSplitEnabled;
+			float FullWhite;
 
 			fixed4 SampleSpriteTexture (float2 uv)
 			{
@@ -100,6 +102,8 @@
                 fixed4 accent2Delta = c - _Accent2Base;
                 c = length(accent2Delta) >= 0.1 ? c : _Accent2Changed;
                 
+				c = FullWhite > 0.5 ? fixed4(0.95,0.95,0.95,c.a) : c;
+
 				c.rgb *= c.a;
 				return c;
 			}
