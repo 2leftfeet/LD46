@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Random = UnityEngine.Random;
 
-public class VillagerAI : MonoBehaviour, IInput
+public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 {
     public enum State {Idle, Moving, Possessed, F, ReadyToAttack, Attacking}
     [SerializeField]
@@ -25,10 +25,18 @@ public class VillagerAI : MonoBehaviour, IInput
     [SerializeField]
     Transform transTarget;
 
-    public Vector3 targetPos{get; private set;}
+    public Vector3 targetPos {get; private set;}
     public float Horizontal {get; private set;}
     public float Vertical {get; private set;}
     public event Action OnAttack = delegate{};
+
+    public bool IsPossessed
+    {
+        get
+        {
+            return (state == State.F || state == State.Possessed || state == State.ReadyToAttack || state == State.Attacking);
+        }
+    }
 
     private SacrificePoint targetSacrificePoint;
     
@@ -193,5 +201,15 @@ public class VillagerAI : MonoBehaviour, IInput
             state = State.Moving;
             targetPos = guardSpot;
         }
+    }
+    
+    public Transform GetTarget()
+    {
+        return transTarget;
+    }
+
+    public Vector3 GetPoint()
+    {
+        return targetPos;
     }
 }

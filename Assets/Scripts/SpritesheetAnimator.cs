@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VillagerAnimation : MonoBehaviour
+public class SpritesheetAnimator : MonoBehaviour
 {
     Animator animator;
     Camera camera;
-    VillagerAI input;
+    IHasTarget target;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         camera = Camera.main;
-        input = GetComponent<VillagerAI>();
+        target = GetComponent<IHasTarget>();
     }
 
     void Update()
     {
-        Vector2 lookDir = input.targetPos - transform.position;
+        Vector2 lookDir = target.GetPoint() - transform.position;
         animator.SetFloat("inputX", lookDir.x);
         animator.SetFloat("inputY", lookDir.y);
     }
