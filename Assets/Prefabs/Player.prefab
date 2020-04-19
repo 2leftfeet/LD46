@@ -20,6 +20,8 @@ GameObject:
   - component: {fileID: 6384701978311527388}
   - component: {fileID: 6384701978311527377}
   - component: {fileID: 6384701978311527376}
+  - component: {fileID: 1120702693}
+  - component: {fileID: 7085595995749507888}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -80,13 +82,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2788568348960109317, guid: 516583f0716da48789e4f2276581738d,
+  m_Sprite: {fileID: 2788568348960109317, guid: 88772eaea2359433bb9a1f7b3134b813,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.4, y: 0.92}
+  m_Size: {x: 0.67, y: 1.06}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -126,7 +128,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &6384701978311527364
 Animator:
   serializedVersion: 3
@@ -231,18 +233,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.30510157}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.67, y: 1.06}
-    newSize: {x: 0.4, y: 0.92}
+    newSize: {x: 0.67, y: 1.06}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.67, y: 1.06}
+  m_Size: {x: 0.51423454, y: 0.15024817}
   m_EdgeRadius: 0
 --- !u!114 &6384701978311527376
 MonoBehaviour:
@@ -257,3 +259,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   possessedVillagers: []
+--- !u!114 &1120702693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384701978311527389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae589423ad4c824ca0b734758fa1463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 2.5
+  sacrificeButton: 102
+--- !u!114 &7085595995749507888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384701978311527389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddcafab882e87aa439a98e3748f402a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5

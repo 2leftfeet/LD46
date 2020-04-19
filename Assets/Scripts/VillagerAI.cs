@@ -20,9 +20,17 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     [SerializeField]
     Transform transTarget;
 
-    public Vector3 targetPos{get; private set;}
+    public Vector3 targetPos {get; private set;}
     public float Horizontal {get; private set;}
     public float Vertical {get; private set;}
+
+    public bool IsPossessed
+    {
+        get
+        {
+            return (state == State.F || state == State.Possessed);
+        }
+    }
 
     private SacrificePoint targetSacrificePoint;
 
