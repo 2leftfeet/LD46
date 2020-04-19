@@ -267,7 +267,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3832061037062249303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb90cb90aa15634e841486a612850f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00989b5369f92684a925f9f8bfab06cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &249268867
@@ -316,12 +316,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   wanderRadius: 5
+  detectionRadius: 6
+  loseTargetRadius: 9
   minWaitTime: 5
   maxWaitTime: 15
-  charactersMask:
-    serializedVersion: 2
-    m_Bits: 0
-  localAvoidanceSearchRange: 2
-  localAvoidanceFactor: 0.3
-  possesedSkinColor: {r: 0, g: 0, b: 0, a: 0}
+  health: 5
+  hitCooldownReset: 2
+  hitRange: 1
+  damage: 1
   playerTarget: {fileID: 0}

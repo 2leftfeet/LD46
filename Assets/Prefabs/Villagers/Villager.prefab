@@ -240,6 +240,11 @@ MonoBehaviour:
   charactersMask:
     serializedVersion: 2
     m_Bits: 256
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 0
+  enemySearchRadius: 3
+  attackRange: 0.5
   localAvoidanceSearchRange: 0.4
   localAvoidanceFactor: 5
   possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
@@ -291,7 +296,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3832061037062249303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb90cb90aa15634e841486a612850f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00989b5369f92684a925f9f8bfab06cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &249268867

@@ -34,7 +34,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     {
         get
         {
-            return (state == State.F || state == State.Possessed);
+            return (state == State.F || state == State.Possessed || state == State.ReadyToAttack || state == State.Attacking);
         }
     }
 
