@@ -33,7 +33,7 @@ public class SliderBarScript : MonoBehaviour
     private void Update() 
     {
         slider.value = influenceSlider.currentInfluence;
-        fill.color = gradient.Evaluate(slider.normalizedValue);
+        //fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 
     public void AddSliderValue(int amount)
