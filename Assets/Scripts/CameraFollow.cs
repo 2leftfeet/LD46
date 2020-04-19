@@ -20,7 +20,7 @@ public class CameraFollow : MonoBehaviour
  
  void Update () 
  {
-    Vector3 newPos = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - 10f);
+    Vector3 newPos = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - 600f);
     transform.position = Vector3.Lerp(transform.position, newPos, trackingSpeed * Time.deltaTime);
  }
 }
