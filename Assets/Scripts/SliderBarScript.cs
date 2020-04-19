@@ -6,11 +6,9 @@ using UnityEngine.UI;
 public class SliderBarScript : MonoBehaviour
 {
     [SerializeField] Slider slider;
-    [SerializeField] float timerMultiplayer;
 
     [SerializeField] Gradient gradient;
     [SerializeField] Image fill;
-    [SerializeField] InfluenceManager influenceSlider;
 
     [SerializeField] bool isDecreasing = false;
 
@@ -21,18 +19,18 @@ public class SliderBarScript : MonoBehaviour
 
     public void SetMaxValue(int value)
     {
-        Debug.Log(value);
         slider.maxValue = value;
         slider.value = value;
     }
 
     private void Start() {
-        SetMaxValue((int)influenceSlider.maxInfluence);
+        slider.maxValue = InfluenceManager.Instance.maxInfluence;
+        slider.value = InfluenceManager.Instance.currentInfluence;
     }
 
     private void Update() 
     {
-        slider.value = influenceSlider.currentInfluence;
+        slider.value = InfluenceManager.Instance.currentInfluence;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 
