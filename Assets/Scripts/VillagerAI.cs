@@ -46,7 +46,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     bool isGuarding = false;
     float waitTimer;
 
-    float movingMaxTime = 5.0f;
+    float movingMaxTime = 3.0f;
     float movingTimer = 0.0f;
 
     void Awake()
@@ -69,6 +69,12 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
                 break;
 
             case State.Moving:
+                movingTimer += Time.deltaTime;
+                if(movingTimer >= movingMaxTime)
+                {
+                    state = State.Idle;
+                    movingTimer = 0.0f;
+                }
                 MoveToTarget();
                 if (useLocalAvoidance)
                     LocalAvoidance();
@@ -170,6 +176,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     void GoRandomPosition()
     {
         targetPos = startPosition + (Vector3)Random.insideUnitCircle * wanderRadius;
+        movingTimer = 0.0f;
         state = State.Moving;
     }
 
