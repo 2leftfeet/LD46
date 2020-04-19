@@ -13,7 +13,8 @@ public class Spawner : MonoBehaviour
 
     [Range(1,30)]
     public int maxUnpossesedVillagerCount = 8;
-    private List<GameObject> spawnedVillagers;
+    [HideInInspector]
+    public List<GameObject> spawnedVillagers;
     // Start is called before the first frame update
     void Start()
     {
