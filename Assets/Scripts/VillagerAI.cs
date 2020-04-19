@@ -46,6 +46,9 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     bool isGuarding = false;
     float waitTimer;
 
+    float movingMaxTime = 5.0f;
+    float movingTimer = 0.0f;
+
     void Awake()
     {
         startPosition = transform.position;
@@ -100,7 +103,6 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
                     if (Vector2.Distance(targetPos, transform.position) <= attackRange)
                     {
                         OnAttack();
-                        Debug.Log("i atacc");
                     }
                 }
                 CheckIfTargetIsAlive();
