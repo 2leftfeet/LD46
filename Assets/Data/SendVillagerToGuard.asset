@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca4c315a8b1a2f84194158856ce63bd0, type: 3}
-  m_Name: SingleInfluence
+  m_Name: SendVillagerToGuard
   m_EditorClassIdentifier: 
-  range: 0
-  castKey: 0
-  type: 0
+  range: 3
+  castKey: 308
+  type: 1

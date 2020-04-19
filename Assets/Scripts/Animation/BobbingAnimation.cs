@@ -29,7 +29,7 @@ public class BobbingAnimation : MonoBehaviour
 
     void Update()
     {
-        if(body.velocity.magnitude >= 0.01f)
+        if(body.velocity.magnitude >= 0.1f)
         {
             hasReset = false;
 
