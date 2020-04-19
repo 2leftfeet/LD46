@@ -93,16 +93,31 @@
 			fixed4 frag(v2f IN) : SV_Target
 			{
 				fixed4 c = SampleSpriteTexture (IN.texcoord) * IN.color;
+				c = FullWhite > 0.5 ? fixed4(0.95,0.95,0.95,c.a) : c;
+
                 fixed4 skinDelta = c - _SkinBase;
-                c = length(skinDelta) >= 0.1 ? c : _SkinChanged;
+				if(length(skinDelta) <= 0.1)
+				{
+					c = _SkinChanged;
+					c.rgb *= c.a;
+					return c;
+				}
 
                 fixed4 accent1Delta = c - _Accent1Base;
-                c = length(accent1Delta) >= 0.1 ? c : _Accent1Changed;
+				if(length(accent1Delta) <= 0.1)
+				{
+					c = _Accent1Changed;
+					c.rgb *= c.a;
+					return c;
+				}
 
                 fixed4 accent2Delta = c - _Accent2Base;
-                c = length(accent2Delta) >= 0.1 ? c : _Accent2Changed;
-                
-				c = FullWhite > 0.5 ? fixed4(0.95,0.95,0.95,c.a) : c;
+				if(length(accent2Delta) <= 0.1)
+				{
+					c = _Accent2Changed;
+					c.rgb *= c.a;
+					return c;
+				}
 
 				c.rgb *= c.a;
 				return c;
