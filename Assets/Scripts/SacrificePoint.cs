@@ -8,13 +8,13 @@ public class SacrificePoint : MonoBehaviour
     public static event Action OnSacrifice;
     private PossessedVillagers possessedVillagers;
 
-    public float radius = 2.5f;
+    public float radius = 1.5f;
     public KeyCode sacrificeButton;
 
     /// <summary>
     /// Could be used for key indication
     /// </summary>
-    public bool IsSacrificeInRange { set; get; }
+    public bool CanSacrifice { set; get; }
 
     void Awake()
     {
@@ -25,17 +25,18 @@ public class SacrificePoint : MonoBehaviour
     void Update()
     {
         var collider = Physics2D.OverlapCircle(transform.position, radius, LayerMask.GetMask("Sacrifice"));
-        if (collider)
-        {
-            if(Input.GetKeyDown(sacrificeButton)){
-                Sacrifice(possessedVillagers.possessedVillagers[0]);
+        var list = possessedVillagers.possessedVillagers;
+        if (collider && list.Count > 0)
+        {          
+            if (Input.GetKeyDown(sacrificeButton)){
+                list[list.Count].GoSacrificeSelf(this, collider.transform);
+                list.RemoveAt(list.Count);
             }
         }
     }
 
-    void Sacrifice(VillagerAI target)
+    public void Sacrifice(VillagerAI target)
     {
-        possessedVillagers.possessedVillagers.Remove(target);
         target.GetComponent<SacrificeParticles>().SpawnSacrificeParticles();
         Destroy(target.gameObject);
 

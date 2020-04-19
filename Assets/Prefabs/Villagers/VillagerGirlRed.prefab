@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 1196485419}
   - component: {fileID: 1196485412}
   - component: {fileID: 1340204049}
+  - component: {fileID: 507346992}
   m_Layer: 8
   m_Name: VillagerGirlRed
   m_TagString: Untagged
@@ -231,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523479dd0da36b7498fcefa806c9aa83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
   wanderRadius: 1
   minWaitTime: 1
   maxWaitTime: 4
@@ -240,6 +242,7 @@ MonoBehaviour:
   localAvoidanceSearchRange: 0.4
   localAvoidanceFactor: 5
   possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
+  transTarget: {fileID: 0}
 --- !u!114 &7860915549931734240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,3 +309,17 @@ MonoBehaviour:
   maxSaturation: 0.65
   minLightness: 0.55
   maxLightness: 0.75
+--- !u!114 &507346992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7860915549931734167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c820e26f2cbcfd646831f0fc8b837fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sacrificeParticles: {fileID: 5216522842956752040, guid: 1c757eff955dc0c469c2c5f294ac1dbe,
+    type: 3}

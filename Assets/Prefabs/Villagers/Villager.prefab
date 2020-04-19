@@ -233,6 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523479dd0da36b7498fcefa806c9aa83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
   wanderRadius: 1
   minWaitTime: 1
   maxWaitTime: 4
@@ -242,6 +243,7 @@ MonoBehaviour:
   localAvoidanceSearchRange: 0.4
   localAvoidanceFactor: 5
   possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
+  transTarget: {fileID: 0}
 --- !u!114 &3832061037062249288
 MonoBehaviour:
   m_ObjectHideFlags: 0

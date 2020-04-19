@@ -4,7 +4,8 @@ using UnityEngine;
 
 public enum SpellType
 {
-    SingleInfluence
+    SingleInfluence,
+    SendVillagerToAttack
 }
 
 [CreateAssetMenu(menuName="Spells/Spell")]
@@ -21,6 +22,9 @@ public class SpellObject : ScriptableObject
         {
             case SpellType.SingleInfluence:
                 spellLogic = new SingleInfluence();
+                break;
+            case SpellType.SendVillagerToAttack:
+                spellLogic = new SendVillagerSpell();
                 break;
             default:
                 break;
