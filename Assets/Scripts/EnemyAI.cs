@@ -8,7 +8,7 @@ using UnityEngine;
 /// </summary>
 public class EnemyAI : MonoBehaviour, IInput, IHasTarget
 {
-    public enum State {Idle, Moving, Attacking}
+    public enum State {Idle, Moving, Attacking, Dead}
     [SerializeField]
     private State state;
 
@@ -34,6 +34,14 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
     float waitTimer;
 
     public event Action OnAttack;
+
+    public bool IsDead
+    {
+        get
+        {
+            return state == State.Dead;
+        }
+    }
 
     void Awake()
     {
