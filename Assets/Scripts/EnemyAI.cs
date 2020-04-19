@@ -8,6 +8,7 @@ using UnityEngine;
 /// </summary>
 public class EnemyAI : MonoBehaviour, IInput, IHasTarget
 {
+
     public enum State {Idle, Moving, Attacking}
     [SerializeField]
     private State state;
@@ -28,7 +29,9 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
 
     private Vector3 startPos;
 
+    [Header("Misc Stats")]
     public bool prioritizePlayer = false;
+    public bool seekDemonGod = false;
 
     public Vector3 TargetPosition { get; private set; }
     public float Horizontal { get; private set; }
@@ -43,6 +46,9 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
     {
         startPos = transform.position;
         waitTimer = 5f;
+
+        if (seekDemonGod)
+            seekTarget = DemonGod.instance.transform;
     }
 
     void Update()
