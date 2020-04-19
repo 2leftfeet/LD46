@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: f24bee451fef94e14a38ea0d438cc5ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -754943529143132514
+    second: Big Rock_0
+  - first:
+      213: -4171028458577122163
+    second: Big Rock_1
+  - first:
+      213: 5361199005349386429
+    second: Big Rock_2
+  - first:
+      213: -8379088157244933238
+    second: Big Rock_3
+  - first:
+      213: 543810628496535735
+    second: Big Rock_4
+  - first:
+      213: 1507654969864240914
+    second: Big Rock_5
+  - first:
+      213: 6628839143032691249
+    second: Big Rock_6
+  - first:
+      213: 3327814626270318969
+    second: Big Rock_7
+  - first:
+      213: 5492285901861909471
+    second: Big Rock_8
+  - first:
+      213: -8114998982373076098
+    second: Big Rock_9
+  - first:
+      213: 5919679797976815674
+    second: Big Rock_10
+  - first:
+      213: 8137508233031544488
+    second: Big Rock_11
+  - first:
+      213: -1116864293929398458
+    second: Big Rock_12
+  - first:
+      213: -9076742046227469441
+    second: Big Rock_13
+  - first:
+      213: -1309419381827876396
+    second: Big Rock_14
+  - first:
+      213: -2789987352635559043
+    second: Big Rock_15
+  - first:
+      213: -5695683040325018985
+    second: Big Rock_16
+  - first:
+      213: 8503343118012659350
+    second: Big Rock_17
+  - first:
+      213: -4764033887077024629
+    second: Big Rock_18
+  - first:
+      213: 4762449706482576886
+    second: Big Rock_19
+  - first:
+      213: 7150580256223939576
+    second: Big Rock_20
+  - first:
+      213: 5373440759798806351
+    second: Big Rock_21
+  - first:
+      213: -5824820998366055591
+    second: Big Rock_22
+  - first:
+      213: 6168867268813568353
+    second: Big Rock_23
+  - first:
+      213: -1113392426446557125
+    second: Big Rock_24
+  - first:
+      213: 2081471915236424373
+    second: Big Rock_25
+  - first:
+      213: -8328797319150647358
+    second: Big Rock_26
+  - first:
+      213: -7125802106197691291
+    second: Big Rock_27
+  - first:
+      213: 5377756682365113608
+    second: Big Rock_28
+  - first:
+      213: 4386029636051371086
+    second: Big Rock_29
+  - first:
+      213: 4957662111135247590
+    second: Big Rock_30
+  - first:
+      213: -4530195420950739906
+    second: Big Rock_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Rock_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 626
+        width: 225
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e91ff2cd6e585f0800000000000000
+      internalID: -754943529143132514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 613
+        width: 236
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c277a47b78d16c0800000000000000
+      internalID: -4171028458577122163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 602
+        width: 241
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8170c271ec66a40800000000000000
+      internalID: 5361199005349386429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_3
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 595
+        width: 254
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bbbbd17bf77bb80800000000000000
+      internalID: -8379088157244933238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_4
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 590
+        width: 263
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b03e98a2e00c8700800000000000000
+      internalID: 543810628496535735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_5
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 589
+        width: 263
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3c9a05344ce410800000000000000
+      internalID: 1507654969864240914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_6
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 592
+        width: 260
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a1ba9541e5efb50800000000000000
+      internalID: 6628839143032691249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_7
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 597
+        width: 248
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971113565c5ce2e20800000000000000
+      internalID: 3327814626270318969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 404
+        width: 234
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37d59ade4883c40800000000000000
+      internalID: 5492285901861909471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 397
+        width: 242
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e731ffeab6bb16f80800000000000000
+      internalID: -8114998982373076098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 392
+        width: 246
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d676996de62250800000000000000
+      internalID: 5919679797976815674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_11
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 384
+        width: 246
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae69a2af9c3ee070800000000000000
+      internalID: 8137508233031544488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 378
+        width: 242
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f450297d91080f0800000000000000
+      internalID: -1116864293929398458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_13
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 376
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b62c8133fe80280800000000000000
+      internalID: -9076742046227469441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_14
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 380
+        width: 217
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d94324820204dde0800000000000000
+      internalID: -1309419381827876396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_15
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 387
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d733356e849f749d0800000000000000
+      internalID: -2789987352635559043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 184
+        width: 180
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ad53ca37ed4f0b0800000000000000
+      internalID: -5695683040325018985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_17
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 181
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69638606381f10670800000000000000
+      internalID: 8503343118012659350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_18
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 178
+        width: 201
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cb9deab60c2edb0800000000000000
+      internalID: -4764033887077024629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 176
+        width: 210
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdae8786ce971240800000000000000
+      internalID: 4762449706482576886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_20
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 180
+        width: 214
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb462e8bd6fb3360800000000000000
+      internalID: 7150580256223939576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_21
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 186
+        width: 214
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47b96db6eb429a40800000000000000
+      internalID: 5373440759798806351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_22
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 198
+        width: 208
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953b728c9241a2fa0800000000000000
+      internalID: -5824820998366055591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_23
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 211
+        width: 197
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169ba20d8183c9550800000000000000
+      internalID: 6168867268813568353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 227
+        width: 187
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30fa06bc7f6c80f0800000000000000
+      internalID: -1113392426446557125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_25
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 222
+        width: 203
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba7e95cdafd2ec10800000000000000
+      internalID: 2081471915236424373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 221
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7ccc157fa2a6c80800000000000000
+      internalID: -8328797319150647358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 6
+        width: 233
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5643b501db01c1d90800000000000000
+      internalID: -7125802106197691291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_28
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 3
+        width: 238
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051bd4c531a1aa40800000000000000
+      internalID: 5377756682365113608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2
+        width: 240
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e448d2f37be4edc30800000000000000
+      internalID: 4386029636051371086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_30
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 6
+        width: 235
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec21aa5c672dc440800000000000000
+      internalID: 4957662111135247590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Rock_31
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 12
+        width: 228
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34412344438121c0800000000000000
+      internalID: -4530195420950739906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

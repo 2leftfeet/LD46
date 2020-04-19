@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 6384701978311527377}
   - component: {fileID: 6384701978311527376}
   - component: {fileID: 1120702693}
+  - component: {fileID: 7085595995749507888}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -272,3 +273,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 2.5
   sacrificeButton: 102
+--- !u!114 &7085595995749507888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384701978311527389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddcafab882e87aa439a98e3748f402a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5

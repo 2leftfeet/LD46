@@ -29,8 +29,8 @@ public class SacrificePoint : MonoBehaviour
         if (collider && list.Count > 0)
         {          
             if (Input.GetKeyDown(sacrificeButton)){
-                list[list.Count].GoSacrificeSelf(this, collider.transform);
-                list.RemoveAt(list.Count);
+                list[list.Count - 1].GoSacrificeSelf(this, collider.transform);
+                list.RemoveAt(list.Count -1 );
             }
         }
     }

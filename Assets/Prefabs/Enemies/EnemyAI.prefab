@@ -71,15 +71,14 @@ GameObject:
   - component: {fileID: 3832061037062249292}
   - component: {fileID: 3832061037062249294}
   - component: {fileID: 3832061037062249295}
-  - component: {fileID: 3832061037062249296}
   - component: {fileID: 3832061037062249288}
   - component: {fileID: 1133922072}
   - component: {fileID: 1133922065}
   - component: {fileID: 249268867}
   - component: {fileID: 2857544420225083512}
-  - component: {fileID: 1548478295}
+  - component: {fileID: 1147471606}
   m_Layer: 8
-  m_Name: Villager
+  m_Name: EnemyAI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,34 +220,6 @@ MonoBehaviour:
   bobbingMagnitude: 0.2
   rotationFrequency: 10
   rotationMagnitude: 5
---- !u!114 &3832061037062249296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3832061037062249303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 523479dd0da36b7498fcefa806c9aa83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  wanderRadius: 1
-  minWaitTime: 1
-  maxWaitTime: 4
-  charactersMask:
-    serializedVersion: 2
-    m_Bits: 256
-  enemyMask:
-    serializedVersion: 2
-    m_Bits: 0
-  enemySearchRadius: 3
-  attackRange: 0.5
-  localAvoidanceSearchRange: 0.4
-  localAvoidanceFactor: 5
-  possesedSkinColor: {r: 0.507743, g: 0.56699866, b: 0.6603774, a: 1}
-  transTarget: {fileID: 0}
 --- !u!114 &3832061037062249288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +302,7 @@ MonoBehaviour:
   maxSaturation: 0.65
   minLightness: 0.55
   maxLightness: 0.75
---- !u!114 &1548478295
+--- !u!114 &1147471606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -340,8 +311,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 3832061037062249303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c820e26f2cbcfd646831f0fc8b837fe5, type: 3}
+  m_Script: {fileID: 11500000, guid: 42f923ab092477f4ab38b48dd37b92c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sacrificeParticles: {fileID: 5216522842956752040, guid: ee799843382cdfa48969d83818118181,
-    type: 3}
+  state: 0
+  wanderRadius: 5
+  detectionRadius: 6
+  loseTargetRadius: 9
+  minWaitTime: 5
+  maxWaitTime: 15
+  health: 5
+  hitCooldownReset: 2
+  hitRange: 1
+  damage: 1
+  playerTarget: {fileID: 0}
