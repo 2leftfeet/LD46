@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: 1c08ffab384034628aa521e7822f5195
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2169366574802579586
+    second: Gold Luit_0
+  - first:
+      213: -7182508144679366533
+    second: Gold Luit_1
+  - first:
+      213: -5679739290747450558
+    second: Gold Luit_2
+  - first:
+      213: 949848745800818553
+    second: Gold Luit_3
+  - first:
+      213: 7233455266851788767
+    second: Gold Luit_4
+  - first:
+      213: -4031333010829112627
+    second: Gold Luit_5
+  - first:
+      213: 5138937758236567073
+    second: Gold Luit_6
+  - first:
+      213: -5969353548175415143
+    second: Gold Luit_7
+  - first:
+      213: -2566698035148972394
+    second: Gold Luit_8
+  - first:
+      213: 4608951959038302248
+    second: Gold Luit_9
+  - first:
+      213: -3506512244777100289
+    second: Gold Luit_10
+  - first:
+      213: -5356562275087815555
+    second: Gold Luit_11
+  - first:
+      213: 1271342238353487918
+    second: Gold Luit_12
+  - first:
+      213: -6791878485767898501
+    second: Gold Luit_13
+  - first:
+      213: 4923059886337455090
+    second: Gold Luit_14
+  - first:
+      213: 1577554079281254656
+    second: Gold Luit_15
+  - first:
+      213: 3170772236126058935
+    second: Gold Luit_16
+  - first:
+      213: -7866321214801293834
+    second: Gold Luit_17
+  - first:
+      213: 5973356285682662717
+    second: Gold Luit_18
+  - first:
+      213: -2619251421168759084
+    second: Gold Luit_19
+  - first:
+      213: 4817536090455347358
+    second: Gold Luit_20
+  - first:
+      213: -345920866663729344
+    second: Gold Luit_21
+  - first:
+      213: -6560323137291752175
+    second: Gold Luit_22
+  - first:
+      213: 2372381361695220382
+    second: Gold Luit_23
+  - first:
+      213: -6914945049842580362
+    second: Gold Luit_24
+  - first:
+      213: 8114294685954402582
+    second: Gold Luit_25
+  - first:
+      213: -4324130169256089222
+    second: Gold Luit_26
+  - first:
+      213: 3295427329165622150
+    second: Gold Luit_27
+  - first:
+      213: 4080957804670294881
+    second: Gold Luit_28
+  - first:
+      213: 505903959306193036
+    second: Gold Luit_29
+  - first:
+      213: -2016899160261453034
+    second: Gold Luit_30
+  - first:
+      213: -3309545362733554468
+    second: Gold Luit_31
+  - first:
+      213: 4405972040070995744
+    second: Gold Luit_32
+  - first:
+      213: 8232069087323417204
+    second: Gold Luit_33
+  - first:
+      213: -2725572639113369081
+    second: Gold Luit_34
+  - first:
+      213: -8164379964465206466
+    second: Gold Luit_35
+  - first:
+      213: 4024075735859815178
+    second: Gold Luit_36
+  - first:
+      213: 4493408384557663249
+    second: Gold Luit_37
+  - first:
+      213: 6353951325776012726
+    second: Gold Luit_38
+  - first:
+      213: -1822606731465622350
+    second: Gold Luit_39
+  - first:
+      213: -3585346066149771593
+    second: Gold Luit_40
+  - first:
+      213: -6678658021187219706
+    second: Gold Luit_41
+  - first:
+      213: 4202499843508720035
+    second: Gold Luit_42
+  - first:
+      213: 6676691296419591133
+    second: Gold Luit_43
+  - first:
+      213: -5494433702615611573
+    second: Gold Luit_44
+  - first:
+      213: 3309072224158382128
+    second: Gold Luit_45
+  - first:
+      213: 3922352488754307234
+    second: Gold Luit_46
+  - first:
+      213: 6813546200427965697
+    second: Gold Luit_47
+  - first:
+      213: 2984397262998019800
+    second: Gold Luit_48
+  - first:
+      213: 5032705512507546447
+    second: Gold Luit_49
+  - first:
+      213: 9152067840446043158
+    second: Gold Luit_50
+  - first:
+      213: -1392049807519393304
+    second: Gold Luit_51
+  - first:
+      213: -1800844425852868402
+    second: Gold Luit_52
+  - first:
+      213: -484468046897794235
+    second: Gold Luit_53
+  - first:
+      213: -7888555793870415190
+    second: Gold Luit_54
+  - first:
+      213: 3584819271453011975
+    second: Gold Luit_55
+  - first:
+      213: -1582542349928729371
+    second: Gold Luit_56
+  - first:
+      213: -8342792689939663392
+    second: Gold Luit_57
+  - first:
+      213: 1850656883708092666
+    second: Gold Luit_58
+  - first:
+      213: 7017252743997814283
+    second: Gold Luit_59
+  - first:
+      213: 330194641117730168
+    second: Gold Luit_60
+  - first:
+      213: 6101945651514125603
+    second: Gold Luit_61
+  - first:
+      213: -7925310723752677516
+    second: Gold Luit_62
+  - first:
+      213: -5004407010197126845
+    second: Gold Luit_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gold Luit_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 495
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f4941189cd4e1e0800000000000000
+      internalID: -2169366574802579586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 492
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b705900a5ea925c90800000000000000
+      internalID: -7182508144679366533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 489
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b4b2625338d21b0800000000000000
+      internalID: -5679739290747450558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 488
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fdecbd66a8e2d00800000000000000
+      internalID: 949848745800818553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 487
+        width: 130
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7116f9d35626460800000000000000
+      internalID: 7233455266851788767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_5
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 487
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca893e4cf3dd08c0800000000000000
+      internalID: -4031333010829112627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 487
+        width: 143
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1266882f9ac215740800000000000000
+      internalID: 5138937758236567073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_7
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 489
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998694e2398982da0800000000000000
+      internalID: -5969353548175415143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_8
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 491
+        width: 154
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e90496cb1416cd0800000000000000
+      internalID: -2566698035148972394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_9
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 494
+        width: 157
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8289151336946ff30800000000000000
+      internalID: 4608951959038302248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_10
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 498
+        width: 160
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbd08111bd565fc0800000000000000
+      internalID: -3506512244777100289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_11
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 503
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ce128bdfaa9a5b0800000000000000
+      internalID: -5356562275087815555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_12
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 508
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287209a707b4a110800000000000000
+      internalID: 1271342238353487918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_13
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 514
+        width: 159
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7abf2a80866eb1a0800000000000000
+      internalID: -6791878485767898501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 397
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f37e1512e8325440800000000000000
+      internalID: 4923059886337455090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 404
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001178da31994e510800000000000000
+      internalID: 1577554079281254656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 411
+        width: 148
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f6fd9c88d00c20800000000000000
+      internalID: 3170772236126058935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_17
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 404
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd46ae588635d290800000000000000
+      internalID: -7866321214801293834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_18
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 397
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d36f4c4ef95e250800000000000000
+      internalID: 5973356285682662717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_19
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 390
+        width: 159
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de8cc7b5bc86abd0800000000000000
+      internalID: -2619251421168759084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 384
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e901734cc835bd240800000000000000
+      internalID: 4817536090455347358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_21
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 379
+        width: 161
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047fc16fdca033bf0800000000000000
+      internalID: -345920866663729344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_22
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 374
+        width: 159
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11de2fd5ddc05f4a0800000000000000
+      internalID: -6560323137291752175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_23
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 370
+        width: 158
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e99f67446ce020800000000000000
+      internalID: 2372381361695220382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_24
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 367
+        width: 154
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67489c63d1e2900a0800000000000000
+      internalID: -6914945049842580362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_25
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 365
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e6278604cb9070800000000000000
+      internalID: 8114294685954402582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_26
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 363
+        width: 143
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79e0f2758a9df3c0800000000000000
+      internalID: -4324130169256089222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 239
+        width: 137
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bf70a22b5bbbd20800000000000000
+      internalID: 3295427329165622150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 239
+        width: 130
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b1bb2608972a830800000000000000
+      internalID: 4080957804670294881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 240
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88c8e878f4550700800000000000000
+      internalID: 505903959306193036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 241
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b15d456e88204e0800000000000000
+      internalID: -2016899160261453034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 244
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4a93ef6022212d0800000000000000
+      internalID: -3309545362733554468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_32
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 247
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f1cb20a38252d30800000000000000
+      internalID: 4405972040070995744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_33
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 244
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae264383f2e3270800000000000000
+      internalID: 8232069087323417204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_34
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 241
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aaf1c1022dc2ad0800000000000000
+      internalID: -2725572639113369081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_35
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 240
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2cb6ddab42be80800000000000000
+      internalID: -8164379964465206466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_36
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 239
+        width: 130
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a036131bf8368d730800000000000000
+      internalID: 4024075735859815178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_37
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 239
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11442506e1bcb5e30800000000000000
+      internalID: 4493408384557663249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_38
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 239
+        width: 143
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5600de015cd2850800000000000000
+      internalID: 6353951325776012726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_39
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 241
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc71c595dcc4b6e0800000000000000
+      internalID: -1822606731465622350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_40
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 243
+        width: 154
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b67c42bfba4e3ec0800000000000000
+      internalID: -3585346066149771593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_41
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 246
+        width: 157
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f82de2ae3a053a0800000000000000
+      internalID: -6678658021187219706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 126
+        width: 160
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1d8f48757425a30800000000000000
+      internalID: 4202499843508720035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 131
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd338060c5f58ac50800000000000000
+      internalID: 6676691296419591133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_44
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 136
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4789a188a9dfb3b0800000000000000
+      internalID: -5494433702615611573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 142
+        width: 159
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0387219d7af2ced20800000000000000
+      internalID: 3309072224158382128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_46
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 149
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e1189ecefe6630800000000000000
+      internalID: 3922352488754307234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_47
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 156
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da8396b249e8e50800000000000000
+      internalID: 6813546200427965697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_48
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 163
+        width: 148
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de15a9af75ba6920800000000000000
+      internalID: 2984397262998019800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_49
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 156
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b992ccff2c7d540800000000000000
+      internalID: 5032705512507546447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_50
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 149
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614101e063da20f70800000000000000
+      internalID: 9152067840446043158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_51
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 142
+        width: 159
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9d72153127eace0800000000000000
+      internalID: -1392049807519393304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_52
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 136
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec82c45398d1207e0800000000000000
+      internalID: -1800844425852868402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_53
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 131
+        width: 161
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54331afc0e2d649f0800000000000000
+      internalID: -484468046897794235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 159
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa11830d48368290800000000000000
+      internalID: -7888555793870415190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_55
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 9
+        width: 158
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7007eea5226dfb130800000000000000
+      internalID: 3584819271453011975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_56
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 6
+        width: 154
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e47c7e0e1ea90ae0800000000000000
+      internalID: -1582542349928729371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_57
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5bb612042783c80800000000000000
+      internalID: -8342792689939663392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_58
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2
+        width: 143
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af06d8a61aadea910800000000000000
+      internalID: 1850656883708092666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_59
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2
+        width: 137
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06ff11113a426160800000000000000
+      internalID: 7017252743997814283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_60
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2
+        width: 130
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755f82d646159400800000000000000
+      internalID: 330194641117730168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_61
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 3
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d2d359d377ea450800000000000000
+      internalID: 6101945651514125603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_62
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 4
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa02803e3a30290800000000000000
+      internalID: -7925310723752677516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Luit_63
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 7
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c9b5b656cc8ab0800000000000000
+      internalID: -5004407010197126845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
