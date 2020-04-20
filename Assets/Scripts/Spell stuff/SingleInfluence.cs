@@ -36,6 +36,7 @@ public class SingleInfluence : ISpell
     void Possess(Caster caster, VillagerAI villager)
     {
         villager.Possess(caster.transform);
+        SoundManager.Instance.CreatePlayAndDestroy(SoundManager.Instance.possessSound, 1.0f);
 
         var possessedVillagers = caster.GetComponent<PossessedVillagers>().possessedVillagers;
         if(!possessedVillagers.Contains(villager))

@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91db718a952eae408077dc93b1b1e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 1
+  maxSpeed: 2
   maxAcceleration: 7
 --- !u!50 &3832061037062249292
 Rigidbody2D:
@@ -303,12 +303,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   wanderRadius: 5
-  detectionRadius: 3
-  loseTargetRadius: 3
-  minWaitTime: 5
-  maxWaitTime: 15
+  detectionRadius: 4
+  loseTargetRadius: 5
+  minWaitTime: 0
+  maxWaitTime: 0
   hitRange: 1
-  playerTarget: {fileID: 0}
+  seekTarget: {fileID: 0}
+  prioritizePlayer: 0
+  seekDemonGod: 1
 --- !u!114 &1483026738
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VillagerHealth : MonoBehaviour, IDestroyable
+public class NPCHealth : MonoBehaviour, IDestroyable
 {
     [SerializeField] float maxHealth;
     [SerializeField] float flashTime = 0.2f;

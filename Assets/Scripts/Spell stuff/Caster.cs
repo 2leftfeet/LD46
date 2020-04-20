@@ -7,6 +7,7 @@ public class Caster : MonoBehaviour
     [SerializeField] private GameObject linePrefab = default;
     [SerializeField] private GameObject rangePrefab = default;
     [HideInInspector] public bool isTargeting = false;
+    public ParticleSystem possessEffect;
 
     public List<SpellObject> spells;
 

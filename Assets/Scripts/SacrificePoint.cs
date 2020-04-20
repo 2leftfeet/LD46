@@ -42,6 +42,7 @@ public class SacrificePoint : MonoBehaviour
         Destroy(target.gameObject);
 
         InfluenceManager.Instance.AddInfluence(influencePerSacrifice);
+        SoundManager.Instance.CreatePlayAndDestroy(SoundManager.Instance.sacrificeSounds[UnityEngine.Random.Range(0,2)], 0.1f);
 
         OnSacrifice?.Invoke();
     }
