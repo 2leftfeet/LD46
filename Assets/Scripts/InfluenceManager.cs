@@ -17,6 +17,8 @@ public class InfluenceManager : MonoBehaviour
 
     private void Awake()
     {
+        currentInfluence = maxInfluence / 2f;
+
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);

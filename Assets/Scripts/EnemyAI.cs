@@ -23,12 +23,18 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
     [SerializeField] float hitRange = 1.0f;
 
     [SerializeField]
-    Transform playerTarget;
+    Transform seekTarget;
     Transform attackTarget;
 
-    public Vector3 TargetPosition{get; private set;}
-    public float Horizontal {get; private set;}
-    public float Vertical {get; private set;}
+    private Vector3 startPos;
+
+    [Header("Misc Stats")]
+    public bool prioritizePlayer = false;
+    public bool seekDemonGod = false;
+
+    public Vector3 TargetPosition { get; private set; }
+    public float Horizontal { get; private set; }
+    public float Vertical { get; private set; }
 
     bool useLocalAvoidance = false;
     float waitTimer;
@@ -45,7 +51,11 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
 
     void Awake()
     {
+        startPos = transform.position;
         waitTimer = 5f;
+
+        if (seekDemonGod)
+            seekTarget = DemonGod.instance.transform;
     }
 
     void Update()
@@ -57,7 +67,12 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
                 Vertical = 0.0f;
                 waitTimer -= Time.deltaTime;
                 if (waitTimer <= 0.0f)
-                    GoRandomPosition();
+                {
+                    if (seekTarget)
+                        GoSeekPosition();
+                    else
+                        GoRandomPosition();
+                }
 
                 CheckForTargets();
                 break;
@@ -94,13 +109,22 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
         var colliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
         for (int i = 0; i < colliders.Length; i++)
         {
-            // Check first if it is possesed villager, if not then check if it is a player
             var villager = colliders[i].GetComponent<VillagerAI>();
             if (villager && villager.IsPossessed)
             {
                 state = State.Attacking;
                 attackTarget = villager.transform;
-                break;
+                if(!prioritizePlayer)
+                    break;
+            }
+
+            var demon = colliders[i].GetComponent<DemonGod>();
+            if (demon)
+            {
+                state = State.Attacking;
+                attackTarget = demon.transform;
+                if (!prioritizePlayer)
+                    break;
             }
 
             // TODO get antoher class to reference instead PlayerInput
@@ -111,6 +135,7 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
                 attackTarget = player.transform;
                 break;
             }
+
         }
     }
 
@@ -119,20 +144,26 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
         Vector2 direction = TargetPosition - transform.position;
         if(direction.sqrMagnitude <= 0.01f && state == State.Moving)
         {
-            Debug.Log("shiiit");
             state = State.Idle;
             waitTimer = UnityEngine.Random.Range(minWaitTime, maxWaitTime);
         }
 
         direction.Normalize();
+
         Horizontal = direction.x;
         Vertical = direction.y;
     }
 
+    void GoSeekPosition()
+    {
+        Vector3 lerpPos = Vector3.Lerp(transform.position, seekTarget.position, 0.33f);
+        TargetPosition = lerpPos + (Vector3)UnityEngine.Random.insideUnitCircle * wanderRadius;
+        state = State.Moving;
+    }
+
     void GoRandomPosition()
     {
-        Vector3 lerpPos = Vector3.Lerp(transform.position, transform.position, 0.15f);
-        TargetPosition = lerpPos + (Vector3)UnityEngine.Random.insideUnitCircle * wanderRadius;
+        TargetPosition = startPos + (Vector3)UnityEngine.Random.insideUnitCircle * wanderRadius;
         state = State.Moving;
     }
 
