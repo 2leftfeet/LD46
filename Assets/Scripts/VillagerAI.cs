@@ -20,6 +20,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     [SerializeField] float localAvoidanceSearchRange = 2.0f;
     [SerializeField] float localAvoidanceFactor = 0.3f;
     [SerializeField] Color possesedSkinColor = default;
+    public ParticleSystem possessEffect;
 
     Vector3 startPosition;
     [SerializeField]
@@ -163,6 +164,9 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         GetComponent<BodyMovement>().ChangeSpeed(2.0f);
 
         state = State.Possessed; 
+
+        Instantiate(possessEffect, transform.position, Quaternion.identity);
+        
     }
 
     public void GoSacrificeSelf(SacrificePoint sacPoint, Transform target)

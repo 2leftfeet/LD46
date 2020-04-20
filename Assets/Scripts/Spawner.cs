@@ -15,11 +15,14 @@ public class Spawner : MonoBehaviour
     public int maxUnpossesedVillagerCount = 8;
     [HideInInspector]
     public List<GameObject> spawnedVillagers;
+
+    private Village myVillage;
     // Start is called before the first frame update
     void Start()
     {
         coroutine = Spawn();
         StartCoroutine(coroutine);
+        myVillage = GetComponent<Village>();
     }
 
     // Update is called once per frame
@@ -38,6 +41,7 @@ public class Spawner : MonoBehaviour
             for(int i=0; i < spawnedVillagers.Count;i++){
                 if(spawnedVillagers[i].GetComponent<VillagerAI>().IsPossessed){
                     spawnedVillagers.RemoveAt(i);
+                    myVillage.ModifyProsperity(-2);
                 }
             }
             if(spawnedVillagers.Count < maxUnpossesedVillagerCount){
