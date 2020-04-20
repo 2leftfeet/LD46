@@ -20,7 +20,25 @@ public class EnemyWaves : MonoBehaviour
 
     public List<Wave> enemyWaves;
     
+    public List<GameObject> aliveEnemies;
+
     private int nextWaveIndex;
+
+    void Update()
+    {
+        foreach(var enemy in aliveEnemies)
+        {
+            if(!enemy)
+            {
+                aliveEnemies.Remove(enemy);
+            }
+        }
+
+        if(aliveEnemies.Count <= 0)
+        {
+            Debug.Log("wave done");
+        }
+    }
 
     IEnumerator SpawnNextWave()
     {
@@ -34,7 +52,7 @@ public class EnemyWaves : MonoBehaviour
             var currentSpawn = activeSpawns[Random.Range(0, activeSpawns.Count)];
             for(int j = 0; j < wave.enemyPackSize; j++)
             {
-                Instantiate(enemy, currentSpawn.position + (Vector3)Random.insideUnitCircle, Quaternion.identity);
+                aliveEnemies.Add(Instantiate(enemy, currentSpawn.position + (Vector3)Random.insideUnitCircle, Quaternion.identity));
             }
             yield return new WaitForSeconds(wave.timerBetweenPacks);
         }

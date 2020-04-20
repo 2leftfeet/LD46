@@ -9,21 +9,20 @@ public class SingleInfluence : ISpell
     public void Cast(Caster caster)
     {
         Vector3 castPos = CursorManager.instance.GetWorldSpacePosition();
-        RaycastHit2D hit = Physics2D.Raycast(castPos, Vector2.zero);
+        RaycastHit2D hit = Physics2D.Raycast(castPos, Vector2.zero, Mathf.Infinity, 1 << 10);
+
+        Debug.Log(hit.collider.name);
 
         if(hit.collider != null)
         {
             var villager = hit.collider.GetComponent<VillagerAI>();
-            Debug.Log("yabba");
             if(villager)
             {
                 Possess(caster, villager);
-                Debug.Log("yabba");
             }
             else
             {
                 villager = hit.collider.GetComponentInParent<VillagerAI>();
-                Debug.Log("yabba");
                 if(villager)
                     Possess(caster, villager);
             }

@@ -132,7 +132,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
             {
                 state = State.ReadyToAttack;
             }
-            if(!transTarget && !targetSacrificePoint)
+            else if(!transTarget && !targetSacrificePoint)
             {
                 state = State.Idle;
                 waitTimer = Random.Range(minWaitTime, maxWaitTime);
@@ -233,5 +233,12 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     public Vector3 GetPoint()
     {
         return targetPos;
+    }
+
+    void OnDestroy()
+    {
+        if(standMarkerInstance){
+            Destroy(standMarkerInstance);
+        }
     }
 }

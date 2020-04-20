@@ -49,7 +49,7 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
         }
     }
 
-    void Awake()
+    void Start()
     {
         startPos = transform.position;
         waitTimer = 5f;
