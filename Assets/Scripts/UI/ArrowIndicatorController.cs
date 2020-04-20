@@ -57,6 +57,6 @@ public class ArrowIndicatorController : MonoBehaviour
         LeanTween.move(target, pointGo, time).setEase(curve).setOnComplete(() => {
             LeanTween.move(target, goBackPoint, 0.5f).setEase(LeanTweenType.easeInOutSine).setDelay(1.15f);
         });
-        //LeanTween.scale(target, Vector3.one * 1.5f, time + 1.35f).setEase(LeanTweenType.easeInOutSine);
+        LeanTween.scale(target, Vector3.one * 1.5f, time + 1.35f).setEase(LeanTweenType.easeInOutSine);
     }
 }

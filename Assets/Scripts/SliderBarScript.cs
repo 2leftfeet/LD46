@@ -13,8 +13,6 @@ public class SliderBarScript : MonoBehaviour
 
     [SerializeField] bool isDecreasing = false;
 
-    [SerializeField] bool isDecreasing = false;
-
     public void SetValue(int value)
     {
         slider.value = value;
