@@ -108,7 +108,7 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
         }
     }
 
-    void CheckForTargets()
+    public void CheckForTargets()
     {
         var colliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
         for (int i = 0; i < colliders.Length; i++)
@@ -174,6 +174,11 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
     public Transform GetTarget()
     {
         return attackTarget;
+    }
+
+    public void SetTarget(Transform target)
+    {
+        attackTarget = target;
     }
 
     public Vector3 GetPoint()

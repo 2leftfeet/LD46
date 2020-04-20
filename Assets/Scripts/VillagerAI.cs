@@ -168,6 +168,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 
     public void Possess(Transform target)
     {
+        deathMark.SetActive(false);
         isGuarding = false;
         if(standMarkerInstance)
             Destroy(standMarkerInstance);
@@ -224,7 +225,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         }
     }
 
-    void CheckForNewTarget()
+    public void CheckForNewTarget()
     {
         CheckForEnemies();
         if(transTarget == null)
@@ -249,5 +250,10 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         if(standMarkerInstance){
             Destroy(standMarkerInstance);
         }
+    }
+
+    public void SetTargetTrans(Transform target)
+    {
+        transTarget = target;
     }
 }
