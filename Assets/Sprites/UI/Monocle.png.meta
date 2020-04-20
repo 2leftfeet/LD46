@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: ea3e69bc3d7544c4695aca30e036a558
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7953070661147143301
+    second: Monocle_0
+  - first:
+      213: -6469992534224831585
+    second: Monocle_1
+  - first:
+      213: -5493473172695246838
+    second: Monocle_2
+  - first:
+      213: -676652063224633507
+    second: Monocle_3
+  - first:
+      213: -5067794865864300682
+    second: Monocle_4
+  - first:
+      213: -4846552478726670192
+    second: Monocle_5
+  - first:
+      213: -5293183969361950041
+    second: Monocle_6
+  - first:
+      213: -4310889561313714980
+    second: Monocle_7
+  - first:
+      213: -410641191776516805
+    second: Monocle_8
+  - first:
+      213: -432908143090607264
+    second: Monocle_9
+  - first:
+      213: 5216182953752809856
+    second: Monocle_10
+  - first:
+      213: -3624267195113969295
+    second: Monocle_11
+  - first:
+      213: -2721391009641307930
+    second: Monocle_12
+  - first:
+      213: -1381991456588496180
+    second: Monocle_13
+  - first:
+      213: 8516808591347699715
+    second: Monocle_14
+  - first:
+      213: 4145665410630346500
+    second: Monocle_15
+  - first:
+      213: 2961962874748225935
+    second: Monocle_16
+  - first:
+      213: -2000796399692910776
+    second: Monocle_17
+  - first:
+      213: 2034675656836036277
+    second: Monocle_18
+  - first:
+      213: -5024334227450886046
+    second: Monocle_19
+  - first:
+      213: -6346595237192335046
+    second: Monocle_20
+  - first:
+      213: -6491537743479948753
+    second: Monocle_21
+  - first:
+      213: -1646865027333662390
+    second: Monocle_22
+  - first:
+      213: -3001874420231630910
+    second: Monocle_23
+  - first:
+      213: 6145169748188725472
+    second: Monocle_24
+  - first:
+      213: 2796296646239389390
+    second: Monocle_25
+  - first:
+      213: -1130188796028267753
+    second: Monocle_26
+  - first:
+      213: 1565780002127545870
+    second: Monocle_27
+  - first:
+      213: 1678488767022930272
+    second: Monocle_28
+  - first:
+      213: -3411853941906559852
+    second: Monocle_29
+  - first:
+      213: -5766500114949703569
+    second: Monocle_30
+  - first:
+      213: -6540670850203576399
+    second: Monocle_31
+  - first:
+      213: -7980995648034530002
+    second: Monocle_32
+  - first:
+      213: 3818409027135045483
+    second: Monocle_33
+  - first:
+      213: 9113871386861930526
+    second: Monocle_34
+  - first:
+      213: 1799572487226777774
+    second: Monocle_35
+  - first:
+      213: 4171251664447224845
+    second: Monocle_36
+  - first:
+      213: 939488474021733540
+    second: Monocle_37
+  - first:
+      213: -2102328838004207397
+    second: Monocle_38
+  - first:
+      213: 831026024789476978
+    second: Monocle_39
+  - first:
+      213: -5312801340024871279
+    second: Monocle_40
+  - first:
+      213: -7719874172253989818
+    second: Monocle_41
+  - first:
+      213: 4495184166823878326
+    second: Monocle_42
+  - first:
+      213: 1988546843825125753
+    second: Monocle_43
+  - first:
+      213: -7800441621083515878
+    second: Monocle_44
+  - first:
+      213: 2105237192192204562
+    second: Monocle_45
+  - first:
+      213: 477654578491470050
+    second: Monocle_46
+  - first:
+      213: -1105158030791468665
+    second: Monocle_47
+  - first:
+      213: -2318972012046037063
+    second: Monocle_48
+  - first:
+      213: -7365527165916076868
+    second: Monocle_49
+  - first:
+      213: -8194478974481575919
+    second: Monocle_50
+  - first:
+      213: -6952179446123762330
+    second: Monocle_51
+  - first:
+      213: -4565273216210282763
+    second: Monocle_52
+  - first:
+      213: 9183547146687069112
+    second: Monocle_53
+  - first:
+      213: -1445058009386721848
+    second: Monocle_54
+  - first:
+      213: 4674088510090393924
+    second: Monocle_55
+  - first:
+      213: -12054539435672711
+    second: Monocle_56
+  - first:
+      213: 2579736364742575696
+    second: Monocle_57
+  - first:
+      213: 3953136517469410010
+    second: Monocle_58
+  - first:
+      213: -1464338972360910493
+    second: Monocle_59
+  - first:
+      213: -1840366270208230103
+    second: Monocle_60
+  - first:
+      213: -353716629500411630
+    second: Monocle_61
+  - first:
+      213: 4542140156623489072
+    second: Monocle_62
+  - first:
+      213: 2111102159572769996
+    second: Monocle_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monocle_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 354
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b735eb0fe5401a190800000000000000
+      internalID: -7953070661147143301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 354
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b7912d118f536a0800000000000000
+      internalID: -6469992534224831585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 354
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a089c5e414343c3b0800000000000000
+      internalID: -5493473172695246838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 355
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57e5f6988c0c96f0800000000000000
+      internalID: -676652063224633507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 355
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6772c997b639ba9b0800000000000000
+      internalID: -5067794865864300682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 356
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0983530e2369dbcb0800000000000000
+      internalID: -4846552478726670192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 356
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa836f6935da86b0800000000000000
+      internalID: -5293183969361950041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 358
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcd4f7b8c4ac24c0800000000000000
+      internalID: -4310889561313714980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 360
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358402030c1d4af0800000000000000
+      internalID: -410641191776516805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 362
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd5b666500ef9f0800000000000000
+      internalID: -432908143090607264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 364
+        width: 93
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08152e982ca936840800000000000000
+      internalID: 5216182953752809856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_11
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 366
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1796120303404bdc0800000000000000
+      internalID: -3624267195113969295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 293
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e063679b4dab3ad0800000000000000
+      internalID: -2721391009641307930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 295
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc20b63a71e22dce0800000000000000
+      internalID: -1381991456588496180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 296
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30056433a48c13670800000000000000
+      internalID: 8516808591347699715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 298
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ee3ee9bc588930800000000000000
+      internalID: 4145665410630346500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_16
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 299
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89434b9a810b1920800000000000000
+      internalID: 2961962874748225935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_17
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 298
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f6c60764ebb34e0800000000000000
+      internalID: -2000796399692910776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 297
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6b8decabe9c3c10800000000000000
+      internalID: 2034675656836036277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_19
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 295
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26804f3e3aaf54ab0800000000000000
+      internalID: -5024334227450886046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_20
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 293
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3107f9e14d5ce7a0800000000000000
+      internalID: -6346595237192335046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_21
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 291
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a36d1e0dc69e5a0800000000000000
+      internalID: -6491537743479948753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 227
+        width: 93
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4953ccabf82529e0800000000000000
+      internalID: -1646865027333662390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf03c19e133756d0800000000000000
+      internalID: -3001874420231630910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 224
+        width: 88
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e00445d357084550800000000000000
+      internalID: 6145169748188725472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 221
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec607bdfbf07ec620800000000000000
+      internalID: 2796296646239389390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 221
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713db9b2743c050f0800000000000000
+      internalID: -1130188796028267753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 218
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e060937bd94cab510800000000000000
+      internalID: 1565780002127545870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_28
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 218
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06992edf3a03b4710800000000000000
+      internalID: 1678488767022930272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 216
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca427aae8a6a0d0800000000000000
+      internalID: -3411853941906559852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_30
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 216
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f687c2b92b649ffa0800000000000000
+      internalID: -5766500114949703569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_31
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 216
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b71dd4048eda35a0800000000000000
+      internalID: -6540670850203576399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_32
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 216
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d96f44ebecd3190800000000000000
+      internalID: -7980995648034530002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_33
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 216
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f778587c6bdf430800000000000000
+      internalID: 3818409027135045483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_34
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 216
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18808e2db9fa7e70800000000000000
+      internalID: 9113871386861930526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0e7b084ad59f810800000000000000
+      internalID: 1799572487226777774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 143
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c3220e94343e930800000000000000
+      internalID: 4171251664447224845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 143
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4a3ac1acbb90d00800000000000000
+      internalID: 939488474021733540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_38
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 145
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd013b97f0703d2e0800000000000000
+      internalID: -2102328838004207397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_39
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 146
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2768eae34c5688b00800000000000000
+      internalID: 831026024789476978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 148
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196299564532546b0800000000000000
+      internalID: -5312801340024871279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 150
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644961c875f7dd490800000000000000
+      internalID: -7719874172253989818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_42
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 152
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be5f77ee2a126e30800000000000000
+      internalID: 4495184166823878326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_43
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 153
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979bb6591dcb89b10800000000000000
+      internalID: 1988546843825125753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 156
+        width: 97
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1415249ca34fb390800000000000000
+      internalID: -7800441621083515878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_45
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 157
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f9e80821e473d10800000000000000
+      internalID: 2105237192192204562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b254fe48f0a600800000000000000
+      internalID: 477654578491470050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_47
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 86
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789110a50a0b9a0f0800000000000000
+      internalID: -1105158030791468665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 87
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4ce1dd3b51dfd0800000000000000
+      internalID: -2318972012046037063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_49
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 86
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4251c111468c990800000000000000
+      internalID: -7365527165916076868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 84
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1105e96f9cc574e80800000000000000
+      internalID: -8194478974481575919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 83
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d6503c0a5e48f90800000000000000
+      internalID: -6952179446123762330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_52
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 81
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f65e2d9234e4a0c0800000000000000
+      internalID: -4565273216210282763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_53
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 80
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbb5503973827f70800000000000000
+      internalID: 9183547146687069112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_54
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 78
+        width: 93
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cddbae856f12fbe0800000000000000
+      internalID: -1445058009386721848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_55
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 76
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4493cac4cb2bdd040800000000000000
+      internalID: 4674088510090393924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b7103d57c25dff0800000000000000
+      internalID: -12054539435672711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05683a24e801dc320800000000000000
+      internalID: 2579736364742575696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_58
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 4
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad29360d7bc5cd630800000000000000
+      internalID: 3953136517469410010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_59
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 4
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369daa9867f9dabe0800000000000000
+      internalID: -1464338972360910493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_60
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92db0afb0a4b576e0800000000000000
+      internalID: -1840366270208230103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_61
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 3
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211ca7b7998571bf0800000000000000
+      internalID: -353716629500411630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_62
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 3
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038849b386ce80f30800000000000000
+      internalID: 4542140156623489072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monocle_63
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc15e1aa342c4d10800000000000000
+      internalID: 2111102159572769996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

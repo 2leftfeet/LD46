@@ -7,11 +7,19 @@ public class SendVillagerSpell : ISpell
     public void Cast(Caster caster)
     {
         Vector3 castPos = CursorManager.instance.GetWorldSpacePosition();
-        var villagerList = caster.GetComponent<PossessedVillagers>().possessedVillagers;
-        if(villagerList.Count > 0)
+        var pv = caster.GetComponent<PossessedVillagers>();
+        
+        if(pv.inquisitors.Count > 0)
         {
-            villagerList[villagerList.Count-1].SetGuardSpot(castPos);
-            villagerList.RemoveAt(villagerList.Count-1);
+            pv.inquisitors[pv.inquisitors.Count-1].SetGuardSpot(castPos);
+            pv.inquisitors.RemoveAt(pv.inquisitors.Count-1);
+            return;
+        }
+
+        if(pv.possessedVillagers.Count > 0)
+        {
+            pv.possessedVillagers[pv.possessedVillagers.Count-1].SetGuardSpot(castPos);
+            pv.possessedVillagers.RemoveAt(pv.possessedVillagers.Count-1);
         }
     }
 }

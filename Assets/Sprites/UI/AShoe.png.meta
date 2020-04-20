@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: 7503c4e27e6034ef3b1d1610745fcdb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 624671578970365760
+    second: AShoe_0
+  - first:
+      213: -8979487184195305299
+    second: AShoe_1
+  - first:
+      213: 4076735224287362997
+    second: AShoe_2
+  - first:
+      213: -1144608947012457386
+    second: AShoe_3
+  - first:
+      213: 8510907470572940658
+    second: AShoe_4
+  - first:
+      213: 2729999187978613824
+    second: AShoe_5
+  - first:
+      213: 8868185899568909887
+    second: AShoe_6
+  - first:
+      213: -4015512545401012279
+    second: AShoe_7
+  - first:
+      213: 7130357853978828691
+    second: AShoe_8
+  - first:
+      213: 9222572816496848046
+    second: AShoe_9
+  - first:
+      213: 933540139202451820
+    second: AShoe_10
+  - first:
+      213: 5754236490865579884
+    second: AShoe_11
+  - first:
+      213: -5011000073972605688
+    second: AShoe_12
+  - first:
+      213: -3874690349203341892
+    second: AShoe_13
+  - first:
+      213: 4569233535457698520
+    second: AShoe_14
+  - first:
+      213: 7445126183633552150
+    second: AShoe_15
+  - first:
+      213: 1681180072952838259
+    second: AShoe_16
+  - first:
+      213: -2698803018420246911
+    second: AShoe_17
+  - first:
+      213: 1684701245415582316
+    second: AShoe_18
+  - first:
+      213: -1297039263303926798
+    second: AShoe_19
+  - first:
+      213: -1883427465758177560
+    second: AShoe_20
+  - first:
+      213: 5854971955499221807
+    second: AShoe_21
+  - first:
+      213: 2330262651766727887
+    second: AShoe_22
+  - first:
+      213: 8905121462826262242
+    second: AShoe_23
+  - first:
+      213: 5527647281229852684
+    second: AShoe_24
+  - first:
+      213: 8677936612247650347
+    second: AShoe_25
+  - first:
+      213: -2324089681628812633
+    second: AShoe_26
+  - first:
+      213: -8395789997864391399
+    second: AShoe_27
+  - first:
+      213: -6133475088449821987
+    second: AShoe_28
+  - first:
+      213: -4483095734187018622
+    second: AShoe_29
+  - first:
+      213: -8727843869872255427
+    second: AShoe_30
+  - first:
+      213: -9038245239848330445
+    second: AShoe_31
+  - first:
+      213: -407197577045578288
+    second: AShoe_32
+  - first:
+      213: 6105323366241665987
+    second: AShoe_33
+  - first:
+      213: 3226856637287257970
+    second: AShoe_34
+  - first:
+      213: 4434339730159120659
+    second: AShoe_35
+  - first:
+      213: 6372828885552388963
+    second: AShoe_36
+  - first:
+      213: 2248152491262262264
+    second: AShoe_37
+  - first:
+      213: 8143233717838951003
+    second: AShoe_38
+  - first:
+      213: -1577974566337542927
+    second: AShoe_39
+  - first:
+      213: -1601595650402711764
+    second: AShoe_40
+  - first:
+      213: 2004764679037540950
+    second: AShoe_41
+  - first:
+      213: -6064420229293936231
+    second: AShoe_42
+  - first:
+      213: 361407370379901180
+    second: AShoe_43
+  - first:
+      213: 8616662457133709265
+    second: AShoe_44
+  - first:
+      213: 5015221229960783203
+    second: AShoe_45
+  - first:
+      213: -4575931004044601333
+    second: AShoe_46
+  - first:
+      213: 3481051550535094548
+    second: AShoe_47
+  - first:
+      213: 3620202755677983674
+    second: AShoe_48
+  - first:
+      213: 89410926504459544
+    second: AShoe_49
+  - first:
+      213: -2726970121774410643
+    second: AShoe_50
+  - first:
+      213: 8662512963319493687
+    second: AShoe_51
+  - first:
+      213: -620905733389413708
+    second: AShoe_52
+  - first:
+      213: -3756531626822717099
+    second: AShoe_53
+  - first:
+      213: -9182754602517561732
+    second: AShoe_54
+  - first:
+      213: 6544164829061748774
+    second: AShoe_55
+  - first:
+      213: -7703962003096634988
+    second: AShoe_56
+  - first:
+      213: 2703385690211595995
+    second: AShoe_57
+  - first:
+      213: -4403692797400027108
+    second: AShoe_58
+  - first:
+      213: 2140793549961504236
+    second: AShoe_59
+  - first:
+      213: 1737816690117425194
+    second: AShoe_60
+  - first:
+      213: -1691202025749312398
+    second: AShoe_61
+  - first:
+      213: -4620573594797354034
+    second: AShoe_62
+  - first:
+      213: -8675955414381930509
+    second: AShoe_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AShoe_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 373
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f9fcdcd774ba800800000000000000
+      internalID: 624671578970365760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 372
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0cdd83bf3726380800000000000000
+      internalID: -8979487184195305299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 370
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf78f64619739830800000000000000
+      internalID: 4076735224287362997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 369
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ca6922a388d10f0800000000000000
+      internalID: -1144608947012457386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 82
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de7b37041dc1670800000000000000
+      internalID: 8510907470572940658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_5
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 368
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f19c1cc7e2e520800000000000000
+      internalID: 2729999187978613824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 367
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ecee90710221b70800000000000000
+      internalID: 8868185899568909887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 367
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf7f347d980648c0800000000000000
+      internalID: -4015512545401012279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 367
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f13df90be14f260800000000000000
+      internalID: 7130357853978828691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_9
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 366
+        width: 95
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eace7720d192dff70800000000000000
+      internalID: 9222572816496848046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_10
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 368
+        width: 97
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691bbc7fc994fc00800000000000000
+      internalID: 933540139202451820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 301
+        width: 99
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6712a7e9972bdf40800000000000000
+      internalID: 5754236490865579884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 301
+        width: 99
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d186d6bf9557ab0800000000000000
+      internalID: -5011000073972605688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 302
+        width: 99
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb91908a55a3ac0800000000000000
+      internalID: -3874690349203341892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 304
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d222c011bd296f30800000000000000
+      internalID: 4569233535457698520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 305
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613007b61d6625760800000000000000
+      internalID: 7445126183633552150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_16
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 307
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378b1db7e50c45710800000000000000
+      internalID: 1681180072952838259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 305
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1862f4024fceb8ad0800000000000000
+      internalID: -2698803018420246911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_18
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 302
+        width: 99
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a67a55bd2416710800000000000000
+      internalID: 1684701245415582316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_19
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 299
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbf80b79adfffde0800000000000000
+      internalID: -1297039263303926798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_20
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 297
+        width: 99
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6054fd2b8bcd5e0800000000000000
+      internalID: -1883427465758177560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c769f8f9014150800000000000000
+      internalID: 5854971955499221807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46ae71981c65020800000000000000
+      internalID: 2330262651766727887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 223
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee57710ac8559b70800000000000000
+      internalID: 8905121462826262242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 221
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00fb516ae526bc40800000000000000
+      internalID: 5527647281229852684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_25
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 220
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c0640f593e6870800000000000000
+      internalID: 8677936612247650347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_26
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 218
+        width: 87
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2d548fbc2fbfd0800000000000000
+      internalID: -2324089681628812633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_27
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 217
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de380da792c7b80800000000000000
+      internalID: -8395789997864391399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 217
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2ad3257e481eaa0800000000000000
+      internalID: -6133475088449821987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_29
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 217
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286b6b5ae28d8c1c0800000000000000
+      internalID: -4483095734187018622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_30
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 217
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e81311e3870e680800000000000000
+      internalID: -8727843869872255427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 218
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b99fd47d3b19280800000000000000
+      internalID: -9038245239848330445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd6cca06f7595af0800000000000000
+      internalID: -407197577045578288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 138
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c30ab311477ab450800000000000000
+      internalID: 6105323366241665987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 137
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2775e96d30918cc20800000000000000
+      internalID: 3226856637287257970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_35
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 137
+        width: 74
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311398d8d70f98d30800000000000000
+      internalID: 4434339730159120659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_36
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 137
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bd2b15b16d07850800000000000000
+      internalID: 6372828885552388963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_37
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 137
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbb89297ca033f10800000000000000
+      internalID: 2248152491262262264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_38
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 138
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5236c2fbe3920170800000000000000
+      internalID: 8143233717838951003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_39
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 139
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f489dc0e78e91ae0800000000000000
+      internalID: -1577974566337542927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 141
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c278fe7dd3df5c9e0800000000000000
+      internalID: -1601595650402711764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_41
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 143
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a58489ada52db10800000000000000
+      internalID: 2004764679037540950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_42
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 144
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fd30aee9d6dba0800000000000000
+      internalID: -6064420229293936231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_43
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 146
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b3baa61af30500800000000000000
+      internalID: 361407370379901180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 85
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d736ea0ad8849770800000000000000
+      internalID: 8616662457133709265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_45
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 71
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3656fc90325a99540800000000000000
+      internalID: 5015221229960783203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 73
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0899330ff60f70c0800000000000000
+      internalID: -4575931004044601333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_47
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 76
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411977a11fd2f4030800000000000000
+      internalID: 3481051550535094548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_48
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 78
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab39313c93b8d3230800000000000000
+      internalID: 3620202755677983674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 76
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d365193c6ad3100800000000000000
+      internalID: 89410926504459544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 75
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6458825f1bd72ad0800000000000000
+      internalID: -2726970121774410643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_51
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 73
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734ffd8e4ad673870800000000000000
+      internalID: 8662512963319493687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_52
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 72
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2125276891267f0800000000000000
+      internalID: -620905733389413708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_53
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 72
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55136bb636e1edbc0800000000000000
+      internalID: -3756531626822717099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_54
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 72
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7b51675d409080800000000000000
+      internalID: -9182754602517561732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_55
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 70
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62894d35d3b81da50800000000000000
+      internalID: 6544164829061748774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49971522067061590800000000000000
+      internalID: -7703962003096634988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6bfeb46fa548520800000000000000
+      internalID: 2703385690211595995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1076078bb0f2e2c0800000000000000
+      internalID: -4403692797400027108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce527ea2460a5bd10800000000000000
+      internalID: 2140793549961504236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_60
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 3
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b1338217fd1810800000000000000
+      internalID: 1737816690117425194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_61
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 4
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c8acbc7b4a788e0800000000000000
+      internalID: -1691202025749312398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_62
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 5
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3dd8fdbcc60efb0800000000000000
+      internalID: -4620573594797354034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AShoe_63
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 7
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f753ae8480d89780800000000000000
+      internalID: -8675955414381930509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
