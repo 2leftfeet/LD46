@@ -11,7 +11,7 @@ public class SingleInfluence : ISpell
         Vector3 castPos = CursorManager.instance.GetWorldSpacePosition();
         RaycastHit2D hit = Physics2D.Raycast(castPos, Vector2.zero, Mathf.Infinity, 1 << 10);
 
-        Debug.Log(hit.collider.name);
+        //Debug.Log(hit.collider.name);
 
         if(hit.collider != null)
         {

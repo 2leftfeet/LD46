@@ -221,6 +221,7 @@ MonoBehaviour:
   bobbingMagnitude: 0.2
   rotationFrequency: 10
   rotationMagnitude: 5
+  needsVelocity: 1
 --- !u!114 &3832061037062249288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  wanderRadius: 5
+  wanderRadius: 2
   detectionRadius: 4
   loseTargetRadius: 5
   minWaitTime: 0

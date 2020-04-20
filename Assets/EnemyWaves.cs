@@ -14,6 +14,8 @@ public class Wave
 
 public class EnemyWaves : MonoBehaviour
 {
+    public float timerBetweenWaves;
+    public float timerBeforeFirstWave;
     public List<Transform> spawns;
 
     public GameObject enemy;
@@ -22,26 +24,41 @@ public class EnemyWaves : MonoBehaviour
     
     public List<GameObject> aliveEnemies;
 
-    private int nextWaveIndex;
+    int nextWaveIndex = 0;
+    bool waveInProgress = false;
+    float waveCooldownTimer;
+    
+    void Awake()
+    {
+        waveCooldownTimer = timerBeforeFirstWave;
+    }
 
     void Update()
     {
-        foreach(var enemy in aliveEnemies)
+        if(waveInProgress)
         {
-            if(!enemy)
+            aliveEnemies.RemoveAll(item => item == null);
+            if(aliveEnemies.Count <= 0)
             {
-                aliveEnemies.Remove(enemy);
+                waveInProgress = false;
+                waveCooldownTimer = timerBetweenWaves;
+            }
+        }
+        else
+        {
+            waveCooldownTimer -= Time.deltaTime;
+            if(waveCooldownTimer <= 0.0f)
+            {
+                SpawnNextWaveHelper();
             }
         }
 
-        if(aliveEnemies.Count <= 0)
-        {
-            Debug.Log("wave done");
-        }
+       
     }
 
     IEnumerator SpawnNextWave()
     {
+        waveInProgress = true;
         Wave wave = enemyWaves[nextWaveIndex];
         nextWaveIndex++;
 
@@ -49,7 +66,7 @@ public class EnemyWaves : MonoBehaviour
         var activeSpawns = spawns.OrderBy(x => rnd.Next()).Take(wave.directionCount).ToList();
         for(int i = 0; i < wave.packCount; i++)
         {
-            var currentSpawn = activeSpawns[Random.Range(0, activeSpawns.Count)];
+            var currentSpawn = activeSpawns[i % activeSpawns.Count];
             for(int j = 0; j < wave.enemyPackSize; j++)
             {
                 aliveEnemies.Add(Instantiate(enemy, currentSpawn.position + (Vector3)Random.insideUnitCircle, Quaternion.identity));

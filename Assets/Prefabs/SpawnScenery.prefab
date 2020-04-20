@@ -74,7 +74,7 @@ MonoBehaviour:
     - {fileID: -8328797319150647358, guid: f24bee451fef94e14a38ea0d438cc5ce, type: 3}
     - {fileID: -7125802106197691291, guid: f24bee451fef94e14a38ea0d438cc5ce, type: 3}
     - {fileID: 5377756682365113608, guid: f24bee451fef94e14a38ea0d438cc5ce, type: 3}
-    weight: 3
+    weight: 1
     alwaysRenderBelow: 0
     hasCollider: 1
     spawnsSimilarNear: 0
@@ -361,7 +361,7 @@ MonoBehaviour:
     colliderOffset: {x: 0.2, y: -0.15}
     colliderSize: {x: 0.55, y: 0.45}
     defaultMat: {fileID: 2100000, guid: d59229bd74ea4804aae2b2f01806c0d2, type: 2}
-  propCount: 300
-  radius: 35
+  propCount: 10
+  radius: 20
   nearRadius: 2
   parent: {fileID: 0}

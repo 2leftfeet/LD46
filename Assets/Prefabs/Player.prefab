@@ -120,6 +120,7 @@ MonoBehaviour:
   bobbingMagnitude: 0.2
   rotationFrequency: 10
   rotationMagnitude: 5
+  needsVelocity: 1
 --- !u!114 &1229388496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +151,7 @@ GameObject:
   - component: {fileID: 6384701978311527376}
   - component: {fileID: 1120702693}
   - component: {fileID: 7085595995749507888}
+  - component: {fileID: 1292051660}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -248,6 +250,7 @@ MonoBehaviour:
   rangePrefab: {fileID: 8290918041005133374, guid: 4c9a042d305eb4037a31609666ce559e,
     type: 3}
   isTargeting: 0
+  possessEffect: {fileID: 0}
   spells:
   - {fileID: 11400000, guid: 31cbc5f53a7de9f44885bc3307724192, type: 2}
   - {fileID: 11400000, guid: 9a446a657e2067c449e0198b542d8d10, type: 2}
@@ -319,3 +322,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+--- !u!114 &1292051660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384701978311527389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5b88c384e5d6b47b44d36e44eaa3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  giveGoldBarKey: 102
+  giveRange: 1
+  raycastTargetLayermask:
+    serializedVersion: 2
+    m_Bits: 8192
+  prosperityIncrease: 10

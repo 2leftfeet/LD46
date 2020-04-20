@@ -87,7 +87,6 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
                     state = State.Idle;
                 else
                 {
-                    MoveToTarget();
                     TargetPosition = attackTarget.position;
                     float distance = Vector2.Distance(transform.position, attackTarget.position);
                     if (distance > loseTargetRadius)
@@ -97,6 +96,11 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
                     else if(distance < hitRange)
                     {
                         OnAttack();
+                        Horizontal = Vertical = 0.0f;
+                    }
+                    else
+                    {
+                        MoveToTarget();
                     }
                 }
                 
@@ -128,13 +132,13 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
             }
 
             // TODO get antoher class to reference instead PlayerInput
-            var player = colliders[i].GetComponent<PlayerInput>();
+            /*var player = colliders[i].GetComponent<PlayerInput>();
             if (player)
             {
                 state = State.Attacking;
                 attackTarget = player.transform;
                 break;
-            }
+            }*/
 
         }
     }
