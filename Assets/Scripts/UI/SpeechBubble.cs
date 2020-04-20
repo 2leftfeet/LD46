@@ -14,7 +14,6 @@ public class SpeechBubble : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayShowText("test");
     }
 
     public void PlayShowText(string playText)
