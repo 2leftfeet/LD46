@@ -11,6 +11,7 @@ public class NPCHealth : MonoBehaviour, IDestroyable
     float flashTimer = 0.0f;
     bool isFlashed = false;
     Material material;
+    LootDrop loot;
 
     public void Update()
     {
@@ -35,13 +36,16 @@ public class NPCHealth : MonoBehaviour, IDestroyable
         material.SetFloat("FullWhite", 1.0f);
         
         flashTimer = flashTime;
-        if(currentHealth <= 0)
+        if(currentHealth <= 0){
             Destroy(this.gameObject);
+            loot.DropLoot();
+        }
     }
 
     void Awake()
     {
         currentHealth = maxHealth;
         material = GetComponent<Renderer>().material;
+        loot = GetComponent<LootDrop>();
     }
 }
