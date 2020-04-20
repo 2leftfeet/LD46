@@ -25,5 +25,7 @@ public class Village : MonoBehaviour
         spawner.avgWaitTime = 1/prosperity * 80;
         spawner.maxUnpossesedVillagerCount = (int)prosperity / 5;
         debugText.text = $"Prosperity = {prosperity}";
+
+        prosperity = Mathf.Max(1, prosperity);
     }
 }
