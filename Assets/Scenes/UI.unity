@@ -365,6 +365,11 @@ PrefabInstance:
       propertyPath: influenceDecaySpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5623866931088186321, guid: 64be471286035e84ea1cb3ca43f18675,
+        type: 3}
+      propertyPath: maxInfluence
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7663856110526814736, guid: 64be471286035e84ea1cb3ca43f18675,
         type: 3}
       propertyPath: m_SortingOrder
@@ -377,18 +382,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64be471286035e84ea1cb3ca43f18675, type: 3}
---- !u!114 &1153255835 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5623866931088186321, guid: 64be471286035e84ea1cb3ca43f18675,
-    type: 3}
-  m_PrefabInstance: {fileID: 889911987}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68d3ea044c975e746bbf8608e1e04ef9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1539848225
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +507,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1648164109}
-  timerMultiplayer: 0.1
   gradient:
     serializedVersion: 2
     key0: {r: 0.16037738, g: 0.008125335, b: 0.0022694871, a: 1}
@@ -545,7 +537,6 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   fill: {fileID: 1539848228}
-  influenceSlider: {fileID: 1153255835}
   isDecreasing: 1
 --- !u!114 &1648164109
 MonoBehaviour:

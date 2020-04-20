@@ -24,17 +24,21 @@ public class BobbingAnimation : MonoBehaviour
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        if(!body)
+        {
+            body = GetComponentInParent<Rigidbody2D>();
+        }
         bobbingFrequencyOffset = Random.Range(0, 2*Mathf.PI);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(body.velocity.magnitude >= 0.1f)
         {
             hasReset = false;
 
             bobbingOffset = Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * bobbingFrequency + bobbingFrequencyOffset)) * bobbingMagnitude;
-            transform.position += bobbingOffset - oldBobbingOffset;
+            transform.position += bobbingOffset - oldBobbingOffset; 
             oldBobbingOffset = bobbingOffset;
 
             rotationOffset = Mathf.Sin(Time.time * rotationFrequency) * rotationMagnitude;
