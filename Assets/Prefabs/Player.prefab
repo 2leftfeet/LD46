@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   possessedVillagers: []
+  inquisitors: []
 --- !u!114 &1120702693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,5 +339,5 @@ MonoBehaviour:
   giveRange: 1
   raycastTargetLayermask:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 24576
   prosperityIncrease: 10
