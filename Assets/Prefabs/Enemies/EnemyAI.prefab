@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 1147471606}
   - component: {fileID: 1483026738}
   - component: {fileID: 1483026751}
+  - component: {fileID: 1555462841}
   m_Layer: 12
   m_Name: EnemyAI
   m_TagString: Untagged
@@ -221,6 +222,7 @@ MonoBehaviour:
   bobbingMagnitude: 0.2
   rotationFrequency: 10
   rotationMagnitude: 5
+  needsVelocity: 1
 --- !u!114 &3832061037062249288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  wanderRadius: 5
+  wanderRadius: 2
   detectionRadius: 4
   loseTargetRadius: 5
   minWaitTime: 0
@@ -340,3 +342,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   flashTime: 0.1
+--- !u!114 &1555462841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832061037062249303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62db375a7525c4ec199f54bd58cd2697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootTable:
+  - loot: {fileID: 3398448627029400876, guid: 439818bd31852504382f37e993b09965, type: 3}
+    weight: 1
+  chanceToDropAnything: 50

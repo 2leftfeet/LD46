@@ -11,6 +11,8 @@ public class BobbingAnimation : MonoBehaviour
     [SerializeField] float rotationFrequency = 1.0f;
     [SerializeField] float rotationMagnitude = 1.0f; 
 
+    [SerializeField] bool needsVelocity = true;
+
     float bobbingFrequencyOffset;
     Vector3 bobbingOffset;
     Vector3 oldBobbingOffset;
@@ -23,17 +25,21 @@ public class BobbingAnimation : MonoBehaviour
 
     void Awake()
     {
-        body = GetComponent<Rigidbody2D>();
-        if(!body)
+        if(needsVelocity)
         {
-            body = GetComponentInParent<Rigidbody2D>();
+            body = GetComponent<Rigidbody2D>();
+            if(!body)
+            {
+                body = GetComponentInParent<Rigidbody2D>();
+            }
         }
+        
         bobbingFrequencyOffset = Random.Range(0, 2*Mathf.PI);
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if(body.velocity.magnitude >= 0.1f)
+        if(!needsVelocity || body.velocity.magnitude >= 0.1f)
         {
             hasReset = false;
 

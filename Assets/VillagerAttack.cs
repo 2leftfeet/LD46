@@ -10,10 +10,12 @@ public class VillagerAttack : MonoBehaviour
 
     float cooldownTimer = 0.0f;
     IHasTarget attackerAI;
+    Rigidbody2D myBody;
 
     void Awake()
     {
         attackerAI = GetComponent<IHasTarget>();
+        myBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -38,6 +40,10 @@ public class VillagerAttack : MonoBehaviour
                 Debug.Log("adding force");
                 //body.AddForce((transform.position - attackTarget.position).normalized*knockbackForce);
                 body.velocity = (attackTarget.position - transform.position).normalized*knockbackForce;
+            }
+            else
+            {
+                myBody.velocity = -(attackTarget.position - transform.position).normalized*knockbackForce;
             }
             cooldownTimer = cooldown;
         }
