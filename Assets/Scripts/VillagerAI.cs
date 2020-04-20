@@ -23,6 +23,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     public ParticleSystem possessEffect;
     public GameObject deathMark;
     public GameObject standMarker;
+    public bool isInquisitor;
 
     Vector3 startPosition;
     [SerializeField]
@@ -58,6 +59,10 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     {
         startPosition = transform.position;
         GoRandomPosition();
+        if(isInquisitor)
+        {
+            state = State.Possessed;
+        }
     }
 
     void Update()

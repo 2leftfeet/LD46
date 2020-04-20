@@ -37,8 +37,18 @@ public class SingleInfluence : ISpell
         villager.Possess(caster.transform);
         SoundManager.Instance.CreatePlayAndDestroy(SoundManager.Instance.possessSound, 1.0f);
 
-        var possessedVillagers = caster.GetComponent<PossessedVillagers>().possessedVillagers;
-        if(!possessedVillagers.Contains(villager))
-            possessedVillagers.Add(villager);
+        var pv = caster.GetComponent<PossessedVillagers>();
+        
+
+        if(!villager.isInquisitor)
+        {
+            if(!pv.possessedVillagers.Contains(villager))
+                pv.possessedVillagers.Add(villager);
+        }
+        else
+        {
+            if(!pv.inquisitors.Contains(villager))
+                pv.inquisitors.Add(villager);
+        }
     }
 }
