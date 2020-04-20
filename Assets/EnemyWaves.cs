@@ -23,10 +23,11 @@ public class EnemyWaves : MonoBehaviour
 
     public GameObject enemy;
 
-    public List<Wave> enemyWaves;
+    private List<Wave> enemyWaves;
     
     public ArrowIndicatorController arrowIndicatorController;
     public SpeechBubble speechBubble;
+    public int waveCount;
 
     List<GameObject> aliveEnemies;
     int nextWaveIndex = 0;
@@ -37,6 +38,26 @@ public class EnemyWaves : MonoBehaviour
     {
         aliveEnemies = new List<GameObject>();
         waveCooldownTimer = timerBeforeFirstWave;
+        CreateRandomWaves();
+    }
+
+    void CreateRandomWaves()
+    {
+        enemyWaves = new List<Wave>();
+        for(int i = 1; i <= waveCount; i++)
+        {
+            int enemyCount = (int)Mathf.Floor(1.5f * i);
+            var directionCount = UnityEngine.Random.Range(1, Mathf.Min(enemyCount, 4));
+            var packCount = UnityEngine.Random.Range(directionCount, Mathf.Min(enemyCount, 6));
+            var packSize = enemyCount/packCount;
+
+            Wave newWave = new Wave();
+            newWave.directionCount = directionCount;
+            newWave.enemyPackSize = packSize;
+            newWave.packCount = packCount;
+            newWave.timerBetweenPacks = packSize;
+            enemyWaves.Add(newWave);
+        }
     }
 
     void Update()

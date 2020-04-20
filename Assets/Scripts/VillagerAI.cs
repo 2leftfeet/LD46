@@ -62,6 +62,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         if(isInquisitor)
         {
             state = State.Possessed;
+            useLocalAvoidance = true;
         }
     }
 

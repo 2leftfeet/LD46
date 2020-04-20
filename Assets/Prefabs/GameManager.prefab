@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxInfluence: 50
   startInfluence: 50
-  influenceDecaySpeed: 0.1
+  influenceDecaySpeed: 0
   currentInfluence: 0
 --- !u!1 &2855703249633897900
 GameObject:
@@ -246,9 +246,9 @@ MonoBehaviour:
   - {fileID: 0}
   enemy: {fileID: 3832061037062249303, guid: fa6146288756a6c4c87df8cfb0f47b27, type: 3}
   enemyWaves:
-  - directionCount: 4
+  - directionCount: 1
     enemyPackSize: 1
-    packCount: 10
+    packCount: 1
     timerBetweenPacks: 1
   - directionCount: 1
     enemyPackSize: 1
@@ -258,7 +258,8 @@ MonoBehaviour:
     enemyPackSize: 1
     packCount: 3
     timerBetweenPacks: 3
-  aliveEnemies: []
+  arrowIndicatorController: {fileID: 0}
+  speechBubble: {fileID: 0}
 --- !u!1 &7663856110526814751
 GameObject:
   m_ObjectHideFlags: 0

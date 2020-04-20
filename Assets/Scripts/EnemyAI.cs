@@ -119,16 +119,19 @@ public class EnemyAI : MonoBehaviour, IInput, IHasTarget
                 state = State.Attacking;
                 attackTarget = villager.transform;
                 if(!prioritizePlayer)
-                    break;
+                    return;
             }
+        }
 
+        for (int i = 0; i < colliders.Length; i++)
+        {
             var demon = colliders[i].GetComponent<DemonGod>();
             if (demon)
             {
                 state = State.Attacking;
                 attackTarget = demon.transform;
                 if (!prioritizePlayer)
-                    break;
+                    return;
             }
 
             // TODO get antoher class to reference instead PlayerInput
