@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GoldBarCarry : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GoldBarCarry : MonoBehaviour
     public float prosperityIncrease = 10.0f;
     int goldBarCount = 0;
 
+    public GameObject textObj;
     void Update()
     {
         if(goldBarCount > 0)
@@ -25,6 +27,7 @@ public class GoldBarCarry : MonoBehaviour
                     {
                         village.ModifyProsperity(prosperityIncrease);
                         goldBarCount--;
+                        textObj.GetComponent<Text>().text = goldBarCount.ToString();
                     }
                     Debug.Log("yeee");
                     var church = col.GetComponent<Church>();
@@ -33,6 +36,7 @@ public class GoldBarCarry : MonoBehaviour
                         Debug.Log("yeete");
                         church.SpawnInquisitor(this);
                         goldBarCount--;
+                        textObj.GetComponent<Text>().text = goldBarCount.ToString();
                     }
                     
                 }
@@ -46,6 +50,7 @@ public class GoldBarCarry : MonoBehaviour
         {
             Destroy(other.gameObject);
             goldBarCount++;
+            textObj.GetComponent<Text>().text = goldBarCount.ToString();
         }
     }
 }
