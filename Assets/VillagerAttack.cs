@@ -37,7 +37,7 @@ public class VillagerAttack : MonoBehaviour
             var body = attackTarget.GetComponent<Rigidbody2D>();
             if(body)
             {
-                Debug.Log("adding force");
+                //Debug.Log("adding force");
                 //body.AddForce((transform.position - attackTarget.position).normalized*knockbackForce);
                 body.velocity = (attackTarget.position - transform.position).normalized*knockbackForce;
             }
