@@ -10,8 +10,6 @@ public class SliderBarScript : MonoBehaviour
     [SerializeField] Gradient gradient;
     [SerializeField] Image fill;
 
-    [SerializeField] bool isDecreasing = false;
-
     public void SetValue(int value)
     {
         slider.value = value;
