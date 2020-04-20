@@ -121,7 +121,6 @@ public class IntroManager : MonoBehaviour
         EnemyWaves.OnWaveDefeat += OnWaveDefeat;
 
 
-
         speechBubble.PlayShowText("Hmmm.. I believe my appearence hasn't gone unnoticed.");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Soon, those non-believers will come to take me...");
