@@ -8,7 +8,8 @@ public class SliderBarScript : MonoBehaviour
     [SerializeField] Slider slider;
 
     [SerializeField] Gradient gradient;
-    [SerializeField] Image fill;
+    [SerializeField] Image fillBar;
+    [SerializeField] Image fillIcon;
 
     [SerializeField] bool isDecreasing = false;
 
@@ -31,7 +32,8 @@ public class SliderBarScript : MonoBehaviour
     private void Update() 
     {
         slider.value = InfluenceManager.Instance.currentInfluence;
-        fill.color = gradient.Evaluate(slider.normalizedValue);
+        fillBar.color = gradient.Evaluate(slider.normalizedValue);
+        fillIcon.color = gradient.Evaluate(slider.normalizedValue);
     }
 
     public void AddSliderValue(int amount)
