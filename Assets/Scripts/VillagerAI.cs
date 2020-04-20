@@ -4,9 +4,9 @@ using UnityEngine;
 using System;
 using Random = UnityEngine.Random;
 
+public enum State {Idle, Moving, Possessed, F, ReadyToAttack, Attacking}
 public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 {
-    public enum State {Idle, Moving, Possessed, F, ReadyToAttack, Attacking}
     [SerializeField]
     public State state;
 

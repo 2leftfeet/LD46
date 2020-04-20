@@ -34,8 +34,11 @@ public class NPCHealth : MonoBehaviour, IDestroyable
         var villagerAI = GetComponent<VillagerAI>();
         if(villagerAI)
         {
-            villagerAI.SetTargetTrans(null);
-            villagerAI.CheckForNewTarget();
+            if(villagerAI.state == State.Attacking || villagerAI.state == State.ReadyToAttack)
+            {
+                villagerAI.SetTargetTrans(null);
+                villagerAI.CheckForNewTarget();
+            }
         }
 
         var enemy = GetComponent<EnemyAI>();

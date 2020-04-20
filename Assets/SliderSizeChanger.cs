@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class SliderSizeChanger : MonoBehaviour
 {
     public float multiplier = 30f;
-    public Slider slider;
+    Slider slider;
 
-    public RectTransform rectT;
+    RectTransform rectT;
 
     void Start()
     {
-        rectT = slider.GetComponent<RectTransform>();
+        slider = GetComponent<Slider>();
+        rectT = GetComponent<RectTransform>();
     }
     void Update()
     {

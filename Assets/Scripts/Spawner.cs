@@ -17,12 +17,14 @@ public class Spawner : MonoBehaviour
     public List<GameObject> spawnedVillagers;
 
     private Village myVillage;
+    public float waitTimer;
     // Start is called before the first frame update
     void Start()
     {
-        coroutine = Spawn();
-        StartCoroutine(coroutine);
+        //coroutine = Spawn();
+        //StartCoroutine(coroutine);
         myVillage = GetComponent<Village>();
+        waitTimer = avgWaitTime;
     }
 
     // Update is called once per frame
@@ -40,7 +42,16 @@ public class Spawner : MonoBehaviour
                     spawnedVillagers.RemoveAt(i);
                     myVillage.ModifyProsperity(-2);
                 }
-            }
+        }
+
+        if(waitTimer >= 0.0f)
+        {
+            waitTimer -= Time.deltaTime;
+        }
+        else
+        {
+            SpawnVillager();
+        }
     }
 
     public void SingleSpawn()
@@ -59,5 +70,13 @@ public class Spawner : MonoBehaviour
                 spawnedVillagers.Add(Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity));
             }
         }
+    }
+
+    void SpawnVillager()
+    {
+        if(spawnedVillagers.Count < maxUnpossesedVillagerCount){
+                spawnedVillagers.Add(Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity));
+        }
+        waitTimer = avgWaitTime;
     }
 }

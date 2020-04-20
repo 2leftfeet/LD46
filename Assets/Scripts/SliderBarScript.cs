@@ -3,8 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+public enum SliderType
+{
+    Influence,
+    VillageProsperity,
+    VillageSpawn
+}
 public class SliderBarScript : MonoBehaviour
 {
+    [SerializeField] SliderType type;
     [SerializeField] Slider slider;
 
     [SerializeField] Gradient gradient;
@@ -12,6 +20,8 @@ public class SliderBarScript : MonoBehaviour
     [SerializeField] Image fillIcon;
 
     [SerializeField] bool isDecreasing = false;
+    [SerializeField] Village village;
+    [SerializeField] Spawner spawner;
 
     public void SetValue(int value)
     {
@@ -25,13 +35,41 @@ public class SliderBarScript : MonoBehaviour
     }
 
     private void Start() {
-        slider.maxValue = InfluenceManager.Instance.maxInfluence;
-        slider.value = InfluenceManager.Instance.currentInfluence;
+        switch(type)
+        {
+            case SliderType.Influence:
+                slider.maxValue = InfluenceManager.Instance.maxInfluence;
+                slider.value = InfluenceManager.Instance.currentInfluence;
+                break;
+            case SliderType.VillageProsperity:
+                slider.maxValue = village.prosperity;
+                slider.value = village.prosperity;
+                break;
+            case SliderType.VillageSpawn:
+                slider.maxValue = spawner.avgWaitTime;
+                slider.value = spawner.avgWaitTime - spawner.waitTimer;
+                break;
+        }
+        
     }
 
     private void Update() 
     {
-        slider.value = InfluenceManager.Instance.currentInfluence;
+        switch(type)
+        {
+            case SliderType.Influence:
+                slider.value = InfluenceManager.Instance.currentInfluence;
+                break;
+            case SliderType.VillageProsperity:
+                slider.maxValue = village.prosperity;
+                slider.value = village.prosperity;
+                break;
+            case SliderType.VillageSpawn:
+                slider.maxValue = spawner.avgWaitTime;
+                slider.value = spawner.avgWaitTime - spawner.waitTimer;
+                break;
+        }
+        
         fillBar.color = gradient.Evaluate(slider.normalizedValue);
         fillIcon.color = gradient.Evaluate(slider.normalizedValue);
     }
