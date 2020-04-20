@@ -18,10 +18,10 @@ public class ArrowIndicatorController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayLeft();
-        PlayTop();
-        PlayRight();
-        PlayBottom();
+       // PlayLeft();
+        //PlayTop();
+       // PlayRight();
+       // PlayBottom();
     }
 
     // Update is called once per frame
@@ -30,22 +30,22 @@ public class ArrowIndicatorController : MonoBehaviour
         
     }
 
-    void PlayLeft()
+    public void PlayLeft()
     {
         PlayArrow(leftArrow, new Vector2(distanceFromBorder, leftArrow.anchoredPosition.y));
     }
 
-    void PlayTop()
+    public void PlayTop()
     {
         PlayArrow(topArrow, new Vector2(bottomArrow.anchoredPosition.x, -distanceFromBorder));
     }
 
-    void PlayRight()
+    public void PlayRight()
     {
         PlayArrow(rightArrow, new Vector2(-distanceFromBorder, leftArrow.anchoredPosition.y));
     }
 
-    void PlayBottom()
+    public void PlayBottom()
     {
         PlayArrow(bottomArrow, new Vector2(bottomArrow.anchoredPosition.x, distanceFromBorder));
     }

@@ -22,14 +22,17 @@ public class EnemyWaves : MonoBehaviour
 
     public List<Wave> enemyWaves;
     
-    public List<GameObject> aliveEnemies;
+    public ArrowIndicatorController arrowIndicatorController;
+    public SpeechBubble speechBubble;
 
+    List<GameObject> aliveEnemies;
     int nextWaveIndex = 0;
     bool waveInProgress = false;
     float waveCooldownTimer;
     
     void Awake()
     {
+        aliveEnemies = new List<GameObject>();
         waveCooldownTimer = timerBeforeFirstWave;
     }
 
@@ -64,6 +67,29 @@ public class EnemyWaves : MonoBehaviour
 
         var rnd = new System.Random();
         var activeSpawns = spawns.OrderBy(x => rnd.Next()).Take(wave.directionCount).ToList();
+        if(speechBubble)
+        {
+            speechBubble.PlayShowText("I feel that there's a raid coming! Prepare your minions!");
+        }
+        if(arrowIndicatorController)
+        {
+            foreach(var spawn in activeSpawns)
+            {
+                if(spawn.position.x > 0.0f){
+                    arrowIndicatorController.PlayRight();
+                }
+                if(spawn.position.x < 0.0f){
+                    arrowIndicatorController.PlayLeft();
+                }
+                if(spawn.position.y > 0.0f){
+                    arrowIndicatorController.PlayTop();
+                }
+                if(spawn.position.y < 0.0f){
+                    arrowIndicatorController.PlayBottom();
+                }
+            }
+        }
+
         for(int i = 0; i < wave.packCount; i++)
         {
             var currentSpawn = activeSpawns[i % activeSpawns.Count];

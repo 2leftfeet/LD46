@@ -38,7 +38,10 @@ public class NPCHealth : MonoBehaviour, IDestroyable
         flashTimer = flashTime;
         if(currentHealth <= 0){
             Destroy(this.gameObject);
-            loot.DropLoot();
+            if(loot)
+            {
+                loot.DropLoot();
+            }
         }
     }
 
