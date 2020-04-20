@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 25254243}
   - component: {fileID: 25254245}
   - component: {fileID: 25254244}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,6 +384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 1_1
       objectReference: {fileID: 0}
+    - target: {fileID: 9033539372460557787, guid: 3c21bcb5f69a042828113b6f76b87035,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8898206513776514430, guid: 3c21bcb5f69a042828113b6f76b87035, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3c21bcb5f69a042828113b6f76b87035, type: 3}
@@ -397,7 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97979710}
   - component: {fileID: 97979711}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122311992}
   - component: {fileID: 122311993}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 171274199}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264402303}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 269148586}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,7 +732,7 @@ GameObject:
   - component: {fileID: 324253929}
   - component: {fileID: 324253931}
   - component: {fileID: 324253930}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +827,7 @@ GameObject:
   - component: {fileID: 330445176}
   - component: {fileID: 330445178}
   - component: {fileID: 330445177}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,6 +978,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Trunk_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7876546797589460774, guid: b28231111fab147f48ec948d6ecafaad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b28231111fab147f48ec948d6ecafaad, type: 3}
 --- !u!4 &359608077 stripped
@@ -991,7 +1001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392697065}
   - component: {fileID: 392697066}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1074,7 +1084,7 @@ GameObject:
   - component: {fileID: 418206241}
   - component: {fileID: 418206243}
   - component: {fileID: 418206242}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1167,7 +1177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 421249042}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,6 +1268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 1_4
       objectReference: {fileID: 0}
+    - target: {fileID: 6717834447054092964, guid: 9e55537d5857e4b4bb0a710479394f6b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e55537d5857e4b4bb0a710479394f6b, type: 3}
 --- !u!1 &505296920
@@ -1270,7 +1285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505296921}
   - component: {fileID: 505296922}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,7 +1366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 527936276}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1472,7 @@ GameObject:
   - component: {fileID: 557666280}
   - component: {fileID: 557666282}
   - component: {fileID: 557666281}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1551,7 +1566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 573123427}
   - component: {fileID: 573123428}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1602,7 +1617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590638467}
   - component: {fileID: 590638468}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1747,7 +1762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 649890536}
   - component: {fileID: 649890537}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2000,6 +2015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 2_4
       objectReference: {fileID: 0}
+    - target: {fileID: 6315269457973578766, guid: 2b8bcb6a1d1b1479d91bcd66f80cbede,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 7634564642349230823, guid: 2b8bcb6a1d1b1479d91bcd66f80cbede,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2125,6 +2145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_18
       objectReference: {fileID: 0}
+    - target: {fileID: 299234932065344775, guid: b80892c365a374250aaa4d8e075442e9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b80892c365a374250aaa4d8e075442e9, type: 3}
 --- !u!1 &737573777
@@ -2138,7 +2163,7 @@ GameObject:
   - component: {fileID: 737573778}
   - component: {fileID: 737573780}
   - component: {fileID: 737573779}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2232,7 +2257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 748630453}
   - component: {fileID: 748630454}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2377,6 +2402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Trunk_0
       objectReference: {fileID: 0}
+    - target: {fileID: 7876546797589460774, guid: b28231111fab147f48ec948d6ecafaad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b28231111fab147f48ec948d6ecafaad, type: 3}
 --- !u!1001 &793738868
@@ -2390,6 +2420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House 3_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162081491380055289, guid: 63f97f27b5c2c46e1a47070db15f4d1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2636443745593903700, guid: 63f97f27b5c2c46e1a47070db15f4d1f,
         type: 3}
@@ -2465,7 +2500,7 @@ GameObject:
   - component: {fileID: 794019181}
   - component: {fileID: 794019183}
   - component: {fileID: 794019182}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2616,6 +2651,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5897410458495228637, guid: 569e751ae885d4aafbf1d5cbdf5f805a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 115201313635214529, guid: 569e751ae885d4aafbf1d5cbdf5f805a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 569e751ae885d4aafbf1d5cbdf5f805a, type: 3}
@@ -2629,7 +2669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799635595}
   - component: {fileID: 799635596}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2710,7 +2750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805601288}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fencing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,7 +2783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808131834}
   - component: {fileID: 808131835}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2826,7 +2866,7 @@ GameObject:
   - component: {fileID: 844180358}
   - component: {fileID: 844180360}
   - component: {fileID: 844180359}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2921,6 +2961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 1_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338775833979964552, guid: a269c24a146f546aa8b02feb95a8e81f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8523921032144890900, guid: a269c24a146f546aa8b02feb95a8e81f,
         type: 3}
@@ -3146,7 +3191,7 @@ GameObject:
   - component: {fileID: 908256562}
   - component: {fileID: 908256564}
   - component: {fileID: 908256563}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3241,7 +3286,7 @@ GameObject:
   - component: {fileID: 912241444}
   - component: {fileID: 912241446}
   - component: {fileID: 912241445}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,6 +3627,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 2_5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6094077608360878596, guid: 99ef9f54df10c4696a5a180e39eca62a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4623909811683952176, guid: 99ef9f54df10c4696a5a180e39eca62a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 99ef9f54df10c4696a5a180e39eca62a, type: 3}
@@ -3652,6 +3702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 1_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5840602645047708288, guid: eadb2d53ef3c64606b146504467aa0a1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eadb2d53ef3c64606b146504467aa0a1, type: 3}
 --- !u!1 &990046970
@@ -3664,7 +3719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990046971}
   - component: {fileID: 990046972}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 3_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3776,7 +3831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023811719}
   - component: {fileID: 1023811720}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3967,6 +4022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: spritesheet_optimized_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433670993780451205, guid: ca7203f2b670f425d93b93df033c8b77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6899089790893806586, guid: ca7203f2b670f425d93b93df033c8b77,
         type: 3}
@@ -4193,7 +4253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082390291}
   - component: {fileID: 1082390292}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4275,7 +4335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099227939}
   - component: {fileID: 1099227940}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4357,7 +4417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101476239}
   - component: {fileID: 1101476240}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4510,6 +4570,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Trunk_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1081647763817030294, guid: ee9fe95c602904d448dea43af019aa06,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1081647763817030295, guid: ee9fe95c602904d448dea43af019aa06,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4576,7 +4641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127545981}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4606,7 +4671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1129439003}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209637521}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4678,7 +4743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265512370}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4739,7 +4804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1288147315}
   - component: {fileID: 1288147316}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4807,7 +4872,7 @@ MonoBehaviour:
   giveRange: 1
   raycastTargetLayermask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 8192
   prosperityIncrease: 10
 --- !u!1001 &1332708875
 PrefabInstance:
@@ -4820,6 +4885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House 3_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717668009882483307, guid: 7e4cce1632bb04941979bfff58677a6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2747695333525764067, guid: 7e4cce1632bb04941979bfff58677a6d,
         type: 3}
@@ -4976,6 +5046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_24
       objectReference: {fileID: 0}
+    - target: {fileID: 3142284094247429787, guid: eb93b4da6eca542fba8ccf597eb9395c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 5484677627312499238, guid: eb93b4da6eca542fba8ccf597eb9395c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5043,7 +5118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1391138118}
   - component: {fileID: 1391138119}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5115,6 +5190,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1398543616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400872, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398448627029400876, guid: 439818bd31852504382f37e993b09965,
+        type: 3}
+      propertyPath: m_Name
+      value: Gold Luit_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 439818bd31852504382f37e993b09965, type: 3}
 --- !u!1001 &1406690966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5126,6 +5270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593229154720024403, guid: 7cff605abf8774e77a7524197df47986,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9133456099544520893, guid: 7cff605abf8774e77a7524197df47986,
         type: 3}
@@ -5251,6 +5400,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_27
       objectReference: {fileID: 0}
+    - target: {fileID: 6281597931747628827, guid: 08b570eb3067c4e83b39bbf8d9049a7a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08b570eb3067c4e83b39bbf8d9049a7a, type: 3}
 --- !u!1 &1422982751
@@ -5265,7 +5419,7 @@ GameObject:
   - component: {fileID: 1422982753}
   - component: {fileID: 1422982752}
   - component: {fileID: 1422982755}
-  m_Layer: 10
+  m_Layer: 13
   m_Name: Camp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5365,6 +5519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: spritesheet_optimized_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142284094247429787, guid: eb93b4da6eca542fba8ccf597eb9395c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5484677627312499238, guid: eb93b4da6eca542fba8ccf597eb9395c,
         type: 3}
@@ -5534,7 +5693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1455494426}
   - component: {fileID: 1455494427}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5616,7 +5775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481503824}
   - component: {fileID: 1481503825}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 1_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5755,6 +5914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_18 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 299234932065344775, guid: b80892c365a374250aaa4d8e075442e9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b80892c365a374250aaa4d8e075442e9, type: 3}
 --- !u!1001 &1512283026
@@ -5834,6 +5998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 1_3
       objectReference: {fileID: 0}
+    - target: {fileID: 7955195355520054792, guid: 905194f4ad706400fb05540b62b13bc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6925220241397346034, guid: 905194f4ad706400fb05540b62b13bc7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 905194f4ad706400fb05540b62b13bc7, type: 3}
@@ -5847,7 +6016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517120222}
   - component: {fileID: 1517120223}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5930,7 +6099,7 @@ GameObject:
   - component: {fileID: 1532806108}
   - component: {fileID: 1532806110}
   - component: {fileID: 1532806109}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_7 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6153,6 +6322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Trunk_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7876546797589460774, guid: b28231111fab147f48ec948d6ecafaad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b28231111fab147f48ec948d6ecafaad, type: 3}
 --- !u!1 &1564040344
@@ -6165,7 +6339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564040345}
   - component: {fileID: 1564040346}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fencing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6221,7 +6395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1564278160}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6288,7 +6462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577123761}
   - component: {fileID: 1577123762}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 1_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6383,7 +6557,7 @@ GameObject:
   - component: {fileID: 1591048967}
   - component: {fileID: 1591048969}
   - component: {fileID: 1591048968}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6477,7 +6651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603402472}
   - component: {fileID: 1603402473}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6604,6 +6778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 1_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5840602645047708288, guid: eadb2d53ef3c64606b146504467aa0a1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eadb2d53ef3c64606b146504467aa0a1, type: 3}
 --- !u!1 &1661595738
@@ -6616,7 +6795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661595739}
   - component: {fileID: 1661595740}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6855,7 +7034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1715418566}
   - component: {fileID: 1715418567}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6943,7 +7122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741300685}
   - component: {fileID: 1741300686}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7027,7 +7206,7 @@ GameObject:
   - component: {fileID: 1750979831}
   - component: {fileID: 1750979830}
   - component: {fileID: 1750979833}
-  m_Layer: 10
+  m_Layer: 13
   m_Name: Camp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7127,7 +7306,7 @@ GameObject:
   - component: {fileID: 1815707953}
   - component: {fileID: 1815707955}
   - component: {fileID: 1815707954}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7220,7 +7399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1836148997}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spawn2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7263,7 +7442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865506792}
   - component: {fileID: 1865506793}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7508,7 +7687,7 @@ GameObject:
   - component: {fileID: 1963534517}
   - component: {fileID: 1963534519}
   - component: {fileID: 1963534518}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7602,7 +7781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987735423}
   - component: {fileID: 1987735424}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground 2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7893,7 +8072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020982323}
   - component: {fileID: 2020982324}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rocck 2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8228,7 +8407,7 @@ GameObject:
   - component: {fileID: 2076719836}
   - component: {fileID: 2076719838}
   - component: {fileID: 2076719837}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8323,7 +8502,7 @@ GameObject:
   - component: {fileID: 2079961541}
   - component: {fileID: 2079961543}
   - component: {fileID: 2079961542}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fence_7 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8474,6 +8653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spritesheet_optimized_18 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 299234932065344775, guid: b80892c365a374250aaa4d8e075442e9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b80892c365a374250aaa4d8e075442e9, type: 3}
 --- !u!1 &2094523468
@@ -8486,7 +8670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094523469}
   - component: {fileID: 2094523470}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Branch_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,16 +12,20 @@ public class GoldBarCarry : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(giveGoldBarKey))
+        if(goldBarCount > 0)
         {
-            var colliders = Physics2D.OverlapCircleAll(transform.position, giveRange, raycastTargetLayermask);
-
-            foreach(var col in colliders)
+            if(Input.GetKeyDown(giveGoldBarKey))
             {
-                var village = col.GetComponent<Village>();
-                if(village)
+                var colliders = Physics2D.OverlapCircleAll(transform.position, giveRange, raycastTargetLayermask);
+
+                foreach(var col in colliders)
                 {
-                    village.ModifyProsperity(prosperityIncrease);
+                    var village = col.GetComponent<Village>();
+                    if(village)
+                    {
+                        village.ModifyProsperity(prosperityIncrease);
+                        goldBarCount--;
+                    }
                 }
             }
         }
