@@ -21,6 +21,8 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     [SerializeField] float localAvoidanceFactor = 0.3f;
     [SerializeField] Color possesedSkinColor = default;
     public ParticleSystem possessEffect;
+    public GameObject deathMark;
+    public GameObject standMarker;
 
     Vector3 startPosition;
     [SerializeField]
@@ -50,6 +52,8 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
     float movingMaxTime = 3.0f;
     float movingTimer = 0.0f;
 
+    GameObject standMarkerInstance;
+
     void Awake()
     {
         startPosition = transform.position;
@@ -71,7 +75,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 
             case State.Moving:
                 movingTimer += Time.deltaTime;
-                if(movingTimer >= movingMaxTime)
+                if(movingTimer >= movingMaxTime && !isGuarding)
                 {
                     state = State.Idle;
                     movingTimer = 0.0f;
@@ -156,6 +160,9 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
 
     public void Possess(Transform target)
     {
+        isGuarding = false;
+        if(standMarkerInstance)
+            Destroy(standMarkerInstance);
         transTarget = target;
         useLocalAvoidance = true;
         waitTimer = 0.0f;
@@ -175,6 +182,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         transTarget = target;
 
         state = State.F;
+        deathMark.SetActive(true);
     }
 
     void GoRandomPosition()
@@ -195,6 +203,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         targetPos = _guardSpot;
         guardSpot = _guardSpot;
         isGuarding = true;
+        standMarkerInstance = Instantiate(standMarker, guardSpot, Quaternion.identity);
     }
 
     void CheckForEnemies()
