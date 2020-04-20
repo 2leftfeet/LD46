@@ -7,6 +7,7 @@ public class FadeOutIn : MonoBehaviour
 {
     public Color tc;
     public float fadeInSpeed = 2f;
+    public bool playOnStart;
 
     private Image image;
     private bool move;
@@ -15,6 +16,8 @@ public class FadeOutIn : MonoBehaviour
     void Start()
     {
         image = GetComponent<Image>();
+        if (playOnStart)
+            move = true;
     }
 
     public void StartMove()

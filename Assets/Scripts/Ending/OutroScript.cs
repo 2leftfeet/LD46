@@ -3,34 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LossScript : MonoBehaviour
+public class OutroScript : MonoBehaviour
 {
-    public GameObject showDeathText;
     public FadeOutIn fade;
 
     // Start is called before the first frame update
     void OnEnable()
     {
-        StartCoroutine(LoadScene());
+        InfluenceManager.InfluenceEmpty += OnInfluenceEmpty;
     }
 
     private void OnDisable()
     {
+        InfluenceManager.InfluenceEmpty -= OnInfluenceEmpty;
     }
 
+    private void OnInfluenceEmpty()
+    {
+        StartCoroutine(LoadScene());
+    }
 
     IEnumerator LoadScene()
     {
-        Time.timeScale = 1f;
-        yield return new WaitForSecondsRealtime(1f);
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(2f);
         fade.StartMove();
         yield return new WaitForSecondsRealtime(5f);
-        // TODO EVAPORATE HERE
-        yield return new WaitForSecondsRealtime(1f);
-        Debug.Log("DARK AGAIN");
-        fade.tc = new Color(0, 0, 0, 255);
-        yield return new WaitForSecondsRealtime(6f);
-        showDeathText.SetActive(true);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("LossVictory");
     }
 
     // Update is called once per frame
