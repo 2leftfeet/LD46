@@ -16,9 +16,9 @@ public class GoldBarCarry : MonoBehaviour
         {
             if(Input.GetKeyDown(giveGoldBarKey))
             {
-                var colliders = Physics2D.OverlapCircleAll(transform.position, giveRange, raycastTargetLayermask);
+                var col = Physics2D.OverlapCircle(transform.position, giveRange, raycastTargetLayermask);
 
-                foreach(var col in colliders)
+                if(col)
                 {
                     var village = col.GetComponent<Village>();
                     if(village)
@@ -26,6 +26,15 @@ public class GoldBarCarry : MonoBehaviour
                         village.ModifyProsperity(prosperityIncrease);
                         goldBarCount--;
                     }
+                    Debug.Log("yeee");
+                    var church = col.GetComponent<Church>();
+                    if(church)
+                    {
+                        Debug.Log("yeete");
+                        church.SpawnInquisitor(this);
+                        goldBarCount--;
+                    }
+                    
                 }
             }
         }

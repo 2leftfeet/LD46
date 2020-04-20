@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SingleInfluence : ISpell
 {
-    
+    public static event Action OnPossess;
+
     // Will have to check for more shit once it's an actual spell
     public void Cast(Caster caster)
     {
@@ -34,11 +36,24 @@ public class SingleInfluence : ISpell
 
     void Possess(Caster caster, VillagerAI villager)
     {
+        if (OnPossess != null)
+            OnPossess();
+
         villager.Possess(caster.transform);
         SoundManager.Instance.CreatePlayAndDestroy(SoundManager.Instance.possessSound, 1.0f);
 
-        var possessedVillagers = caster.GetComponent<PossessedVillagers>().possessedVillagers;
-        if(!possessedVillagers.Contains(villager))
-            possessedVillagers.Add(villager);
+        var pv = caster.GetComponent<PossessedVillagers>();
+        
+
+        if(!villager.isInquisitor)
+        {
+            if(!pv.possessedVillagers.Contains(villager))
+                pv.possessedVillagers.Add(villager);
+        }
+        else
+        {
+            if(!pv.inquisitors.Contains(villager))
+                pv.inquisitors.Add(villager);
+        }
     }
 }

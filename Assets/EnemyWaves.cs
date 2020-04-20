@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -14,6 +15,8 @@ public class Wave
 
 public class EnemyWaves : MonoBehaviour
 {
+    public static event Action OnWaveDefeat;
+
     public float timerBetweenWaves;
     public float timerBeforeFirstWave;
     public List<Transform> spawns;
@@ -43,6 +46,7 @@ public class EnemyWaves : MonoBehaviour
             aliveEnemies.RemoveAll(item => item == null);
             if(aliveEnemies.Count <= 0)
             {
+                OnWaveDefeat?.Invoke();
                 waveInProgress = false;
                 waveCooldownTimer = timerBetweenWaves;
             }
@@ -58,8 +62,13 @@ public class EnemyWaves : MonoBehaviour
 
        
     }
+    
+    public void SpawnSingleWave()
+    {
+        StartCoroutine(SpawnNextWave(true));
+    }
 
-    IEnumerator SpawnNextWave()
+    IEnumerator SpawnNextWave(bool skipBubble)
     {
         waveInProgress = true;
         Wave wave = enemyWaves[nextWaveIndex];
@@ -67,7 +76,7 @@ public class EnemyWaves : MonoBehaviour
 
         var rnd = new System.Random();
         var activeSpawns = spawns.OrderBy(x => rnd.Next()).Take(wave.directionCount).ToList();
-        if(speechBubble)
+        if(speechBubble &&! skipBubble)
         {
             speechBubble.PlayShowText("I feel that there's a raid coming! Prepare your minions!");
         }
@@ -95,7 +104,7 @@ public class EnemyWaves : MonoBehaviour
             var currentSpawn = activeSpawns[i % activeSpawns.Count];
             for(int j = 0; j < wave.enemyPackSize; j++)
             {
-                aliveEnemies.Add(Instantiate(enemy, currentSpawn.position + (Vector3)Random.insideUnitCircle, Quaternion.identity));
+                aliveEnemies.Add(Instantiate(enemy, currentSpawn.position + (Vector3)UnityEngine.Random.insideUnitCircle, Quaternion.identity));
             }
             yield return new WaitForSeconds(wave.timerBetweenPacks);
         }
@@ -105,6 +114,6 @@ public class EnemyWaves : MonoBehaviour
     [ContextMenu("SpawnNextWave")]
     public void SpawnNextWaveHelper()
     {
-        StartCoroutine(SpawnNextWave());
+        StartCoroutine(SpawnNextWave(false));
     }
 }
