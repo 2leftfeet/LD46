@@ -225,7 +225,7 @@ public class VillagerAI : MonoBehaviour, IInput, IHasTarget
         }
     }
 
-    void CheckForNewTarget()
+    public void CheckForNewTarget()
     {
         CheckForEnemies();
         if(transTarget == null)

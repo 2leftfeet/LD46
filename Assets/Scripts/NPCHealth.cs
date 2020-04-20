@@ -31,6 +31,21 @@ public class NPCHealth : MonoBehaviour, IDestroyable
 
     public void Damage(float value)
     {
+        var villagerAI = GetComponent<VillagerAI>();
+        if(villagerAI)
+        {
+            villagerAI.SetTargetTrans(null);
+            villagerAI.CheckForNewTarget();
+        }
+
+        var enemy = GetComponent<EnemyAI>();
+        if(enemy)
+        {
+            enemy.SetTarget(null);
+            enemy.CheckForTargets();
+        }   
+
+
         currentHealth -= value;
         isFlashed = true;
         material.SetFloat("FullWhite", 1.0f);
