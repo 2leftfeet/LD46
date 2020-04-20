@@ -148,11 +148,13 @@ public class IntroManager : MonoBehaviour
 
     IEnumerator FinishSequence()
     {
+        enemyWaves.enabled = false;
         sequence = Sequence.Done;
         PlayerPrefs.SetInt(INTRO_DONE_KEY, 1);
         yield return new WaitForSeconds(2f);
         speechBubble.PlayShowText("You serve me well, there may actually be use of you.");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Without a doubt, there will be more. And you will protect me with your life.");
+        enemyWaves.enabled = true;
     }
 }
