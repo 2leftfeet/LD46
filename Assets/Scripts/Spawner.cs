@@ -28,7 +28,12 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        for(int i=0; i < spawnedVillagers.Count;i++){
+                if(spawnedVillagers[i].GetComponent<VillagerAI>().IsPossessed){
+                    spawnedVillagers.RemoveAt(i);
+                    myVillage.ModifyProsperity(-2);
+                }
+            }
     }
 
     private IEnumerator Spawn()
@@ -38,12 +43,6 @@ public class Spawner : MonoBehaviour
         {
             float waitTime = avgWaitTime + Random.Range(-median, median);
             yield return new WaitForSeconds(waitTime);
-            for(int i=0; i < spawnedVillagers.Count;i++){
-                if(spawnedVillagers[i].GetComponent<VillagerAI>().IsPossessed){
-                    spawnedVillagers.RemoveAt(i);
-                    myVillage.ModifyProsperity(-2);
-                }
-            }
             if(spawnedVillagers.Count < maxUnpossesedVillagerCount){
                 spawnedVillagers.Add(Instantiate(villagers[Random.Range(0,villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity));
             }

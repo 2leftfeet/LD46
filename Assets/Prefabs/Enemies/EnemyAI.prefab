@@ -303,12 +303,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   wanderRadius: 5
-  detectionRadius: 200
-  loseTargetRadius: 300
-  minWaitTime: 5
-  maxWaitTime: 15
+  detectionRadius: 4
+  loseTargetRadius: 5
+  minWaitTime: 0
+  maxWaitTime: 0
   hitRange: 1
-  playerTarget: {fileID: 0}
+  seekTarget: {fileID: 0}
+  prioritizePlayer: 0
+  seekDemonGod: 1
 --- !u!114 &1483026738
 MonoBehaviour:
   m_ObjectHideFlags: 0

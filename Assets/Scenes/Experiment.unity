@@ -3189,6 +3189,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1585089708, guid: 64be471286035e84ea1cb3ca43f18675, type: 3}
+      propertyPath: sacrificeSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585089708, guid: 64be471286035e84ea1cb3ca43f18675, type: 3}
+      propertyPath: sacrificeSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 95fc1b53056076140844e62941406dc9, type: 3}
+    - target: {fileID: 1585089708, guid: 64be471286035e84ea1cb3ca43f18675, type: 3}
+      propertyPath: sacrificeSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 26a8bb32a350b564793f4a670607ede7, type: 3}
+    - target: {fileID: 1585089708, guid: 64be471286035e84ea1cb3ca43f18675, type: 3}
+      propertyPath: sacrificeSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 26a8bb32a350b564793f4a670607ede7, type: 3}
     - target: {fileID: 1049248639708345418, guid: 64be471286035e84ea1cb3ca43f18675,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3890,6 +3906,7 @@ GameObject:
   - component: {fileID: 1067683638}
   - component: {fileID: 1067683636}
   - component: {fileID: 1067683639}
+  - component: {fileID: 1067683637}
   m_Layer: 0
   m_Name: S Rock_30
   m_TagString: Untagged
@@ -3921,6 +3938,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a18d7182939a9a45924c972f4730ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1067683637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067683634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f223ec924375f2439d7b89a03440320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1067683638
@@ -7493,7 +7522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2031659006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7611,7 +7640,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.53741676, g: 0.6226415, b: 0.36124957, a: 0}
+  m_BackGroundColor: {r: 0.42833635, g: 0.4716981, b: 0.25587398, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

@@ -20,10 +20,11 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void CreatePlayAndDestroy(AudioClip clip)
+    public void CreatePlayAndDestroy(AudioClip clip, float volume)
     {
         var audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = clip;
+        audioSource.volume = volume;
 
         audioSource.Play();
         Destroy(audioSource, clip.length);
