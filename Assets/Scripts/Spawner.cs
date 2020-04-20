@@ -29,11 +29,23 @@ public class Spawner : MonoBehaviour
     void Update()
     {
         for(int i=0; i < spawnedVillagers.Count;i++){
+
+            if (spawnedVillagers[i] == null)
+            {
+                spawnedVillagers.RemoveAt(i);
+                continue;
+            }
+
                 if(spawnedVillagers[i].GetComponent<VillagerAI>().IsPossessed){
                     spawnedVillagers.RemoveAt(i);
                     myVillage.ModifyProsperity(-2);
                 }
             }
+    }
+
+    public void SingleSpawn()
+    {
+        spawnedVillagers.Add(Instantiate(villagers[Random.Range(0, villagers.Count)], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, Quaternion.identity));
     }
 
     private IEnumerator Spawn()
