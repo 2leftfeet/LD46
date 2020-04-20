@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SingleInfluence : ISpell
 {
-    
+    public static event Action OnPossess;
+
     // Will have to check for more shit once it's an actual spell
     public void Cast(Caster caster)
     {
@@ -34,6 +36,9 @@ public class SingleInfluence : ISpell
 
     void Possess(Caster caster, VillagerAI villager)
     {
+        if (OnPossess != null)
+            OnPossess();
+
         villager.Possess(caster.transform);
         SoundManager.Instance.CreatePlayAndDestroy(SoundManager.Instance.possessSound, 1.0f);
 
