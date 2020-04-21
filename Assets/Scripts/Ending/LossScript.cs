@@ -8,6 +8,12 @@ public class LossScript : MonoBehaviour
     public GameObject showDeathText;
     public FadeOutIn fade;
 
+    public GameObject player1;
+    public GameObject player2;
+    public GameObject playerParticles1;
+    public GameObject playerParticles2;
+
+
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -25,7 +31,10 @@ public class LossScript : MonoBehaviour
         yield return new WaitForSecondsRealtime(1f);
         fade.StartMove();
         yield return new WaitForSecondsRealtime(5f);
-        // TODO EVAPORATE HERE
+        player1.SetActive(false);
+        player2.SetActive(false);
+        playerParticles1.SetActive(true);
+        playerParticles2.SetActive(true);
         yield return new WaitForSecondsRealtime(1f);
         Debug.Log("DARK AGAIN");
         fade.tc = new Color(0, 0, 0, 255);
