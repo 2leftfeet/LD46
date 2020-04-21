@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Wave
@@ -70,6 +71,10 @@ public class EnemyWaves : MonoBehaviour
                 OnWaveDefeat?.Invoke();
                 waveInProgress = false;
                 waveCooldownTimer = timerBetweenWaves;
+                if(nextWaveIndex >= enemyWaves.Count)
+                {
+                    SceneManager.LoadScene("Outro");
+                }
             }
         }
         else

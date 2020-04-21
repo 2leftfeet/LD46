@@ -14,6 +14,7 @@ public class InfluenceManager : MonoBehaviour
     [SerializeField] float influenceDecaySpeed = 0.1f;
 
     public float currentInfluence;
+    public bool decayInfluence = false;
 
     private void Awake()
     {
@@ -31,7 +32,8 @@ public class InfluenceManager : MonoBehaviour
 
     void Update()
     {
-        currentInfluence -= Time.deltaTime * influenceDecaySpeed;
+        if(decayInfluence)
+            currentInfluence -= Time.deltaTime * influenceDecaySpeed;
         if(currentInfluence <= 0.0f)
         {
             Debug.Log("Influence reached zero! Game over!");
