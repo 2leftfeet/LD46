@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class InfluenceManager : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class InfluenceManager : MonoBehaviour
         if(currentInfluence <= 0.0f)
         {
             Debug.Log("Influence reached zero! Game over!");
+            SceneManager.LoadScene("YouLose");
             InfluenceEmpty();
         }
     }
