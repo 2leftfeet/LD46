@@ -7,7 +7,7 @@ public class InfluenceManager : MonoBehaviour
 {
     private static InfluenceManager _instance;
     public static InfluenceManager Instance { get { return _instance; } }
-    public event Action InfluenceEmpty = delegate{};
+    public static event Action InfluenceEmpty = delegate{};
 
     public float maxInfluence = 120.0f;
     public float startInfluence = 50.0f;

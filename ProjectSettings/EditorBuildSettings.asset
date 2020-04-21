@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LossVictory.unity
+    guid: 65609e623a6bc81408c7737835bb7be7
   m_configObjects: {}

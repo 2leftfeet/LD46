@@ -56,7 +56,7 @@ public class IntroManager : MonoBehaviour
         speechBubble.PlayShowText("Ah, you must be my new servant.");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Lets get straight to business, I am not at my best power.");
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         StartCoroutine(SpawnVillagerSequence());
     }
 
@@ -89,10 +89,10 @@ public class IntroManager : MonoBehaviour
         speechBubble.PlayShowText("Goood, gooood!");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("But be careful with succumbing too many villagers to my cause!");
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         speechBubble.PlayShowText("Less prosperous village means less souls to feast on...");
-        yield return new WaitForSeconds(5f);
-        speechBubble.PlayShowText("Enough chit-chat, bring it to the altar and press F");
+        yield return new WaitForSeconds(7f);
+        speechBubble.PlayShowText("Enough chit-chat, bring it to the altar on your BOTTON RIGHT and press F");
     }
 
     private void OnSacrifice()
@@ -121,11 +121,10 @@ public class IntroManager : MonoBehaviour
         EnemyWaves.OnWaveDefeat += OnWaveDefeat;
 
 
-
         speechBubble.PlayShowText("Hmmm.. I believe my appearence hasn't gone unnoticed.");
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         speechBubble.PlayShowText("Soon, those non-believers will come to take me...");
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         speechBubble.PlayShowText("Quick! Bring more minions to protect me!");
         // TODO Reenable spawning
         spawnerOne.enabled = true;
