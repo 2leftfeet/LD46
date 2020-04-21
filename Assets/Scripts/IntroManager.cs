@@ -28,6 +28,10 @@ public class IntroManager : MonoBehaviour
         {
             StartTutorial();
         }
+        else
+        {
+            InfluenceManager.Instance.decayInfluence = true;
+        }
     }
 
     [ContextMenu("Reset Intro")]
@@ -55,7 +59,7 @@ public class IntroManager : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         speechBubble.PlayShowText("Welcome back to the mortal world.");
         yield return new WaitForSeconds(5f);
-        speechBubble.PlayShowText("Lets get straight to business, I am not at my best power.");
+        speechBubble.PlayShowText("As you may be aware, I am not at my fullest of power.");
         yield return new WaitForSeconds(6f);
         StartCoroutine(SpawnVillagerSequence());
     }
@@ -92,7 +96,7 @@ public class IntroManager : MonoBehaviour
         yield return new WaitForSeconds(6f);
         speechBubble.PlayShowText("Less prosperous village means less souls to feast on...");
         yield return new WaitForSeconds(7f);
-        speechBubble.PlayShowText("Enough chit-chat, bring it to the altar on your BOTTON RIGHT and press F");
+        speechBubble.PlayShowText("Enough chit-chat, bring it to the altar on your BOTTOM RIGHT and press F");
     }
 
     private void OnSacrifice()
@@ -131,7 +135,6 @@ public class IntroManager : MonoBehaviour
         spawnerTwo.enabled = true;
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Click ALT and mark a position to defend for!");
-        yield return new WaitForSeconds(5f);
         enemyWaves.SpawnSingleWave();
         yield return new WaitForSeconds(1f);
         enemyWaves.enabled = true;
@@ -154,6 +157,13 @@ public class IntroManager : MonoBehaviour
         speechBubble.PlayShowText("You serve me well, there may actually be use of you.");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Without a doubt, there will be more. And you will protect me with your life.");
+        yield return new WaitForSeconds(5f);
+        speechBubble.PlayShowText("Make sure to spend their gold to increase the prosperity of a village.");
+        yield return new WaitForSeconds(5f);
+        speechBubble.PlayShowText("Or buy the services of a powerful inquisitor at the church.");
+        yield return new WaitForSeconds(5f);
+        speechBubble.PlayShowText("You can do both by pressing F.");
         enemyWaves.enabled = true;
+        InfluenceManager.Instance.decayInfluence = true;
     }
 }
