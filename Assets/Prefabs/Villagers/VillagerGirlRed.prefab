@@ -338,6 +338,7 @@ MonoBehaviour:
   deathMark: {fileID: 8944685231560435490}
   standMarker: {fileID: 6678846923419777925, guid: ebf5d0702d2e63547ae9443b8d0d928c,
     type: 3}
+  isInquisitor: 0
   transTarget: {fileID: 0}
 --- !u!114 &7860915549931734240
 MonoBehaviour:
@@ -448,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07857891436f9a4abcbf591ea62b16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 7
   flashTime: 0.1
 --- !u!1 &8944685231560435490
 GameObject:

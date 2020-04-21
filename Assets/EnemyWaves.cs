@@ -47,7 +47,7 @@ public class EnemyWaves : MonoBehaviour
         enemyWaves = new List<Wave>();
         for(int i = 1; i <= waveCount; i++)
         {
-            int enemyCount = (int)Mathf.Floor(1.5f * i);
+            int enemyCount = (int)Mathf.Floor(1.3f * i);
             var directionCount = UnityEngine.Random.Range(1, Mathf.Min(enemyCount, 4));
             var packCount = UnityEngine.Random.Range(directionCount, Mathf.Min(enemyCount, 6));
             var packSize = enemyCount/packCount;
