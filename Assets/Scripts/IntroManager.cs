@@ -53,7 +53,7 @@ public class IntroManager : MonoBehaviour
         sequence = Sequence.Begin;
 
         yield return new WaitForSeconds(2.5f);
-        speechBubble.PlayShowText("Ah, you must be my new servant.");
+        speechBubble.PlayShowText("Welcome back to the mortal world.");
         yield return new WaitForSeconds(5f);
         speechBubble.PlayShowText("Lets get straight to business, I am not at my best power.");
         yield return new WaitForSeconds(6f);
